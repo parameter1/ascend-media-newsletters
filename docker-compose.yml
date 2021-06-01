@@ -21,13 +21,13 @@ x-env-defaults: &env
   NODE_ENV: development
   NEW_RELIC_ENABLED: ${NEW_RELIC_ENABLED-0}
   NEW_RELIC_LICENSE_KEY: ${NEW_RELIC_LICENSE_KEY-(unset)}
-  EMAILX_SERVE_URI: ${EMAILX_SERVE_URI-https://randallreilly.serve.email-x.parameter1.com}
+  EMAILX_SERVE_URI: ${EMAILX_SERVE_URI-https://ascendmedia.serve.email-x.parameter1.com}
 
 x-env-leonis: &env-leonis
   GRAPHQL_URI: ${GRAPHQL_URI-https://leonis.graphql.base.parameter1.com}
 
-x-env-virgon: &env-virgon
-  GRAPHQL_URI: ${GRAPHQL_URI-https://virgon.graphql.base.parameter1.com}
+x-env-tauron: &env-tauron
+  GRAPHQL_URI: ${GRAPHQL_URI-https://tauron.graphql.base.parameter1.com}
 
 services:
   terminal:
@@ -44,17 +44,17 @@ services:
     environment:
       <<: *env
 
-  all:
+  aua:
     <<: *node
     <<: *newsletter-cmd
-    working_dir: /root/tenants/all
+    working_dir: /root/tenants/aua
     environment:
       <<: *env
-      <<: *env-virgon
+      <<: *env-tauron
       PORT: 80
       EXPOSED_PORT: 22290
       LIVERELOAD_PORT: 32290
-      TENANT_KEY: randallreilly_all
+      TENANT_KEY: ascendmedia_aua
     ports:
       - "22290:80"
       - "32290:32290"
