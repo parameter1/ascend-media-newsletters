@@ -1,0 +1,13 @@
+$ const { content } = input;
+
+$ const contentTypeActions = {
+  'default': 'Click here for more info.',
+  'document': 'Download the Annual Meeting Mobile App',
+  'form': 'Register now',
+}
+
+$ const contentAction = contentTypeActions[content.type] || contentTypeActions.default;
+
+<a href=content.siteContext.url style="color: #ec8771; text-decoration: underline;" target="_blank">
+  ${contentAction};
+</a>
