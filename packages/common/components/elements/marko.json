@@ -1,3 +1,21 @@
 {
-
+  "<common-content-action-link-element>": {
+    "template": "./content-action-link.marko"
+  },
+  "<common-content-button-element>": {
+    "template": "./content-button.marko"
+  },
+  "<common-table-spacer-element>": {
+    "template": "./table-spacer.marko"
+  },
+  "<common-content-image-element>": {
+    "template": "./content-image.marko",
+    "@class": "string",
+    "@align": "string",
+    "@valign": "string",
+    "@width": "string",
+    "@height": "string",
+    "@src": "string",
+    "@alt": "string"
+  }
 }
