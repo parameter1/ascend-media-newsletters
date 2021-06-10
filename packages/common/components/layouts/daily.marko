@@ -1,0 +1,161 @@
+import { parseBooleanHeader } from "@parameter1/base-cms/utils";
+
+$ const { newsletter, date } = input.data;
+
+$ const emailX = config.get("emailX");
+$ const nativeX = config.getAsObject("nativeX");
+$ const adUnits = ["ad-slot-1", "ad-slot-2", "ad-slot-3", "ad-slot-4", "ad-slot-5", "ad-slot-6", "ad-slot-7"];
+
+$ const withImage = parseBooleanHeader(get(req, "query.with-image"));
+
+<marko-newsletter-root
+  title=newsletter.name
+  description=newsletter.description
+  date=date
+>
+  <@head>
+    <common-head-block />
+  </@head>
+  <@body>
+    <common-body-wrapper-block newsletter=newsletter date=date>
+      <@body>
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section-name="Ad Slot 1"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[0], alias: newsletter.alias })
+        />
+
+        <!-- Content list block (with image) -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=true
+          image-position='right'
+          limit=1
+          skip=0
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          placement-id=get(nativeX, `placements.${newsletter.alias}.main`)
+        />
+
+        <!-- Content list block (with image) -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=true
+          image-poisiton='right'
+          limit=1
+          skip=1
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section-name="Ad Slot 2"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[1], alias: newsletter.alias })
+        />
+
+        <!-- Content list block (with image) -->
+        <
+
+          <!-- LINKS WITH BUTTON.... SKIPPING FOR NOW -->
+
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section-name="Ad Slot 3"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[2], alias: newsletter.alias })
+        />
+
+        <!-- Content list block (with image) -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=true
+          image-poisiton='right'
+          limit=1
+          skip=3
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section-name="Ad Slot 4"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[3], alias: newsletter.alias })
+        />
+
+        <!-- Content list block (with image) -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=true
+          image-position='right'
+          limit=1
+          skip=4
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section-name="Ad Slot 5"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[4], alias: newsletter.alias })
+        />
+
+        <!-- Content list block (no image) -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=false
+          limit=1
+          skip=5
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section="Ad Slot 6"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[5], alias: newsletter.alias })
+        />
+
+        <!-- Content list block (with image) -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=true
+          image-position='right'
+          limit=1
+          skip=6
+        />
+
+        <!-- Advertisement / Promotion Block -->
+        <common-ad-wrapper-block
+          date=date
+          section="Ad Slot 7"
+          newsletter=newsletter
+          ad-unit=emailx.getAdUnit({ name: adSlots[6], alias: newsletter.alias })
+        />
+      </@body>
+    </common-body-wrapper-block>
+    <common-channel-button-block />
+  </@body>
+</marko-newsletter-root>
