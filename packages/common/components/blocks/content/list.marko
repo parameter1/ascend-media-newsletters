@@ -1,13 +1,28 @@
-import { get, getAsArray } from "@parameter1/base-cms-object-path";
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
-<!-- import { URLSearchParams } from "url";
+// import queryFragment from // SOMEWHERE
 
-$ const { content, urlParams } = input; -->
+$ const { newsletter, date } = input;
 
-$ const withImage = defaultValue(input.withImage, false);
-$ const imagePostions = defaultValue(input.imagePosition, 'right');
-$ const withSection = defaultValue(input.withSection, true);
+$ const sectionName = defaultValue(input.sectionName, "Standard");
+$ const sectionDescription = defaultValue(input.sectionDescription, "Articles, events and sponsored content to consider");
+$ const withImage = defaultValue(input.withImage, true);
 
+$ /*const queryParams = {
+  date: date.valueOf(),
+  newsletterId: newsletter.id,
+  sectionName,
+  limit: input.limit || 1,
+  skip: input.skip || 0,
+  queryFragment,
+}; */
+<!--
+<marko-web-query|{nodes}| name="newsletter-scheduled-content" collapsible=false params=queryParams>
+  <if(nodes.length)>
+  <for|content| of=nodes>
+    <common-content-list-item-block content=content with-Image=withImage />
+  </for>
+  </if>
+</marko-web-query>-->
 
 
 <!--4th block Start -->

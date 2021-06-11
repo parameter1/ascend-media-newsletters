@@ -2,8 +2,9 @@ import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
 $ const classValue = defaultValue(input.class, "");
 $ const alignValue = defaultValue(input.align, "left");
 $ const valignValue = defaultValue(input.valign, "top");
-$ const widthValue = defaultValue(input.width, "150")
-$ const heightValue = defaultValue(input.height, "130")
+$ const widthValue = defaultValue(input.width, "150");
+$ const heightValue = defaultValue(input.height, "130");
+$ const classValueTD = defaultValue(input.classValueTD, "");
 
 
-<td align=alignValue valign=valignValue class=classValue><img src=input.src width=widthValue height=heightValue alt=input.alt></td>
+<td align=alignValue valign=valignValue class=classValueTD><img src=input.src width=widthValue height=heightValue alt=input.alt class=classValue></td>
