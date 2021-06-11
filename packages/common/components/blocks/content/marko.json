@@ -2,7 +2,13 @@
   "<common-content-list-item-block>": {
     "template": "./list-item.marko",
     "@title": "string",
-    "@teaser": "string"
+    "@teaser": "string",
+    "@withLink": "boolean",
+    "@linkValue": "string",
+    "@linkText": "string",
+    "@isAd": "boolean",
+    "@hasLogo": "boolean",
+    "@logoImage": "string"
   },
   "<common-content-list-block>": {
     "template": "./list.marko"
