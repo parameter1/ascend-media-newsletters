@@ -1,3 +1,5 @@
 {
-
+  "<common-content-list-item-block>": {
+    "template": "./list.marko"
+  }
 }
