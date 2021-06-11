@@ -1,10 +1,9 @@
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
-$ const image = {
-  "class": defaultValue(input.class, ""),
-  "align": defaultValue(input.align, "left"),
-  "valign" defaultValue(input.valign, "top"),
-  "width": defaultValue(input.width, "150"),
-  "height": defaultValue(input.height, "130")
-}
+$ const classValue = defaultValue(input.class, "");
+$ const alignValue = defaultValue(input.align, "left");
+$ const valignValue = defaultValue(input.valign, "top");
+$ const widthValue = defaultValue(input.width, "150")
+$ const heightValue = defaultValue(input.height, "130")
 
-<td align=image.align valign=image.valign class=image.class><img src=input.src width=image.width height=image.height alt=input.alt></td>
+
+<td align=alignValue valign=valignValue class=classValue><img src=input.src width=widthValue height=heightValue alt=input.alt></td>

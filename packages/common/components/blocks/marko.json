@@ -14,5 +14,8 @@
   },
   "<common-footer-block>": {
     "template": "./footer.marko"
+  },
+  "<common-channel-button-block>": {
+    "template": "./channel-button.marko"
   }
 }

@@ -1,5 +1,6 @@
 {
   "<common-daily-layout>": {
-    "template": "./daily.marko"
+    "template": "./daily.marko",
+    "@data": "object"
   }
 }
