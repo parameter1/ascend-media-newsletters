@@ -1,0 +1,186 @@
+import { get } from "@parameter1/base-cms-object-path";
+import { parseBooleanHeader } from "@parameter1/base-cms-utils";
+import queryFragment from "@ascend-media/package-common/graphql/fragments/content-list";
+import rotateArray from "@ascend-media/package-common/utils/rotate-array";
+
+$ const { website, config, req } = out.global;
+$ const { newsletter, date } = input.data;
+
+$ const emailX = config.get("emailX");
+$ const nativeX = config.getAsObject("nativeX");
+$ const dayOfWeek = new Date(date).getDay() || 7;
+$ const adUnits = ["rotation-a", "rotation-e", "rotation-d", "rotation-c", "rotation-b"];
+$ const adSlots = rotateArray(adUnits, dayOfWeek - 1);
+
+$ const withImage = parseBooleanHeader(get(req, "query.with-image"));
+$ const continueReading = parseBooleanHeader(get(req, "query.continue-reading"));
+
+$ const utmTerm = get(req, "query.utm_term");
+$ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
+
+<marko-newsletter-root
+  title=newsletter.name
+  description=newsletter.description
+  date=date
+>
+  <@head>
+    <common-head-block />
+  </@head>
+  <@body style="padding:0; margin:0;font-family: 'Roboto', Arial, sans-serif; -webkit-text-size-adjust:100%;">
+    <common-body-wrapper-block newsletter=newsletter date=date>
+      <@body>
+
+        <!-- Ad Slot 1 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-1', alias: newsletter.alias })
+          date=date
+        />
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=0
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <!-- <common-ad-wrapper-block
+          date=date
+          section-name="Rotation B"
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          ad-unit=emailX.getAdUnit({ name: adSlots[1], alias: newsletter.alias })
+          placement-id=get(nativeX, `placements.${newsletter.alias}.${adSlots[1]}`)
+        /> -->
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=1
+        />
+
+        <!-- Ad Slot 2 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-2', alias: newsletter.alias })
+          date=date
+        />
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=2
+        />
+
+        <!-- Ad Slot 3 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
+          date=date
+        />
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=3
+        />
+
+        <!-- Ad Slot 4 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-4', alias: newsletter.alias })
+          date=date
+        />
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=4
+        />
+
+        <!-- Ad Slot 5 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-5', alias: newsletter.alias })
+          date=date
+        />
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=5
+        />
+
+        <!-- Ad Slot 6 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-6', alias: newsletter.alias })
+          date=date
+        />
+
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=withImage
+          image-position='right'
+          continue-reading=continueReading
+          url-params=urlParams
+          limit=1
+          skip=6
+        />
+
+        <!-- Ad Slot 7 -->
+        <common-ad-emailx-block
+          newsletter=newsletter
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-7', alias: newsletter.alias })
+          date=date
+        />
+
+      </@body>
+    </common-body-wrapper-block>
+  </@body>
+</marko-newsletter-root>
