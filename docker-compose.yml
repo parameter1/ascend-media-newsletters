@@ -54,7 +54,7 @@ services:
       PORT: 80
       EXPOSED_PORT: 22290
       LIVERELOAD_PORT: 32290
-      TENANT_KEY: ascend_all
+      TENANT_KEY: ascend_hh
     ports:
       - "22290:80"
       - "32290:32290"
