@@ -15,6 +15,13 @@ const config = {
     ...brands.aad,
     name: 'AAD eNewsletter 1',
     description: 'AAD SUMMER MEETING | ePREVIEW',
+    channelButtons: {
+      bgColor: '#76bd42',
+      links: [
+        { label: 'Channel 1', href: '#', target: '_blank' },
+        { label: 'Channel 2', href: '#', target: '_blank' },
+      ],
+    },
   },
 };
 
