@@ -2,6 +2,8 @@ import { get, getAsArray } from "@parameter1/base-cms-object-path";
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
 import queryFragment from "@ascend-media/package-common/graphql/fragments/content-list";
 
+$ const { config } = out.global;
+
 $ const { sectionName, date, newsletter } = input;
 
 $ const withImage = defaultValue(input.withImage, true);
@@ -9,6 +11,10 @@ $ const imagePosition = defaultValue(input.imagePosition, 'right');
 $ const withHeader = defaultValue(input.withHeader, false);
 $ const withSection = defaultValue(input.withSection, false);
 $ const continueReading = defaultValue(input.continueReading, false);
+
+$ const newsletterConfig = config.get(newsletter.alias);
+
+$ const ctaLinkStyle = defaultValue(newsletterConfig.ctaLinkStyle, undefined);
 
 $ const queryParams = {
   date: date.valueOf(),
@@ -31,6 +37,7 @@ $ const queryParams = {
         with-image=withImage
         image-position=imagePosition
         continue-reading=continueReading
+        cta-link-style=ctaLinkStyle
       />
     </for>
   </if>
