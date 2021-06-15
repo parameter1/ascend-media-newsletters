@@ -10,7 +10,9 @@ const config = {
     },
   },
   'aad-enewsletter-1': {
-    name: 'TBD',
+    name: 'AAD eNewsletter 1',
+    description: 'AAD SUMMER MEETING | ePREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/aad-enewsletter-header.png',
   },
 };
 
