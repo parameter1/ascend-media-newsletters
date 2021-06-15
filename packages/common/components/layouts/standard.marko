@@ -8,12 +8,6 @@ $ const { newsletter, date } = input.data;
 $ const emailX = config.get("emailX");
 $ const nativeX = config.getAsObject("nativeX");
 
-$ const withImage = parseBooleanHeader(get(req, "query.with-image"));
-$ const continueReading = parseBooleanHeader(get(req, "query.continue-reading"));
-
-$ const utmTerm = get(req, "query.utm_term");
-$ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
-
 <marko-newsletter-root
   title=newsletter.name
   description=newsletter.description
@@ -38,10 +32,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=0
         />
@@ -61,10 +51,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=1
         />
@@ -81,10 +67,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=2
         />
@@ -101,10 +83,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=3
         />
@@ -121,10 +99,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=4
         />
@@ -141,10 +115,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=5
         />
@@ -161,10 +131,6 @@ $ const urlParams = (utmTerm) ? { "utm_term" : utmTerm } : false;
           date=date
           section-name="Main"
           newsletter=newsletter
-          with-image=withImage
-          image-position='right'
-          continue-reading=continueReading
-          url-params=urlParams
           limit=1
           skip=6
         />
