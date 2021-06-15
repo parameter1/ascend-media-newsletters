@@ -6,6 +6,9 @@
   "<common-body-wrapper-block>": {
     "template": "./body-wrapper.marko"
   },
+  "<common-channel-buttons-block>": {
+    "template": "./channel-buttons.marko"
+  },
   "<common-head-block>": {
     "template": "./head.marko"
   },
