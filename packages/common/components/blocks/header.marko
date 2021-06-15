@@ -1,32 +1,62 @@
+import { get } from "@parameter1/base-cms-object-path";
+import moment from "moment";
+
 $ const { config } = out.global
 
 $ const { newsletter, date } = input;
 
 $ const newsletterConfig = config.get(newsletter.alias);
 $ const name = (newsletterConfig.name || newsletter.name);
+$ const newsletterDescription = get(newsletterConfig, "description");
+$ const displayDate = moment(date).format("LL");
 
 <tr>
-  <td align="center" valign="top" bgcolor="#2f3031">
-    <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
-      <common-table-spacer-element height="12" />
+  <td align="center" valign="top">
+    <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="center" valign="top" class="mobile">
+            <marko-newsletter-imgix
+              src=newsletterConfig.headerImageSrc
+              options={ w: 600, h: 100 }
+              alt=name
+              attrs={ width: 600, height: 100 }
+              class="img_resize1"
+            />
+          </td>
+        </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+  $ const secondaryHeaderWrapperStyle = {
+    "padding": "6px 12px",
+  }
+  <td style=secondaryHeaderWrapperStyle>
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
       <tr>
-        <td align="center" valign="top">
-          <table role="presentation" width="610" border="0" cellspacing="0" cellpadding="0" class="wrap003">
+        <!-- content left -->
+        <td width="70%" align="left" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
             <tr>
-              <td align="left" valign="top" width="15"></td>
-              <td align="left" valign="top" width="130" style="padding-top: 5px">
-                <common-logo-element newsletter=newsletter />
-              </td>
-              <td align="left" valign="top" width="24"></td>
-              <td align="left" valign="middle" style="font-size: 26px;line-height: 40px;color: #ffffff;font-weight: 700;" class="font1">
-                ${name}
+              <td align="left" class="mobile-tagline" style="font-size: 13px;font-weight: bold;line-height: 13px;padding: 4px 8px 4px 0;text-align: left">
+                $!{newsletterDescription}
               </td>
             </tr>
           </table>
         </td>
+        <!-- /content left -->
+        <!-- content right -->
+        <td width="25%" align="right" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td align="right" class="mobile-tagline" style="font-size: 13px;font-weight: bold;line-height: 13px;padding: 4px 0 4px 8px;text-align: right;" valign="middle">
+                ${displayDate}
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- /content right -->
       </tr>
-      <common-table-spacer-element height="9" />
     </table>
   </td>
 </tr>
-<common-table-spacer-element />
