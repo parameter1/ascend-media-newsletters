@@ -1,16 +1,12 @@
 import { get } from "@parameter1/base-cms-object-path";
 import { parseBooleanHeader } from "@parameter1/base-cms-utils";
 import queryFragment from "@ascend-media/package-common/graphql/fragments/content-list";
-import rotateArray from "@ascend-media/package-common/utils/rotate-array";
 
 $ const { website, config, req } = out.global;
 $ const { newsletter, date } = input.data;
 
 $ const emailX = config.get("emailX");
 $ const nativeX = config.getAsObject("nativeX");
-$ const dayOfWeek = new Date(date).getDay() || 7;
-$ const adUnits = ["rotation-a", "rotation-e", "rotation-d", "rotation-c", "rotation-b"];
-$ const adSlots = rotateArray(adUnits, dayOfWeek - 1);
 
 $ const withImage = parseBooleanHeader(get(req, "query.with-image"));
 $ const continueReading = parseBooleanHeader(get(req, "query.continue-reading"));
