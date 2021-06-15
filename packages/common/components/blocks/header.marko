@@ -2,7 +2,6 @@ import { get } from "@parameter1/base-cms-object-path";
 import moment from "moment";
 
 $ const { config } = out.global
-
 $ const { newsletter, date } = input;
 
 $ const newsletterConfig = config.get(newsletter.alias);
@@ -28,10 +27,7 @@ $ const displayDate = moment(date).format("LL");
   </td>
 </tr>
 <tr>
-  $ const secondaryHeaderWrapperStyle = {
-    "padding": "6px 12px",
-  }
-  <td style=secondaryHeaderWrapperStyle>
+  <td style="padding: 6px 12px">
     <table border="0" cellpadding="0" cellspacing="0" width="100%">
       <tr>
         <!-- content left -->
