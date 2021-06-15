@@ -1,7 +1,9 @@
+const brands = require('./brands');
 const emailX = require('./email-x');
 const nativeX = require('./native-x');
 
 const config = {
+  brands,
   emailX,
   nativeX,
   dpm: {
@@ -10,9 +12,9 @@ const config = {
     },
   },
   'aad-enewsletter-1': {
+    ...brands.aad,
     name: 'AAD eNewsletter 1',
     description: 'AAD SUMMER MEETING | ePREVIEW',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aad/aad-enewsletter-header.png',
   },
 };
 
