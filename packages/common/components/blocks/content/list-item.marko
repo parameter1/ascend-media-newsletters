@@ -98,9 +98,10 @@ $ const sponsoredTagStyle = {
                               ${content.teaser}
                             </td>
                           </tr>
-                          <if(continueReading)>
+                          <if(content.type === 'promotion')>
                             <common-table-spacer-element height="9" />
-                            <common-cta-element link-url=contentUrl />
+                            $ const linkText = content.linkText || undefined;
+                            <common-cta-element link-text=linkText link-url=content.siteContext.url />
                           </if>
                         </table>
                       </td>
@@ -133,9 +134,10 @@ $ const sponsoredTagStyle = {
                   ${content.teaser}
                 </td>
               </tr>
-              <if(continueReading)>
+              <if(content.type === 'promotion')>
                 <common-table-spacer-element height="9" />
-                <common-cta-element link-url=contentUrl />
+                $ const linkText = content.linkText || undefined;
+                <common-cta-element link-text=linkText link-url=content.siteContext.url />
               </if>
             </table>
           </td>
@@ -155,9 +157,10 @@ $ const sponsoredTagStyle = {
             ${content.teaser}
           </td>
         </tr>
-        <if(continueReading)>
+        <if(content.type === 'promotion')>
           <common-table-spacer-element height="9" />
-          <common-cta-element link-url=contentUrl />
+          $ const linkText = content.linkText || undefined;
+          <common-cta-element link-text=linkText link-url=content.siteContext.url />
         </if>
       </else>
       <common-table-spacer-element height="32" />
