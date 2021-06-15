@@ -4,9 +4,9 @@ import { URLSearchParams } from "url";
 
 $ const { content, urlParams } = input;
 
-$ const withImage = defaultValue(input.withImage, false);
+$ const withImage = defaultValue(input.withImage, true);
 $ const imagePosition = defaultValue(input.imagePosition, 'right');
-$ const withSection = defaultValue(input.withSection, true);
+$ const withSection = defaultValue(input.withSection, false);
 $ const continueReading = defaultValue(input.continueReading, false);
 
 $ const queryString = (urlParams && content.type !== 'promotion') ? `?${new URLSearchParams(urlParams)}` : "";

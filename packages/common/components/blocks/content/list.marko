@@ -4,10 +4,10 @@ import queryFragment from "@ascend-media/package-common/graphql/fragments/conten
 
 $ const { sectionName, date, newsletter } = input;
 
-$ const withImage = defaultValue(input.withImage, false);
+$ const withImage = defaultValue(input.withImage, true);
 $ const imagePosition = defaultValue(input.imagePosition, 'right');
 $ const withHeader = defaultValue(input.withHeader, false);
-$ const withSection = defaultValue(input.withSection, true);
+$ const withSection = defaultValue(input.withSection, false);
 $ const continueReading = defaultValue(input.continueReading, false);
 $ const urlParams = defaultValue(input.urlParams, false);
 
