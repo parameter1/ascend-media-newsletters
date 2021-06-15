@@ -2,7 +2,7 @@ import { get, getAsArray } from "@parameter1/base-cms-object-path";
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
 import { URLSearchParams } from "url";
 
-$ const { content, urlParams } = input;
+$ const { content, urlParams, ctaLinkStyle } = input;
 
 $ const withImage = defaultValue(input.withImage, true);
 $ const imagePosition = defaultValue(input.imagePosition, 'right');
@@ -101,7 +101,7 @@ $ const sponsoredTagStyle = {
                           <if(content.type === 'promotion')>
                             <common-table-spacer-element height="9" />
                             $ const linkText = content.linkText || undefined;
-                            <common-cta-element link-text=linkText link-url=content.siteContext.url />
+                            <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
                           </if>
                         </table>
                       </td>
@@ -137,7 +137,7 @@ $ const sponsoredTagStyle = {
               <if(content.type === 'promotion')>
                 <common-table-spacer-element height="9" />
                 $ const linkText = content.linkText || undefined;
-                <common-cta-element link-text=linkText link-url=content.siteContext.url />
+                <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
               </if>
             </table>
           </td>
@@ -160,7 +160,7 @@ $ const sponsoredTagStyle = {
         <if(content.type === 'promotion')>
           <common-table-spacer-element height="9" />
           $ const linkText = content.linkText || undefined;
-          <common-cta-element link-text=linkText link-url=content.siteContext.url />
+          <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
         </if>
       </else>
       <common-table-spacer-element height="32" />
