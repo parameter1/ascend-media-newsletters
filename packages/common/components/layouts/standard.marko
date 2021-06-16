@@ -37,14 +37,12 @@ $ const nativeX = config.getAsObject("nativeX");
         />
 
         <!-- Advertisement / Promotion block -->
-        <!-- <common-ad-wrapper-block
+        <common-ad-wrapper-block
           date=date
-          section-name="Rotation B"
           newsletter=newsletter
           promotion-component="advertisement-block"
-          ad-unit=emailX.getAdUnit({ name: adSlots[1], alias: newsletter.alias })
-          placement-id=get(nativeX, `placements.${newsletter.alias}.${adSlots[1]}`)
-        /> -->
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-1`)
+        />
 
         <!-- Content list block -->
         <common-content-list-block
