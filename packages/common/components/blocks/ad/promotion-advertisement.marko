@@ -7,6 +7,7 @@ $ const { sectionName, date, content } = input;
 
 $ const url = get(content, "siteContext.path");
 $ const company = getAsObject(content, "company");
+$ const label = input.label || "Paid Advertisement";
 
 $ const imgStyles = {
   "font-size": "14px",
@@ -27,7 +28,7 @@ $ const imgLinkStyles = {
           <common-table-hr-element />
           <common-table-spacer-element height="12" />
           <tr>
-            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">Advertisement</td>
+            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">${label}</td>
           </tr>
           <tr>
             <td align="center" valign="top" dir="rtl">
@@ -110,7 +111,7 @@ $ const imgLinkStyles = {
           <common-table-hr-element />
           <common-table-spacer-element height="12" />
           <tr>
-            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">Advertisement</td>
+            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">${label}</td>
           </tr>
           <tr>
             <td align="center" valign="top" dir="rtl">
@@ -175,14 +176,14 @@ $ const imgLinkStyles = {
     </td>
   </tr>
 </else-if>
-<else>
+<else-if(nativeAdLayout === 'c')>
   <tr>
     <td align="center" valign="top">
       <table role="presentation" width="610" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
           <common-table-hr-element />
           <common-table-spacer-element height="12" />
           <tr>
-            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">Advertisement</td>
+            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">${label}</td>
           </tr>
           <tr>
             <td align="center" valign="top" dir="rtl">
@@ -226,6 +227,70 @@ $ const imgLinkStyles = {
                         <td align="left" valign="top" style="font-size: 17px;line-height: 22px;color: #3475b6;font-weight: 400;">
                           <a href=url target="_blank" style="text-decoration: none;color: #3475b6;padding:0 24px 0 0;">${content.name}</a>
                         </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <common-table-hr-element height="18" />
+          <common-table-spacer-element height="32" />
+      </table>
+    </td>
+  </tr>
+</else-if>
+<else>
+  <tr>
+    <td align="center" valign="top">
+      <table role="presentation" width="610" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
+          <common-table-hr-element />
+          <common-table-spacer-element height="12" />
+          <tr>
+            <td align="left" valign="middle" style="font-size:15px;line-height:20px; color:#666666;font-weight:400;text-align: center;">${label}</td>
+          </tr>
+          <tr>
+            <td align="center" valign="top" dir="rtl">
+              <table role="presentation" width="100%" border="0" cellspacing="0" cellpadding="0">
+                <common-table-spacer-element height="12" />
+                <tr>
+                  <td align="right" valign="top" width="270" class="split_cont1">
+                    <marko-core-obj-value|{ value: image }| obj=content field="primaryImage" as="object">
+                      <marko-newsletter-imgix
+                        src=image.src
+                        alt=image.alt
+                        options={ w: 540, h: 360, fit: "crop", auto: "format,compress" }
+                        attrs={ border: 0, width: 270, style: imgStyles }
+                      >
+                        <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                      </marko-newsletter-imgix>
+                    </marko-core-obj-value>
+                  </td>
+                  <td align="left" valign="top" class="split_cont1" dir="ltr">
+                    <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <td align="left" valign="top">
+                          <marko-core-obj-value|{ value: image }| obj=content.company field="primaryImage" as="object">
+                            <marko-newsletter-imgix
+                              src=image.src
+                              alt=image.alt
+                              options={ w: 180, h: 80, fit: "fill", auto: "format,compress" }
+                              attrs={ border: 0, width: 90, style: imgStyles }
+                            >
+                              <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                            </marko-newsletter-imgix>
+                          </marko-core-obj-value>
+                        </td>
+                      </tr>
+                      <common-table-spacer-element height="12" />
+                      <tr>
+                        <td align="left" valign="top" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;padding:0 24px 0 0;">
+                          <a href=url target="_blank" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;">${content.name}</a>
+                        </td>
+                      </tr>
+                      <common-table-spacer-element height="12" />
+                      <tr>
+                        <td align="left" valign="top" style="font-size: 17px;line-height: 22px;color: #202022;padding:0 24px 0 0;">${content.teaser}</td>
                       </tr>
                     </table>
                   </td>
