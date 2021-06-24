@@ -15,7 +15,7 @@ module.exports = {
     },
     footer: {
       bgColor: '#1c7cd5',
-      address: 'AUA Corporate Offices<br/>1000 Corporate Boulevard<br/>Linthicum, MD 21090',
+      address: 'AUA Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
     },
   },
 };
