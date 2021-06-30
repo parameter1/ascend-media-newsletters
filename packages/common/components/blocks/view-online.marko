@@ -1,4 +1,5 @@
 $ const { website } = out.global;
+$ const siteLabel = (input.newsletter.name === 'AAD eNewsletter 1') ? 'AAD Meeting News Central' : website.get("name")
 
 <tr>
   <td align="center" valign="top" >
@@ -7,7 +8,7 @@ $ const { website } = out.global;
         <common-table-spacer-element height="13" />
         <tr>
           <td align="center" valign="middle" style="font-size:15px;line-height:19px; color:#62626c;font-weight:400;">
-            <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a> &nbsp; | &nbsp; <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+            <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a> &nbsp; | &nbsp; <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${siteLabel}</a>
           </td>
         </tr>
         <common-table-spacer-element height="10" />

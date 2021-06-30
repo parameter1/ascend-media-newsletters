@@ -15,7 +15,7 @@ module.exports = {
     },
     footer: {
       bgColor: '#1c7cd5',
-      address: 'AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
+      address: '<p style="color: #ffffff">AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018</p>',
     },
   },
 };
