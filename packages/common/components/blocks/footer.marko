@@ -13,6 +13,7 @@ $ const displayYear = moment(date).format("YYYY");
 
 $ const footerBgColor = get(newsletterConfig, "footer.bgColor") || "#cccccc";
 $ const address = get(newsletterConfig, "footer.address") || "";
+$ const copyright = get(newsletterConfig, "footer.copyright") || "";
 
 $ const standardStyle = {
   "font-size": "12px",
@@ -93,12 +94,14 @@ $ const taglineStyle = {
               </td>
             </tr>
             <common-table-spacer-element height="19" />
+            <if(copyright)>
             <tr>
               <td align="left" valign="top" style=standardStyle>
-                Copyright &copy; ${displayYear} American Academy of Dermatology | Association. All rights reserved.
+                Copyright &copy; ${displayYear} $!{copyright} | Association. All rights reserved.
               </td>
             </tr>
             <common-table-spacer-element height="22" />
+            </if>
           </table>
         </td>
       </tr>
