@@ -23,6 +23,18 @@ const config = {
       ],
     },
   },
+  'aua-daily': {
+    ...brands.aua,
+    name: 'AUA Daily',
+    description: 'AUA Daily eNews',
+    channelButtons: {
+      bgColor: '#22919c',
+      links: [
+        { label: 'Channel 1', href: '', target: '_blank' },
+        { label: 'Channel 2', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
