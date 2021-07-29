@@ -7,5 +7,8 @@ module.exports = {
     'aua-daily': {
       'native-slot-1': '60fee97488b8050001f43230',
     },
+    'aad-enewsletter-2': {
+      'native-slot-1': '6102f99888b8050001f47e68',
+    },
   },
 };
