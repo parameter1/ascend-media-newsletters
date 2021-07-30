@@ -20,16 +20,16 @@ module.exports = {
     },
   },
   aua: {
-    headerImageSrc: '/files/base/ascend/hh/image/static/aua/aua-2021.png',
-    logoSrc: '',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aua/aua-2021-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aua/AUA_footer-logo.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
-        { provider: 'linkedin', href: '', target: '_blank' },
-        { provider: 'youtube', href: '', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/AmerUrological/', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/amerurological/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/AmerUrological', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-urological-association/', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/channel/UCfBo9pjCePu7Wxn4j4fHyAw', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
