@@ -30,8 +30,8 @@ const config = {
     channelButtons: {
       bgColor: '#22919c',
       links: [
-        { label: 'Channel 1', href: '', target: '_blank' },
-        { label: 'Channel 2', href: '', target: '_blank' },
+        { label: 'Registration', href: 'https://www.compusystems.com/servlet/ar?evt_uid=211', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net//2021/AUA2021/', target: '_blank' },
       ],
     },
   },
