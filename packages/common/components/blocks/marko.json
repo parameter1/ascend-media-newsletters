@@ -20,8 +20,5 @@
   },
   "<common-view-online-block>": {
     "template": "./view-online.marko"
-  },
-  "<common-channel-buttons-round-block>": {
-    "template": "./channel-buttons-round.marko"
   }
 }

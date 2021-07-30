@@ -150,12 +150,8 @@ $ const nativeX = config.getAsObject("nativeX");
         />
 
         <!-- Channels -->
-        <if(input.body)>
-          <common-channel-buttons-round-block newsletter=newsletter />
-        </if>
-        <else>
-          <common-channel-buttons-block newsletter=newsletter />
-        </else>
+        <common-channel-buttons-block newsletter=newsletter />
+
       </@body>
     </common-body-wrapper-block>
   </@body>
