@@ -14,6 +14,8 @@ $ const displayYear = moment(date).format("YYYY");
 $ const footerBgColor = get(newsletterConfig, "footer.bgColor") || "#cccccc";
 $ const address = get(newsletterConfig, "footer.address") || "";
 $ const copyright = get(newsletterConfig, "footer.copyright") || "";
+$ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
+$ const vendorTagline = get(newsletterConfig, "footer.vendorTagline");
 
 $ const standardStyle = {
   "font-size": "12px",
@@ -88,9 +90,15 @@ $ const taglineStyle = {
             </if>
             <tr>
               <td align="left" valign="top" style=standardStyle>
+                ${unsubscribe}
                 <a href="@{confirmunsubscribelink}@" style=standardUnderlineStyle>
-                  Unsubscribe here
+                click here.
                 </a>
+              </td>
+            </tr>
+            <tr>
+              <td align="left" valign="top" style=standardStyle>
+                ${vendorTagline}
               </td>
             </tr>
             <common-table-spacer-element height="19" />
