@@ -10,5 +10,8 @@ module.exports = {
     'aad-enewsletter-2': {
       'native-slot-1': '6102f99888b8050001f47e68',
     },
+    'aha-vascular-registered': {
+      'native-slot-1': '611127d9add9ee0001287aa9',
+    },
   },
 };
