@@ -134,6 +134,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('aha-vascular-registered', [
+    {
+      name: 'ad-slot-1',
+      id: '610d37bd9006f629825c8a4c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '610d37e16a853cfcc0e6c319',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '610d38026a853c5da2e6c32c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '610d38176a853c6526e6c33f',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '610d38356a853c1397e6c352',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '610d38516a853c547ae6c35c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '610d386f6a853c090ee6c366',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
