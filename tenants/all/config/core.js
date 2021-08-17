@@ -49,6 +49,32 @@ const config = {
       ],
     },
   },
+  'aha-vascular-registered': {
+    ...brands.aha,
+    name: 'AHA Vascular Registered',
+    description: '',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Vascular Discovery Conference', href: '', target: '_blank' },
+        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-vascular-non-registered': {
+    ...brands.aha,
+    name: 'AHA Vascular Non-Registered',
+    description: '',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Today', href: '', target: '_blank' },
+        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;

@@ -1,0 +1,129 @@
+import { get, getAsObject, getAsArray } from "@parameter1/base-cms-object-path";
+import moment from "moment";
+
+$ const { website, config } = out.global;
+$ const { newsletter, date } = input;
+
+$ const newsletterConfig = config.get(newsletter.alias);
+$ const tagline = get(newsletterConfig, "tagline");
+$ const subscribeLink = get(newsletterConfig, "subscribeLink");
+$ const publicationName = website.get("name");
+
+$ const displayYear = moment(date).format("YYYY");
+
+$ const footerBgColor = get(newsletterConfig, "footer.bgColor") || "#cccccc";
+$ const address = get(newsletterConfig, "footer.address") || "";
+$ const copyright = get(newsletterConfig, "footer.copyright") || "";
+$ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
+$ const vendorTagline = get(newsletterConfig, "footer.vendorTagline");
+$ const footer = get(newsletterConfig, "footer");
+$ const footerLinks = getAsArray(footer, "links");
+
+$ const privacyPolicy = get(newsletterConfig, "footerLinks.privacyPolicy");
+$ const ethicsPolicy = get(newsletterConfig, "footerLinks.ethicsPolicy");
+$ const conflictOfInterestPolicy = get(newsletterConfig, "footerLinks.conflictOfInterestPolicy");
+
+$ const standardStyle = {
+  "font-size": "12px",
+  "line-height": "15px",
+  "color": "#ffffff",
+  "font-family": "'Roboto', Arial, sans-serif",
+  "padding": "0 12px",
+};
+
+$ const standardUnderlineStyle = {
+  ...standardStyle,
+  "text-decoration": "underline",
+  "padding": "0",
+};
+
+$ const taglineStyle = {
+  ...standardStyle,
+  "font-style": "italic",
+  "padding-top": "5px",
+}
+
+<tr>
+  <td align="center" valign="top">
+    <table role="presentation" width="100%" border="0" bgcolor=footerBgColor align="center"  cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" valign="top">
+          <table role="presentation" width="610" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
+            <common-table-spacer-element height="16" />
+            <tr>
+              <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left" valign="top" style=standardStyle>
+                    <common-logo-element newsletter=newsletter alt=publicationName />
+                  </td>
+
+                  $ const socialMedia = get(newsletterConfig, "socialMedia");
+                  $ const socialMediaLinks = getAsArray(socialMedia, "links");
+
+                  <td align="right" valign="top" style=standardStyle>
+                    <if(socialMediaLinks.length)>
+                      <table role="presentation" border="0" align="right" cellpadding="0" cellspacing="0">
+                        <tr>
+                          <for|link| of=socialMediaLinks>
+                            <td align="center" valign="middle" style="padding-left: 24px;">
+                              <marko-newsletter-imgix
+                                src=`${socialMedia.imagePath}/${link.provider}.png`
+                                alt=link.provider
+                                options={ w: 24, h: 24, fit: "crop" }
+                                attrs={ border: 0, width: 24, align: "center" }
+                              >
+                                <@link href=link.href target="_blank" />
+                              </marko-newsletter-imgix>
+                            </td>
+                          </for>
+                        </tr>
+                      </table>
+                    </if>
+                  </td>
+                </tr>
+              </table>
+            </tr>
+            <common-table-spacer-element height="16" />
+
+            <!-- Address block -->
+            <tr>
+              <td align="left" valign="top" style=standardStyle>
+                To unsubscribe via postal mail, please contact us at:
+              </td>
+              <common-table-spacer-element height="10" />
+              <td alight="left" valign="top" style=standardStyle>
+                $!{address}
+              </td>
+            </tr>
+            <common-table-spacer-element height="16" />
+            <tr>
+              <td align="left" valign="top" style=standardStyle>
+                ${unsubscribe}
+                <a href="@{confirmunsubscribelink}@" style=standardUnderlineStyle>
+                click here.
+                </a>
+              </td>
+            </tr>
+            <common-table-spacer-element height="10" />
+            <tr>
+              <td align="left" valign="top" style=standardStyle>
+                <a href=`${privacyPolicy}` style=standardUnderlineStyle>Privacy Policy</a>
+                | <a href=`${ethicsPolicy}` style=standardUnderlineStyle>Ethics Policy</a>
+                | <a href=`${conflictOfInterestPolicy}` style=standardUnderlineStyle>Conflict of Interest Policy</a>
+              </td>
+            </tr>
+            <common-table-spacer-element height="10" />
+            <if(copyright)>
+            <tr>
+              <td align="left" valign="top" style=standardStyle>
+                Copyright &copy; ${displayYear} $!{copyright} | Association. All rights reserved.
+              </td>
+            </tr>
+            <common-table-spacer-element height="22" />
+            </if>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

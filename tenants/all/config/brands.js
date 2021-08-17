@@ -42,4 +42,31 @@ module.exports = {
       copyright: 'American Urological Association',
     },
   },
+  aha: {
+    logoSrc: '',
+    socialMedia: {
+      imagePath: '/files/base/ascend/hh/image/static',
+      links: [
+        { provider: 'facebook', href: 'https://www.facebook.com/ahameetings', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/american_heart/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/AHAMeetings', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-heart-association/', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/AHAScienceNews', target: '_blank' },
+      ],
+    },
+    ctaLinkStyle: {
+      color: '#C12126',
+    },
+    footer: {
+      bgColor: '#C12126',
+      address: 'American Heart Association<br/>Attn: Email Subscriptions Group<br/>7272 Greenville Ave.<br/>Dallas, Texas 75231',
+      copyright: 'American Heart Association',
+      unsubscribe: 'To unsubscribe from this list ',
+      links: [
+        { label: 'Privacy Policy', href: 'https://www.heart.org/en/about-us/statements-and-policies/privacy-statement', target: '_blank' },
+        { label: 'Ethics Policy', href: 'https://www.heart.org/en/about-us/statements-and-policies/ethics-policy', target: '_blank' },
+        { label: 'Conflict of Interest Policy', href: 'https://www.heart.org/en/about-us/statements-and-policies/relationship-disclosure-and-conflict-resolution-policy', target: '_blank' },
+      ],
+    },
+  },
 };
