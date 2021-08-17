@@ -10,5 +10,11 @@ module.exports = {
     'aad-enewsletter-2': {
       'native-slot-1': '6102f99888b8050001f47e68',
     },
+    'aha-hypertension-registered': {
+      'native-slot-1': '611bb1d4ef52af0001540cd4',
+    },
+    'aha-hypertension-non-registered': {
+      'native-slot-1': '611bb1efef52af0001540cde',
+    },
   },
 };
