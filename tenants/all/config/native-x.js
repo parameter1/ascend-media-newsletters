@@ -10,11 +10,17 @@ module.exports = {
     'aad-enewsletter-2': {
       'native-slot-1': '6102f99888b8050001f47e68',
     },
+    'aha-vascular-registered': {
+      'native-slot-1': '611127d9add9ee0001287aa9',
+    },
+    'aha-vascular-non-registered': {
+      'native-slot-1': '611a8037ef52af000153f73b',
+    },
     'aha-hypertension-registered': {
       'native-slot-1': '611bb1d4ef52af0001540cd4',
     },
     'aha-hypertension-non-registered': {
-      'native-slot-1': '611bb1efef52af0001540cde',
+      'native-slot-1': '611bb1efef52af0001540cde', 
     },
   },
 };

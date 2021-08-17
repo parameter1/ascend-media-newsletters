@@ -135,6 +135,94 @@ config
       height: 100,
     },
   ])
+  .setAdUnits('aha-vascular-registered', [
+    {
+      name: 'ad-slot-1',
+      id: '610d37bd9006f629825c8a4c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '610d37e16a853cfcc0e6c319',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '610d38026a853c5da2e6c32c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '610d38176a853c6526e6c33f',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '610d38356a853c1397e6c352',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '610d38516a853c547ae6c35c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '610d386f6a853c090ee6c366',
+      width: 600,
+      height: 100,
+    },
+  ])
+  .setAdUnits('aha-vascular-non-registered', [
+    {
+      name: 'ad-slot-1',
+      id: '611a813e6a853c94cfe6c970',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '611a81506a853c5935e6c983',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '611a81656a853cb398e6c996',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '611a81799006f6dbef5c9114',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '611a818e9006f6e8a45c9130',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '611a81a16a853c191be6c9bb',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '611a81b86a853c644ce6c9d7',
+      width: 600,
+      height: 100,
+    },
+  ])
   .setAdUnits('aha-hypertension-registered', [
     {
       name: 'ad-slot-1',
@@ -159,7 +247,7 @@ config
       id: '611bb0939006f65d6a5c946b',
       width: 600,
       height: 100,
-    },
+    },      
     {
       name: 'ad-slot-5',
       id: '611bb0ac6a853c2d5fe6ce18',
@@ -184,43 +272,43 @@ config
       name: 'ad-slot-1',
       id: '611bb0ed6a853c8758e6ce47',
       width: 600,
-      height: 100,
+      height: 100
     },
     {
       name: 'ad-slot-2',
       id: '611bb0ff9006f636df5c94ac',
       width: 600,
-      height: 100,
+      height: 100
     },
     {
       name: 'ad-slot-3',
       id: '611bb1119006f6d9a95c94bf',
       width: 600,
-      height: 100,
+      height: 100
     },
     {
       name: 'ad-slot-4',
       id: '611bb1246a853c559de6ce75',
       width: 600,
-      height: 100,
+      height: 100
     },
     {
       name: 'ad-slot-5',
       id: '611bb1389006f6ca4a5c94d2',
       width: 600,
-      height: 100,
+      height: 100
     },
     {
       name: 'ad-slot-6',
       id: '611bb14b6a853c43e6e6ce9a',
       width: 600,
-      height: 100,
+      height: 100
     },
     {
       name: 'ad-slot-7',
       id: '611bb15d6a853c3ad6e6cea4',
       width: 600,
-      height: 100,
+      height: 100
     },
   ]);
 

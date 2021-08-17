@@ -20,5 +20,8 @@
   },
   "<common-view-online-block>": {
     "template": "./view-online.marko"
+  },
+  "<common-footer-aha-block>": {
+    "template": "./footer-aha.marko"
   }
 }
