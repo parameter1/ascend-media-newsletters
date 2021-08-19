@@ -69,4 +69,26 @@ module.exports = {
       ],
     },
   },
+  acep: {
+    logoSrc: '',
+    headerImageSrc: '',
+    socialMedia: {
+      imagePath: '',
+      links: [
+        { provider: 'facebook', href: '', target: '_blank' },
+        { provider: 'instagram', href: '', target: '_blank' },
+        { provider: 'twitter', href: '', target: '_blank' },
+      ],
+    },
+    ctaLinkStyle: {
+      color: '',
+    },
+    footer: {
+      bgColor: '',
+      address: '',
+      copyright: '',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
+      vendorTagline: '',
+    },
+  },
 };
