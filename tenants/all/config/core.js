@@ -75,6 +75,23 @@ const config = {
       ],
     },
   },
+  '': {
+
+  },
+  '': {
+
+  },
+  'acep ': {
+    ...brands.acep,
+    name: 'ACEP',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
