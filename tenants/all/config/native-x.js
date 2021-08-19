@@ -14,7 +14,7 @@ module.exports = {
       'native-slot-1': '611127d9add9ee0001287aa9',
     },
     'aha-vascular-discovery-non-registered-attendees': {
-      'native-slot-1': '611a8037ef52af000153f73b',
+      'native-slot-1': '611a8078b4c21e0001a3704a',
     },
   },
 };
