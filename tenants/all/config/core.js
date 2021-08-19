@@ -75,6 +75,30 @@ const config = {
       ],
     },
   },
+  'aha-ress-domestic': {
+    ...brands.aha,
+    name: 'AHA ReSS Domestic',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ress-international': {
+    ...brands.aha,
+    name: 'AHA ReSS International',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
