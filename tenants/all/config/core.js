@@ -75,6 +75,26 @@ const config = {
       ],
     },
   },
+  '': {
+
+  },
+  '': {
+
+  },
+  '': {
+
+  },
+  'aao-hnsf': {
+    ...brands.aao-hnsf,
+    name: 'AAO-HNSF',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
