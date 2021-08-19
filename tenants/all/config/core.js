@@ -75,6 +75,33 @@ const config = {
       ],
     },
   },
+  '': {
+
+  },
+  'aha-ss-domestic': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions Domestic',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ss-international': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions Domestic',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
