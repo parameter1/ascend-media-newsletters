@@ -49,11 +49,12 @@ const config = {
       ],
     },
   },
-  'aha-vascular-registered': {
+  'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
-    name: 'AHA Vascular Registered',
+    name: 'AHA Vascular Discovery Registered Attendees',
     description: '',
     headerImageSrc: '',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discover-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -62,11 +63,12 @@ const config = {
       ],
     },
   },
-  'aha-vascular-non-registered': {
+  'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
-    name: 'AHA Vascular Non-Registered',
+    name: 'AHA Vascular Discovery Non-Registered Attendees',
     description: '',
     headerImageSrc: '',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discover-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
