@@ -85,7 +85,7 @@ const config = {
 
   },
   'aao-hnsf': {
-    ...brands.aao-hnsf,
+    ...brands.aaohnsf,
     name: 'AAO-HNSF',
     channelButtons: {
       bgColor: '',

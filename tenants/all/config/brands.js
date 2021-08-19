@@ -69,7 +69,7 @@ module.exports = {
       ],
     },
   },
-  aao-hnsf: {
+  aaohnsf: {
     logoSrc: '',
     socialMedia: {
       imagePath: '',
