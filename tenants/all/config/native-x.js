@@ -16,17 +16,5 @@ module.exports = {
     'aha-vascular-non-registered': {
       'native-slot-1': '611a8037ef52af000153f73b',
     },
-    '': {
-      '': '',
-    },
-    '': {
-      '': '',
-    },
-    '': {
-      '': '',
-    },
-    'aao-hnsf': {
-      'native-slot-1': '611ebab3b4c21e0001a3c13a',
-    },
   },
 };

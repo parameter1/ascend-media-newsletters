@@ -223,73 +223,92 @@ config
       height: 250,
     },
   ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('aao-hnsf', [
+  .setAdUnits('aha-hypertension-registered', [
     {
       name: 'ad-slot-1',
-      id: '611eb8f69006f615a85ca32e',
-      width: 300,
-      height: 250,
+      id: '611bb0556a853c4e2de6cde1',
+      width: 600,
+      height: 100,
     },
     {
       name: 'ad-slot-2',
-      id: '611eb9099006f621765ca341',
-      width: 300,
-      height: 250,
+      id: '611bb06b9006f662815c944e',
+      width: 600,
+      height: 100,
     },
     {
       name: 'ad-slot-3',
-      id: '611eb91c6a853c196ce6dd6a',
-      width: 300,
-      height: 250,
+      id: '611bb07c9006f6583f5c9461',
+      width: 600,
+      height: 100,
     },
     {
       name: 'ad-slot-4',
-      id: '611eb9309006f68ecc5ca35d',
-      width: 300,
-      height: 250,
+      id: '611bb0939006f65d6a5c946b',
+      width: 600,
+      height: 100,
     },
     {
       name: 'ad-slot-5',
-      id: '611eb9466a853c2a82e6dd86',
-      width: 300,
-      height: 250,
+      id: '611bb0ac6a853c2d5fe6ce18',
+      width: 600,
+      height: 100,
     },
     {
       name: 'ad-slot-6',
-      id: '611eb95f9006f612225ca379',
-      width: 300,
-      height: 250,
+      id: '611bb0c66a853ce432e6ce34',
+      width: 600,
+      height: 100,
     },
     {
       name: 'ad-slot-7',
-      id: '611eb97a6a853ce953e6dda2',
-      width: 300,
-      height: 250,
+      id: '611bb0da9006f679135c9487',
+      width: 600,
+      height: 100,
+    },
+  ])
+  .setAdUnits('aha-hypertension-non-registered', [
+    {
+      name: 'ad-slot-1',
+      id: '611bb0ed6a853c8758e6ce47',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '611bb0ff9006f636df5c94ac',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '611bb1119006f6d9a95c94bf',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '611bb1246a853c559de6ce75',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '611bb1389006f6ca4a5c94d2',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '611bb14b6a853c43e6e6ce9a',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '611bb15d6a853c3ad6e6cea4',
+      width: 600,
+      height: 100,
     },
   ]);
 
