@@ -39,7 +39,6 @@ const config = {
   'aad-enewsletter-2': {
     ...brands.aad,
     name: 'AAD eNewsletter 2',
-    description: '',
     headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_S21Header_DocBagBlast.png',
     channelButtons: {
       bgColor: '#76bc43',
@@ -49,11 +48,11 @@ const config = {
       ],
     },
   },
-  'aha-vascular-registered': {
+  'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
-    name: 'AHA Vascular Registered',
-    description: '',
-    headerImageSrc: '',
+    name: 'AHA Vascular Discovery Registered Attendees',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -62,11 +61,11 @@ const config = {
       ],
     },
   },
-  'aha-vascular-non-registered': {
+  'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
-    name: 'AHA Vascular Non-Registered',
-    description: '',
-    headerImageSrc: '',
+    name: 'AHA Vascular Discovery Non-Registered Attendees',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [

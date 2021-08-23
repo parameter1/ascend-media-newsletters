@@ -10,11 +10,11 @@ module.exports = {
     'aad-enewsletter-2': {
       'native-slot-1': '6102f99888b8050001f47e68',
     },
-    'aha-vascular-registered': {
+    'aha-vascular-discovery-registered-attendees': {
       'native-slot-1': '611127d9add9ee0001287aa9',
     },
-    'aha-vascular-non-registered': {
-      'native-slot-1': '611a8037ef52af000153f73b',
+    'aha-vascular-discovery-non-registered-attendees': {
+      'native-slot-1': '611a8078b4c21e0001a3704a',
     },
     'aha-ress-domestic': {
       'native-slot-1': '611ea693b4c21e0001a3be48',
