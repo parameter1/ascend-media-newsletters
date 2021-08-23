@@ -16,5 +16,11 @@ module.exports = {
     'aha-vascular-discovery-non-registered-attendees': {
       'native-slot-1': '611a8078b4c21e0001a3704a',
     },
+    'aha-ress-domestic': {
+      'native-slot-1': '611ea693b4c21e0001a3be48',
+    },
+    'aha-ress-international': {
+      'native-slot-1': '611ea6a9ef52af000154459c',
+    },
   },
 };
