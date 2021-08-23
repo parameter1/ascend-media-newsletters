@@ -75,9 +75,6 @@ const config = {
       ],
     },
   },
-  '': {
-
-  },
   'aha-ss-domestic': {
     ...brands.aha,
     name: 'AHA Scientific Sessions Domestic',
