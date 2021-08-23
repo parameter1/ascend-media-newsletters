@@ -223,16 +223,6 @@ config
       height: 250,
     },
   ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
   .setAdUnits('acep', [
     {
       name: 'ad-slot-1',
