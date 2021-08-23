@@ -43,15 +43,14 @@ module.exports = {
     },
   },
   aha: {
-    logoSrc: '',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: 'https://www.facebook.com/ahameetings', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/AmericanHeart', target: '_blank' },
         { provider: 'instagram', href: 'https://www.instagram.com/american_heart/', target: '_blank' },
-        { provider: 'twitter', href: 'https://twitter.com/AHAMeetings', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/American_Heart', target: '_blank' },
         { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-heart-association/', target: '_blank' },
-        { provider: 'youtube', href: 'https://www.youtube.com/AHAScienceNews', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/channel/UCLiWQk8JzhNRcNiDKk4dpaw', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
@@ -69,14 +68,37 @@ module.exports = {
       ],
     },
   },
-  aao: {
+  acep: {
     logoSrc: '',
+    headerImageSrc: '',
     socialMedia: {
       imagePath: '',
       links: [
         { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
         { provider: 'instagram', href: '', target: '_blank' },
+        { provider: 'twitter', href: '', target: '_blank' },
+      ],
+    },
+    ctaLinkStyle: {
+      color: '',
+    },
+    footer: {
+      bgColor: '',
+      address: '',
+      copyright: '',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
+      vendorTagline: '',
+    },
+  },
+  aao: {
+    logoSrc: '',
+    headerImageSrc: '',
+    socialMed: {
+      imagePath: '',
+      links: [
+        { provider: 'facebook', href: '', target: '_blank' },
+        { provider: 'instagram', href: '', target: '_blank' },
+        { provider: 'twitter', href: '', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
