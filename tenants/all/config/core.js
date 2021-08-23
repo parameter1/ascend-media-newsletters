@@ -75,6 +75,30 @@ const config = {
       ],
     },
   },
+  'aha-hypertension-registered': {
+    ...brands.aha,
+    name: 'AHA Hypertension Registered',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Hypertension Conference', href: '', target: '_blank' },
+        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-hypertension-non-registered': {
+    ...brands.aha,
+    name: 'AHA Hypertension Non-Registered',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Today', href: '', target: '_blank' },
+        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
