@@ -223,11 +223,6 @@ config
       height: 250,
     },
   ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
   .setAdUnits('aha-ss-domestic', [
     {
       name: 'ad-slot-1',
