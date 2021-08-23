@@ -75,12 +75,6 @@ const config = {
       ],
     },
   },
-  '': {
-
-  },
-  '': {
-
-  },
   'acep ': {
     ...brands.acep,
     name: 'ACEP',
