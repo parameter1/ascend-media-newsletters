@@ -22,5 +22,11 @@ module.exports = {
     'aha-ress-international': {
       'native-slot-1': '611ea6a9ef52af000154459c',
     },
+    'aha-hypertension-registered': {
+      'native-slot-1': '611bb1a3b4c21e0001a3854e',
+    },
+    'aha-hypertension-non-registered': {
+      'native-slot-1': '611bb1b0b4c21e0001a38561',
+    },
   },
 };
