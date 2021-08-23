@@ -246,7 +246,7 @@ config
       name: 'ad-slot-4',
       id: '611bb0939006f65d6a5c946b',
       width: 600,
-      height: 100,
+      height: 101,
     },
     {
       name: 'ad-slot-5',
@@ -335,7 +335,7 @@ config
       id: '611bb0939006f65d6a5c946b',
       width: 600,
       height: 100,
-    },      
+    },
     {
       name: 'ad-slot-5',
       id: '611bb0ac6a853c2d5fe6ce18',
