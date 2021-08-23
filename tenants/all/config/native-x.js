@@ -16,5 +16,11 @@ module.exports = {
     'aha-vascular-non-registered': {
       'native-slot-1': '611a8037ef52af000153f73b',
     },
+    'aha-hypertension-registered': {
+      'native-slot-1': '611bb1d4ef52af0001540cd4',
+    },
+    'aha-hypertension-non-registered': {
+      'native-slot-1': '611bb1efef52af0001540cde', 
+    },
   },
 };
