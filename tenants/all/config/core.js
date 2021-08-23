@@ -39,7 +39,6 @@ const config = {
   'aad-enewsletter-2': {
     ...brands.aad,
     name: 'AAD eNewsletter 2',
-    description: '',
     headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_S21Header_DocBagBlast.png',
     channelButtons: {
       bgColor: '#76bc43',
@@ -49,11 +48,11 @@ const config = {
       ],
     },
   },
-  'aha-vascular-registered': {
+  'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
-    name: 'AHA Vascular Registered',
-    description: '',
-    headerImageSrc: '',
+    name: 'AHA Vascular Discovery Registered Attendees',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -62,10 +61,58 @@ const config = {
       ],
     },
   },
-  'aha-vascular-non-registered': {
+  'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
-    name: 'AHA Vascular Non-Registered',
-    description: '',
+    name: 'AHA Vascular Discovery Non-Registered Attendees',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Today', href: '', target: '_blank' },
+        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ress-domestic': {
+    ...brands.aha,
+    name: 'AHA ReSS Domestic',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ress-international': {
+    ...brands.aha,
+    name: 'AHA ReSS International',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-hypertension-registered': {
+    ...brands.aha,
+    name: 'AHA Hypertension Registered',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Hypertension Conference', href: '', target: '_blank' },
+        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-hypertension-non-registered': {
+    ...brands.aha,
+    name: 'AHA Hypertension Non-Registered',
     headerImageSrc: '',
     channelButtons: {
       bgColor: '#C12126',
@@ -80,6 +127,30 @@ const config = {
     name: 'ACEP',
     channelButtons: {
       bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ss-domestic': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions Domestic',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ss-international': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions Domestic',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '#C12126',
       links: [
         { label: '', href: '', target: '_blank' },
         { label: '', href: '', target: '_blank' },
