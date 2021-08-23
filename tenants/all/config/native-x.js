@@ -34,5 +34,8 @@ module.exports = {
     'aha-ss-international': {
       'native-slot-1': '611eafc4b4c21e0001a3bf4b',
     },
+    'acep ': {
+      'native-slot-1': '611eba8eef52af0001544853',
+    },
   },
 };

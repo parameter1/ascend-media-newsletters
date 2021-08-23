@@ -486,6 +486,50 @@ config
       width: 300,
       height: 250,
     },
+  ])
+  .setAdUnits('acep', [
+    {
+      name: 'ad-slot-1',
+      id: '611eb3fa6a853ca88de6dcc2',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '611eb40b9006f6e6935ca2b6',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '611eb41d6a853c9f4ce6dcd5',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '611eb42d9006f6f71a5ca2c9',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '611eb4416a853ce10de6dcfa',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '611eb4536a853c82b8e6dd0d',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '611eb4639006f60cc75ca2ee',
+      width: 300,
+      height: 250,
+    },
   ]);
 
 module.exports = config;
