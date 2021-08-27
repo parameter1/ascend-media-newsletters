@@ -157,6 +157,18 @@ const config = {
       ],
     },
   },
+  'ashp ': {
+    ...brands.ashp,
+    name: 'ASHP',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
