@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   aua: {
-    headerImageSrc: '/files/base/ascend/hh/image/static/aua/aua-2021-header.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aua/aua-header.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/aua/AUA_footer-logo.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
