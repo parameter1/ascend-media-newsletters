@@ -574,6 +574,50 @@ config
       width: 300,
       height: 250,
     },
+  ])
+  .setAdUnits('aao-hnsf', [
+    {
+      name: 'ad-slot-1',
+      id: '611eb8f69006f615a85ca32e',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '611eb9099006f621765ca341',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '611eb91c6a853c196ce6dd6a',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '611eb9309006f68ecc5ca35d',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '611eb9466a853c2a82e6dd86',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '611eb95f9006f612225ca379',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '611eb97a6a853ce953e6dda2',
+      width: 300,
+      height: 250,
+    },
   ]);
 
 module.exports = config;

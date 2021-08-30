@@ -169,6 +169,18 @@ const config = {
       ],
     },
   },
+  'aao-hnsf': {
+    ...brands.aao,
+    name: 'AAO-HNSF',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;

@@ -40,5 +40,8 @@ module.exports = {
     'ashp ': {
       'native-slot-1': '612949a4b5983700013a93e9',
     },
+    'aao-hnsf': {
+      'native-slot-1': '611ebab3b4c21e0001a3c13a',
+    },
   },
 };
