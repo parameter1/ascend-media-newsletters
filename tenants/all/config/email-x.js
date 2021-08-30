@@ -530,6 +530,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('ashp', [
+    {
+      name: 'ad-slot-1',
+      id: '61294af69006f6f0715cb16c',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '61294ae06a853c3b03e6eb63',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '61294aca6a853c6ed5e6eb50',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '61294ab59006f659f85cb150',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '61294a9d9006f684c45cb134',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '61294a2f9006f6c8505cb121',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '61294a179006f687f95cb10e',
+      width: 300,
+      height: 250,
+    },
   ]);
 
 module.exports = config;

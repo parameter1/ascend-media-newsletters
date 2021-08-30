@@ -37,5 +37,8 @@ module.exports = {
     'acep ': {
       'native-slot-1': '611eba8eef52af0001544853',
     },
+    'ashp ': {
+      'native-slot-1': '612949a4b5983700013a93e9',
+    },
   },
 };
