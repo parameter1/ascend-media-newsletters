@@ -157,9 +157,22 @@ const config = {
       ],
     },
   },
+  'ashp ': {
+    ...brands.ashp,
+    name: 'ASHP',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
   'aao-hnsf': {
-    ...brands.aao,
-    name: 'AAO-HNSF',
+  ...brands.aao,
+  name: 'AAO-HNSF',
+  headerImageSrc: '',
     channelButtons: {
       bgColor: '',
       links: [
