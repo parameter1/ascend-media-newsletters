@@ -170,9 +170,9 @@ const config = {
     },
   },
   'aao-hnsf': {
-  ...brands.aao,
-  name: 'AAO-HNSF',
-  headerImageSrc: '',
+    ...brands.aao,
+    name: 'AAO-HNSF',
+    headerImageSrc: '',
     channelButtons: {
       bgColor: '',
       links: [
