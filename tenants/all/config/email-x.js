@@ -531,31 +531,6 @@ config
       height: 250,
     },
   ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
-  .setAdUnits('', [
-    {
-
-    },
-  ])
   .setAdUnits('aao-hnsf', [
     {
       name: 'ad-slot-1',
