@@ -101,7 +101,9 @@ const config = {
   'aha-hypertension-registered': {
     ...brands.aha,
     name: 'AHA Hypertension Registered',
-    headerImageSrc: '',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
+    brand: '#Hypertension',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -113,7 +115,9 @@ const config = {
   'aha-hypertension-non-registered': {
     ...brands.aha,
     name: 'AHA Hypertension Non-Registered',
-    headerImageSrc: '',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
+    brand: '#Hypertension',
     channelButtons: {
       bgColor: '#C12126',
       links: [
