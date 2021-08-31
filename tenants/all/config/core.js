@@ -53,6 +53,7 @@ const config = {
     name: 'AHA Vascular Discovery Registered Attendees',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
+    brand: '#VascularDiscovery21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -66,6 +67,7 @@ const config = {
     name: 'AHA Vascular Discovery Non-Registered Attendees',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
+    brand: '#VascularDiscovery21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
