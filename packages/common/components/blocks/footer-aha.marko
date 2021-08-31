@@ -91,11 +91,13 @@ $ const taglineStyle = {
                 </tr>
               </table>
             </tr>
-            <if(brand)>
-              <td align="right" valign="top" style=brandStyle>
-                ${brand}
-              </td>
-            </if>
+            <tr>
+              <if(brand)>
+                <td align="right" valign="top" style=brandStyle>
+                  ${brand}
+                </td>
+              </if>
+            </tr>
             <common-table-spacer-element height="16"/>
           </table>
         </td>
