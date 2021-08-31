@@ -33,10 +33,8 @@ $ const standardStyle = {
 };
 
 $ const brandStyle = {
-  "font-size": "22px",
-  "color": "#ffffff",
-  "font-family": "'Roboto', Arial, sans-serif",
-  "padding-right": "35px",
+  ...standardStyle,
+  "font-size": "16px",
 }
 
 $ const standardUnderlineStyle = {
@@ -68,9 +66,9 @@ $ const taglineStyle = {
                   $ const socialMedia = get(newsletterConfig, "socialMedia");
                   $ const socialMediaLinks = getAsArray(socialMedia, "links");
 
-                  <td align="right" valign="top" style=standardStyle>
+                  <td align="center" valign="top" style=standardStyle>
                     <if(socialMediaLinks.length)>
-                      <table role="presentation" border="0" align="right" cellpadding="0" cellspacing="0">
+                      <table role="presentation" border="0" align="center" cellpadding="0" cellspacing="0">
                         <tr>
                           <for|link| of=socialMediaLinks>
                             <td align="center" valign="middle" style="padding-left: 24px;">
@@ -88,16 +86,19 @@ $ const taglineStyle = {
                       </table>
                     </if>
                   </td>
+                  <td align="right" valign="top" style=brandStyle>
+                    ${brand}
+                  </td>
                 </tr>
               </table>
             </tr>
-            <if(brand)>
+            <!-- <if(brand)>
               <tr>
                 <td align="right" valign="top" style=brandStyle>
                   ${brand}
                 </td>
               </tr>
-            </if>
+            </if> -->
             <common-table-spacer-element height="16"/>
           </table>
         </td>
