@@ -23,10 +23,10 @@ module.exports = {
       'native-slot-1': '611ea6a9ef52af000154459c',
     },
     'aha-hypertension-registered': {
-      'native-slot-1': '611bb1a3b4c21e0001a3854e',
+      'native-slot-1': '611bb1d4ef52af0001540cd4',
     },
     'aha-hypertension-non-registered': {
-      'native-slot-1': '611bb1b0b4c21e0001a38561',
+      'native-slot-1': '611bb1efef52af0001540cde',
     },
     'aha-ss-domestic': {
       'native-slot-1': '611eafafb4c21e0001a3bf2b',
