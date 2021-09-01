@@ -58,7 +58,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Vascular Discovery Conference', href: 'https://vasculardiscovery.heart.org/', target: '_blank' },
-        { label: 'Sessions at a Glance', href: 'https://junohypertension-heart.s3.us-east-2.amazonaws.com/Hypertension_SAAG_APPROVED0826.pdf', target: '_blank' },
+        { label: 'Sessions at a Glance', href: 'https://junovascular-heart.s3.us-east-2.amazonaws.com/Vascular_SAAG%20-%20approved%208202021.pdf', target: '_blank' },
       ],
     },
   },
