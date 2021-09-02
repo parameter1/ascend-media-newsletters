@@ -50,7 +50,7 @@ module.exports = {
         { provider: 'instagram', href: 'https://www.instagram.com/american_heart/', target: '_blank' },
         { provider: 'twitter', href: 'https://twitter.com/AHAScience', target: '_blank' },
         { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-heart-association/', target: '_blank' },
-        { provider: 'youtube', href: 'https://www.youtube.com/user/ahasciencenews', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/ahasciencenews', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
