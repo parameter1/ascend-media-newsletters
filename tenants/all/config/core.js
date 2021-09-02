@@ -80,6 +80,7 @@ const config = {
     ...brands.aha,
     name: 'AHA ReSS Domestic',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-image-2021.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -92,6 +93,7 @@ const config = {
     ...brands.aha,
     name: 'AHA ReSS International',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-image-2021.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -139,22 +141,11 @@ const config = {
       ],
     },
   },
-  'aha-ss-domestic': {
+  'aha-ss-epreview': {
     ...brands.aha,
-    name: 'AHA Scientific Sessions Domestic',
+    name: 'AHA Scientific Sessions ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-image-2021.png',
-    channelButtons: {
-      bgColor: '#C12126',
-      links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
-      ],
-    },
-  },
-  'aha-ss-international': {
-    ...brands.aha,
-    name: 'AHA Scientific Sessions Domestic',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-image-2021.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
       links: [
