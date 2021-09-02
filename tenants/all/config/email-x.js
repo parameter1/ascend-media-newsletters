@@ -574,6 +574,50 @@ config
       width: 300,
       height: 250,
     },
+  ])
+  .setAdUnits('asa', [
+    {
+      name: 'ad-slot-1',
+      id: '612e6e496a853cc33de6eeba',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '612e6e5a6a853c2e03e6eecd',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '612e6e6d9006f62ec55cb3ec',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '612e6e806a853ce0f2e6eee0',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '612e6e906a853c3398e6eef3',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '612e6ea26a853c4c2ee6ef06',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '612e6eb19006f665a95cb423',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;

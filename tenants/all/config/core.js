@@ -178,6 +178,18 @@ const config = {
       ],
     },
   },
+  'asa ': {
+    ...brands.asa,
+    name: 'ASA',
+    headerImageSrc: '',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
