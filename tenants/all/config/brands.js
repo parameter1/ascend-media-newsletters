@@ -46,11 +46,11 @@ module.exports = {
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: 'https://www.facebook.com/AmericanHeart', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/ahameetings', target: '_blank' },
         { provider: 'instagram', href: 'https://www.instagram.com/american_heart/', target: '_blank' },
-        { provider: 'twitter', href: 'https://twitter.com/American_Heart', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/AHAScience', target: '_blank' },
         { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-heart-association/', target: '_blank' },
-        { provider: 'youtube', href: 'https://www.youtube.com/channel/UCLiWQk8JzhNRcNiDKk4dpaw', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/user/ahasciencenews', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
