@@ -28,11 +28,8 @@ module.exports = {
     'aha-hypertension-non-registered': {
       'native-slot-1': '611bb1efef52af0001540cde',
     },
-    'aha-ss-domestic': {
+    'aha-ss-epreview': {
       'native-slot-1': '611eafafb4c21e0001a3bf2b',
-    },
-    'aha-ss-international': {
-      'native-slot-1': '611eafc4b4c21e0001a3bf4b',
     },
     'acep ': {
       'native-slot-1': '611eba8eef52af0001544853',

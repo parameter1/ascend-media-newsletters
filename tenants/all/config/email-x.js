@@ -399,7 +399,7 @@ config
       height: 100,
     },
   ])
-  .setAdUnits('aha-ss-domestic', [
+  .setAdUnits('aha-ss-epreview', [
     {
       name: 'ad-slot-1',
       id: '611eadeb6a853c66d9e6db7b',
@@ -439,50 +439,6 @@ config
     {
       name: 'ad-slot-7',
       id: '611eae656a853c85a9e6dbe3',
-      width: 600,
-      height: 100,
-    },
-  ])
-  .setAdUnits('aha-ss-international', [
-    {
-      name: 'ad-slot-1',
-      id: '611eae889006f6e3ec5ca1ec',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-2',
-      id: '611eaeaf6a853cb34fe6dc36',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-3',
-      id: '611eaec39006f64dec5ca21a',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-4',
-      id: '611eaed86a853c5404e6dc49',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-5',
-      id: '611eaeef6a853c7ccde6dc5c',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-6',
-      id: '611eaf039006f6ad0a5ca23f',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-7',
-      id: '611eaf146a853cd6dde6dc81',
       width: 600,
       height: 100,
     },
