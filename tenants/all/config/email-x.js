@@ -90,6 +90,24 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '6138cbc69006f6f5f35ccb93',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '6138cbdd6a853c0103e704a5',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '6138cbf09006f6478b5ccba6',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('aad-enewsletter-2', [
     {
