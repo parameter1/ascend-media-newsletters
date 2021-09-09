@@ -241,7 +241,7 @@ config
       height: 100,
     },
   ])
-  .setAdUnits('aha-ress-domestic', [
+  .setAdUnits('aha-ress-eblast', [
     {
       name: 'ad-slot-1',
       id: '611ea4ec9006f644fc5ca05f',
@@ -281,50 +281,6 @@ config
     {
       name: 'ad-slot-7',
       id: '611ea56c9006f63f145ca0c5',
-      width: 600,
-      height: 100,
-    },
-  ])
-  .setAdUnits('aha-ress-international', [
-    {
-      name: 'ad-slot-1',
-      id: '611ea5929006f64b0f5ca0eb',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-2',
-      id: '611ea5a56a853c17bee6db0b',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-3',
-      id: '611ea5bb6a853c0819e6db27',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-4',
-      id: '611ea5cf6a853c0fe6e6db31',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-5',
-      id: '611ea5e19006f652f25ca122',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-6',
-      id: '611ea5f49006f6269a5ca12c',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-7',
-      id: '611ea60a9006f6c29e5ca148',
       width: 600,
       height: 100,
     },
