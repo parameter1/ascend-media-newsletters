@@ -1,4 +1,10 @@
-$ const { website } = out.global;
+import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
+
+$ const { config, website } = out.global
+$ const { newsletter } = input;
+$ const newsletterConfig = config.get(newsletter.alias);
+$ const showViewOnline = defaultValue(newsletterConfig.showViewOnline, true);
+$ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteLink, true);
 
 <tr>
   <td align="center" valign="top" >
@@ -7,7 +13,15 @@ $ const { website } = out.global;
         <common-table-spacer-element height="13" />
         <tr>
           <td align="center" valign="middle" style="font-size:15px;line-height:19px; color:#62626c;font-weight:400;">
-            <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a> &nbsp; | &nbsp; <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+            <if(showViewOnline)>
+              <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a>
+            </if>
+            <if(showViewOnline && showHeaderWebsiteLink)>
+              &nbsp; | &nbsp;
+            </if>
+            <if(showHeaderWebsiteLink)>
+              <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+            </if>
           </td>
         </tr>
         <common-table-spacer-element height="10" />

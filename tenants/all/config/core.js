@@ -105,6 +105,7 @@ const config = {
   },
   'aha-hypertension-non-registered': {
     ...brands.aha,
+    showHeaderWebsiteLink: false,
     name: 'AHA Hypertension Non-Registered',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
