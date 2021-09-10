@@ -51,6 +51,7 @@ const config = {
   'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Registered Attendees',
+    showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     brand: '#VascularDiscovery21',
@@ -65,6 +66,7 @@ const config = {
   'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Non-Registered Attendees',
+    showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     brand: '#VascularDiscovery21',
@@ -92,6 +94,7 @@ const config = {
   'aha-hypertension-registered': {
     ...brands.aha,
     name: 'AHA Hypertension Registered',
+    showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
     brand: '#Hypertension21',
@@ -105,6 +108,7 @@ const config = {
   },
   'aha-hypertension-non-registered': {
     ...brands.aha,
+    showHeaderWebsiteLink: false,
     name: 'AHA Hypertension Non-Registered',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
