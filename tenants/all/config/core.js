@@ -98,8 +98,8 @@ const config = {
     channelButtons: {
       bgColor: '#C12126',
       links: [
-        { label: 'Hypertension Conference', href: '', target: '_blank' },
-        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+        { label: 'Hypertension Conference', href: 'https://hypertension.heart.org', target: '_blank' },
+        { label: 'Sessions at a Glance', href: 'https://junohypertension-heart.s3.us-east-2.amazonaws.com/Hypertension_SAAG_APPROVED0826.pdf', target: '_blank' },
       ],
     },
   },
@@ -112,8 +112,8 @@ const config = {
     channelButtons: {
       bgColor: '#C12126',
       links: [
-        { label: 'Register Today', href: '', target: '_blank' },
-        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+        { label: 'Register Today', href: 'https://professional.heart.org/en/meetings/hypertension/registration-and-housing', target: '_blank' },
+        { label: 'Sessions at a Glance', href: 'https://professional.heart.org/-/media/phd-files/meetings/hypertension/2021/hypertension-2021-saag.pdf?la=en', target: '_blank' },
       ],
     },
   },
