@@ -82,7 +82,7 @@ const config = {
     ...brands.aha,
     name: 'AHA ReSS eBlast',
     website: 'https://sessions.hub.heart.org/',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-image-2021.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
@@ -136,7 +136,7 @@ const config = {
   'aha-ss-epreview': {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-image-2021.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     channelButtons: {
       bgColor: '#C12126',
