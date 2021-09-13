@@ -92,13 +92,12 @@ module.exports = {
   },
   ashp: {
     logoSrc: '',
-    headerImageSrc: '',
     socialMedia: {
-      imagePath: '',
+      imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/ASHPofficial/', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/ashpofficial/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/ashpofficial', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
@@ -106,8 +105,8 @@ module.exports = {
     },
     footer: {
       bgColor: '',
-      address: '',
-      copyright: '',
+      address: '4500 East-West Highway, Suite 900, Bethesda, MD 20814',
+      copyright: 'American Society of Health-System Pharmacists. All Rights Reserved.',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
       vendorTagline: '',
     },

@@ -149,12 +149,12 @@ const config = {
   'ashp ': {
     ...brands.ashp,
     name: 'ASHP',
-    headerImageSrc: '',
+    headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
     channelButtons: {
       bgColor: '',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
+        { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
       ],
     },
   },
