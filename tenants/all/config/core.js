@@ -149,6 +149,7 @@ const config = {
   'ashp ': {
     ...brands.ashp,
     name: 'ASHP',
+    description: 'PREVIEW',
     headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
     channelButtons: {
       bgColor: '',
