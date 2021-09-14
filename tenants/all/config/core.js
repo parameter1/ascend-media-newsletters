@@ -156,6 +156,7 @@ const config = {
   'aao-hnsf': {
     ...brands.aao,
     name: 'AAO-HNSF',
+    description: 'Preview',
     channelButtons: {
       bgColor: '#bf311a',
       links: [
