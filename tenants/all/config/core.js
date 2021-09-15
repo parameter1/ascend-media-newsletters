@@ -85,6 +85,7 @@ const config = {
     website: 'https://sessions.hub.heart.org/',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#ReSS',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -142,6 +143,7 @@ const config = {
     description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#AHA21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
