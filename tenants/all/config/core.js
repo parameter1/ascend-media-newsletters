@@ -81,6 +81,7 @@ const config = {
   'aha-ress-eblast': {
     ...brands.aha,
     name: 'AHA ReSS eBlast',
+    description: 'ePreview',
     website: 'https://sessions.hub.heart.org/',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
@@ -95,6 +96,7 @@ const config = {
   'aha-hypertension-registered': {
     ...brands.aha,
     name: 'AHA Hypertension Registered',
+    description: 'ePreview',
     showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
@@ -111,6 +113,7 @@ const config = {
     ...brands.aha,
     showHeaderWebsiteLink: false,
     name: 'AHA Hypertension Non-Registered',
+    description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
     brand: '#Hypertension21',
@@ -136,6 +139,7 @@ const config = {
   'aha-ss-epreview': {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
+    description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     channelButtons: {
