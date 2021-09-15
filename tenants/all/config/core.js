@@ -51,6 +51,7 @@ const config = {
   'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Registered Attendees',
+    description: 'ePreview',
     showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
@@ -66,6 +67,7 @@ const config = {
   'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Non-Registered Attendees',
+    description: 'ePreview',
     showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
