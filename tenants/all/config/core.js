@@ -129,8 +129,8 @@ const config = {
     channelButtons: {
       bgColor: '#ED8800',
       links: [
-        { label: 'Program', href: '', target: '_blank' },
-        { label: 'Meeting Coverage', href: '', target: '_blank' },
+        { label: 'Program', href: 'https://www.acep.org/sa/education/courses/', target: '_blank' },
+        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverag', target: '_blank' },
       ],
     },
   },
