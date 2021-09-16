@@ -417,7 +417,7 @@ config
       height: 100,
     },
   ])
-  .setAdUnits('acep', [
+  .setAdUnits('acep-enewsletter', [
     {
       name: 'ad-slot-1',
       id: '611eb3fa6a853ca88de6dcc2',
