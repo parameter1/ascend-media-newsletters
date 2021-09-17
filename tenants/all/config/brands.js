@@ -129,7 +129,7 @@ module.exports = {
     },
     footer: {
       bgColor: '#bf311a',
-      address: '',
+      address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
       copyright: '',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the ',
