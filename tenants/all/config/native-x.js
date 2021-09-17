@@ -28,7 +28,7 @@ module.exports = {
     'aha-ss-epreview': {
       'native-slot-1': '611eafafb4c21e0001a3bf2b',
     },
-    'acep ': {
+    'acep-enewsletter': {
       'native-slot-1': '611eba8eef52af0001544853',
     },
     'ashp ': {
