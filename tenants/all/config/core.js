@@ -170,12 +170,12 @@ const config = {
   'aao-hnsf': {
     ...brands.aao,
     name: 'AAO-HNSF',
-    headerImageSrc: '',
+    description: 'Preview',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#bf311a',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Virtual Platform', href: '', target: '_blank' },
+        { label: 'Meeting Coverage', href: '', target: '_blank' },
       ],
     },
   },
