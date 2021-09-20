@@ -1,6 +1,6 @@
 {
   "name": "@ascend-media/all",
-  "version": "1.3.27",
+  "version": "1.3.28",
   "author": "Brandon Krigbaum <brandon@parameter1.com>",
   "repository": "https://github.com/parameter1/ascend-media-newsletters/tree/master/tenants/all",
   "license": "MIT",
@@ -12,7 +12,7 @@
     "test": "yarn lint && yarn compile"
   },
   "dependencies": {
-    "@ascend-media/package-common": "^1.3.27",
+    "@ascend-media/package-common": "^1.3.28",
     "@parameter1/base-cms-marko-core": "^2.12.0",
     "@parameter1/base-cms-marko-newsletters": "^2.12.0",
     "@parameter1/base-cms-marko-newsletters-email-x": "^2.5.0",
