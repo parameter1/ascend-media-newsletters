@@ -61,11 +61,9 @@ module.exports = {
       address: 'American Heart Association<br/>Attn: Email Subscriptions Group<br/>7272 Greenville Ave.<br/>Dallas, Texas 75231',
       copyright: 'American Heart Association',
       unsubscribe: 'To unsubscribe from this list ',
-      links: [
-        { label: 'Privacy Policy', href: 'https://www.heart.org/en/about-us/statements-and-policies/privacy-statement', target: '_blank' },
-        { label: 'Ethics Policy', href: 'https://www.heart.org/en/about-us/statements-and-policies/ethics-policy', target: '_blank' },
-        { label: 'Conflict of Interest Policy', href: 'https://www.heart.org/en/about-us/statements-and-policies/relationship-disclosure-and-conflict-resolution-policy', target: '_blank' },
-      ],
+      privacyPolicy: 'https://www.heart.org/en/about-us/statements-and-policies/privacy-statement',
+      ethicsPolicy: 'https://www.heart.org/en/about-us/statements-and-policies/ethics-policy',
+      conflictOfInterestPolicy: 'https://www.heart.org/en/about-us/statements-and-policies/relationship-disclosure-and-conflict-resolution-policy',
     },
   },
   acep: {
