@@ -1,21 +1,18 @@
-import { get, getAsObject, getAsArray } from "@parameter1/base-cms-object-path";
+import { get, getAsArray } from "@parameter1/base-cms-object-path";
 import moment from "moment";
 
 $ const { website, config } = out.global;
 $ const { newsletter, date } = input;
 
 $ const newsletterConfig = config.get(newsletter.alias);
-$ const tagline = get(newsletterConfig, "tagline");
-$ const subscribeLink = get(newsletterConfig, "subscribeLink");
 $ const publicationName = website.get("name");
 
 $ const displayYear = moment(date).format("YYYY");
 
-$ const footerBgColor = get(newsletterConfig, "footer.bgColor") || "#cccccc";
-$ const address = get(newsletterConfig, "footer.address") || "";
-$ const copyright = get(newsletterConfig, "footer.copyright") || "";
+$ const footerBgColor = get(newsletterConfig, "footer.bgColor");
+$ const address = get(newsletterConfig, "footer.address");
+$ const copyright = get(newsletterConfig, "footer.copyright");
 $ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
-$ const vendorTagline = get(newsletterConfig, "footer.vendorTagline");
 $ const brand = get(newsletterConfig, "brand");
 
 $ const standardStyle = {
@@ -36,12 +33,6 @@ $ const standardUnderlineStyle = {
   "text-decoration": "underline",
   "padding": "0",
 };
-
-$ const taglineStyle = {
-  ...standardStyle,
-  "font-style": "italic",
-  "padding-top": "5px",
-}
 
 <tr>
   <td align="center" valign="top">
@@ -131,14 +122,12 @@ $ const taglineStyle = {
                   </td>
                 </tr>
                 <common-table-spacer-element height="10" />
-                <if(copyright)>
                 <tr>
                   <td align="left" valign="top" style=standardStyle>
                     Copyright &copy; ${displayYear} $!{copyright} | All rights reserved.
                   </td>
                 </tr>
                 <common-table-spacer-element height="22" />
-                </if>
               </table>
             </tr>
           </table>
