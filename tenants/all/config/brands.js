@@ -40,6 +40,7 @@ module.exports = {
       bgColor: '#22919c',
       address: 'AUA Corporate Offices<br/>1000 Corporate Boulevard<br/>Linthicum, MD 21090',
       copyright: 'American Urological Association',
+      unsubscribe: 'To unsubscribe from this list ',
     },
   },
   aha: {
