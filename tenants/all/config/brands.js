@@ -15,7 +15,7 @@ module.exports = {
     footer: {
       bgColor: '#1c7cd5',
       address: 'AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
-      copyright: 'American Academy of Dermatology',
+      copyright: 'American Academy of Dermatology | Association',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the AAD 2021 Summer Meeting, ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the AAD.',
     },
@@ -130,8 +130,8 @@ module.exports = {
     footer: {
       bgColor: '#bf311a',
       address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
-      copyright: '',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
+      copyright: 'American Academy of Otolaryngology - Head and Neck Surgery',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for AAO-NHSF 2021 Annual Meeting & OTO Experience, ',
     },
   },
   asa: {
