@@ -85,8 +85,7 @@ module.exports = {
       bgColor: '#1C57A5',
       address: 'ACEP Corporate Offices<br/>4950 W. Royal Lane<br/>Irving, TX 75063-2524',
       copyright: 'American College of Emergency Physicians',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
-      vendorTagline: '',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the ACEP21 Scientific Assembly, ',
     },
   },
   ashp: {
