@@ -181,13 +181,12 @@ const config = {
   },
   'asa ': {
     ...brands.asa,
-    name: 'ASA',
-    headerImageSrc: '',
+    name: 'Anesthesiology Today, Annual Meeting Edition',
     channelButtons: {
       bgColor: '',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
       ],
     },
   },

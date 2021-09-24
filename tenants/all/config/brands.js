@@ -136,13 +136,14 @@ module.exports = {
   },
   asa: {
     logoSrc: '',
-    headerImageSrc: '',
+    headerImageSrc: '/files/base/ascend/hh/image/static/asa/asa-header-logo.png',
     socialMed: {
-      imagePath: '',
+      imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/AmericanSocietyofAnesthesiologists/', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/asa_hq/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/ASALifeline', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-society-of-anesthesiologists/', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
