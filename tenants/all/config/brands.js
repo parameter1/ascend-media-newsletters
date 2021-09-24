@@ -40,6 +40,7 @@ module.exports = {
       bgColor: '#22919c',
       address: 'AUA Corporate Offices<br/>1000 Corporate Boulevard<br/>Linthicum, MD 21090',
       copyright: 'American Urological Association',
+      unsubscribe: 'To unsubscribe from this list ',
     },
   },
   aha: {
@@ -85,8 +86,7 @@ module.exports = {
       bgColor: '#1C57A5',
       address: 'ACEP Corporate Offices<br/>4950 W. Royal Lane<br/>Irving, TX 75063-2524',
       copyright: 'American College of Emergency Physicians',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
-      vendorTagline: '',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the ACEP21 Scientific Assembly, ',
     },
   },
   ashp: {
