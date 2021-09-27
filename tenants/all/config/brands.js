@@ -135,7 +135,7 @@ module.exports = {
     },
   },
   asa: {
-    logoSrc: '',
+    logoSrc: '/files/base/ascend/hh/image/static/asa/asa-footer-logo.png',
     headerImageSrc: '/files/base/ascend/hh/image/static/asa/asa-header-logo.png',
     socialMed: {
       imagePath: '/files/base/ascend/hh/image/static',
@@ -147,10 +147,10 @@ module.exports = {
       ],
     },
     ctaLinkStyle: {
-      color: '',
+      color: '#8a84d6',
     },
     footer: {
-      bgColor: '',
+      bgColor: '#1226aa',
       address: '',
       copyright: '',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
