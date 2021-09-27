@@ -96,12 +96,15 @@ $ const taglineStyle = {
                 </a>
               </td>
             </tr>
-            <tr>
-              <td align="left" valign="top" style=standardStyle>
-                ${vendorTagline}
-              </td>
-            </tr>
+            <if(vendorTagline)>
+              <tr>
+                <td align="left" valign="top" style=standardStyle>
+                  ${vendorTagline}
+                </td>
+              </tr>
+            </if>
             <common-table-spacer-element height="19" />
+
             <if(copyright)>
             <tr>
               <td align="left" valign="top" style=standardStyle>

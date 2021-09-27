@@ -169,13 +169,13 @@ const config = {
   },
   'aao-hnsf': {
     ...brands.aao,
-    name: 'AAO-HNSF',
+    name: 'AAO-HNSF eNewsletter',
     description: 'Preview',
     channelButtons: {
       bgColor: '#bf311a',
       links: [
-        { label: 'Virtual Platform', href: '', target: '_blank' },
-        { label: 'Meeting Coverage', href: '', target: '_blank' },
+        { label: 'Posters', href: 'https://www.researchposters.com/display_posters.aspx?code=AAO2021', target: '_blank' },
+        { label: 'Virtual Platform', href: 'https://otomtg21.junolive.co/Welcome', target: '_blank' },
       ],
     },
   },
