@@ -115,7 +115,7 @@ module.exports = {
   aao: {
     logoSrc: '/files/base/ascend/hh/image/static/aao-hns/aao-hnsf-footer.png',
     headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/aao-hnsf-header-logo.png',
-    socialMed: {
+    socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
         { provider: 'facebook', href: 'https://www.facebook.com/AAOHNS', target: '_blank' },
