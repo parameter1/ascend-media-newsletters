@@ -135,21 +135,22 @@ module.exports = {
     },
   },
   asa: {
-    logoSrc: '',
-    headerImageSrc: '',
+    logoSrc: '/files/base/ascend/hh/image/static/asa/asa-footer-logo.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/asa/asa-header-logo.png',
     socialMed: {
-      imagePath: '',
+      imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/AmericanSocietyofAnesthesiologists/', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/asa_hq/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/ASALifeline', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-society-of-anesthesiologists/', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
-      color: '',
+      color: '#8a84d6',
     },
     footer: {
-      bgColor: '',
+      bgColor: '#1226aa',
       address: '',
       copyright: '',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
