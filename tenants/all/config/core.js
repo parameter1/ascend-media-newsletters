@@ -51,6 +51,8 @@ const config = {
   'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Registered Attendees',
+    description: 'ePreview',
+    showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     brand: '#VascularDiscovery21',
@@ -65,6 +67,8 @@ const config = {
   'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Non-Registered Attendees',
+    description: 'ePreview',
+    showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
     brand: '#VascularDiscovery21',
@@ -79,12 +83,15 @@ const config = {
   'aha-ress-eblast': {
     ...brands.aha,
     name: 'AHA ReSS eBlast',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-image-2021.png',
+    description: 'ePreview',
+    website: 'https://sessions.hub.heart.org/',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#ReSS',
     channelButtons: {
       bgColor: '#C12126',
       links: [
-        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
+        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/resuscitation-science-symposium', target: '_blank' },
         { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
       ],
     },
@@ -92,47 +99,54 @@ const config = {
   'aha-hypertension-registered': {
     ...brands.aha,
     name: 'AHA Hypertension Registered',
+    description: 'ePreview',
+    showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
     brand: '#Hypertension21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
-        { label: 'Hypertension Conference', href: '', target: '_blank' },
-        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+        { label: 'Hypertension Conference', href: 'https://hypertension.heart.org', target: '_blank' },
+        { label: 'Sessions at a Glance', href: 'https://junohypertension-heart.s3.us-east-2.amazonaws.com/Hypertension_SAAG_APPROVED0826.pdf', target: '_blank' },
       ],
     },
   },
   'aha-hypertension-non-registered': {
     ...brands.aha,
+    showHeaderWebsiteLink: false,
     name: 'AHA Hypertension Non-Registered',
+    description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
     brand: '#Hypertension21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
-        { label: 'Register Today', href: '', target: '_blank' },
-        { label: 'Schedule at a Glance', href: '', target: '_blank' },
+        { label: 'Register Today', href: 'https://professional.heart.org/en/meetings/hypertension/registration-and-housing', target: '_blank' },
+        { label: 'Sessions at a Glance', href: 'https://professional.heart.org/-/media/phd-files/meetings/hypertension/2021/hypertension-2021-saag.pdf?la=en', target: '_blank' },
       ],
     },
   },
-  'acep ': {
+  'acep-enewsletter': {
     ...brands.acep,
-    name: 'ACEP',
+    name: 'ACEP eNewsletter',
+    description: 'Preview',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#ED8800',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Program', href: 'https://www.acep.org/sa/education/courses/', target: '_blank' },
+        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverag', target: '_blank' },
       ],
     },
   },
   'aha-ss-epreview': {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-image-2021.png',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#AHA21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -165,15 +179,14 @@ const config = {
       ],
     },
   },
-  'asa ': {
+  'asa-today': {
     ...brands.asa,
-    name: 'ASA',
-    headerImageSrc: '',
+    name: 'Anesthesiology Today, Annual Meeting Edition',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#8a84d6',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
       ],
     },
   },

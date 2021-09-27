@@ -28,7 +28,7 @@ module.exports = {
     'aha-ss-epreview': {
       'native-slot-1': '611eafafb4c21e0001a3bf2b',
     },
-    'acep ': {
+    'acep-enewsletter': {
       'native-slot-1': '611eba8eef52af0001544853',
     },
     'ashp ': {
@@ -37,7 +37,7 @@ module.exports = {
     'aao-hnsf': {
       'native-slot-1': '611ebab3b4c21e0001a3c13a',
     },
-    'asa ': {
+    'asa-today': {
       'native-slot-1': '612e6df8fb61160001598bd5',
     },
   },
