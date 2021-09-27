@@ -137,7 +137,7 @@ module.exports = {
   asa: {
     logoSrc: '',
     headerImageSrc: '',
-    socialMed: {
+    socialMedia: {
       imagePath: '',
       links: [
         { provider: 'facebook', href: '', target: '_blank' },
