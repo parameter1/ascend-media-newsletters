@@ -549,7 +549,7 @@ config
       height: 250,
     },
   ])
-  .setAdUnits('asa', [
+  .setAdUnits('asa-today', [
     {
       name: 'ad-slot-1',
       id: '612e6e496a853cc33de6eeba',
