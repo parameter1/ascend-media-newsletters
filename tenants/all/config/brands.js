@@ -74,8 +74,8 @@ module.exports = {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
         { provider: 'facebook', href: 'https://www.facebook.com/ACEPFan', target: '_blank' },
-        { provider: 'instagram', href: 'https://twitter.com/acepnow', target: '_blank' },
-        { provider: 'twitter', href: 'https://www.youtube.com/channel/UCXJmNBwfRY-qyj0CIpVH-WA', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/acepnow', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/channel/UCXJmNBwfRY-qyj0CIpVH-WA', target: '_blank' },
         { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-college-of-emergency-physicians/', target: '_blank' },
       ],
     },
