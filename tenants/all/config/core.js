@@ -51,6 +51,7 @@ const config = {
   'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Registered Attendees',
+    description: 'ePreview',
     showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
@@ -66,6 +67,7 @@ const config = {
   'aha-vascular-discovery-non-registered-attendees': {
     ...brands.aha,
     name: 'AHA Vascular Discovery Non-Registered Attendees',
+    description: 'ePreview',
     showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-vascular-discovery-logo-white.png',
@@ -81,9 +83,11 @@ const config = {
   'aha-ress-eblast': {
     ...brands.aha,
     name: 'AHA ReSS eBlast',
+    description: 'ePreview',
     website: 'https://sessions.hub.heart.org/',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-image-2021.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#ReSS',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -95,6 +99,7 @@ const config = {
   'aha-hypertension-registered': {
     ...brands.aha,
     name: 'AHA Hypertension Registered',
+    description: 'ePreview',
     showHeaderWebsiteLink: false,
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
@@ -111,6 +116,7 @@ const config = {
     ...brands.aha,
     showHeaderWebsiteLink: false,
     name: 'AHA Hypertension Non-Registered',
+    description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-hypertension-logo-white.png',
     brand: '#Hypertension21',
@@ -122,22 +128,25 @@ const config = {
       ],
     },
   },
-  'acep ': {
+  'acep-enewsletter': {
     ...brands.acep,
-    name: 'ACEP',
+    name: 'ACEP eNewsletter',
+    description: 'Preview',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#ED8800',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Program', href: 'https://www.acep.org/sa/education/courses/', target: '_blank' },
+        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverag', target: '_blank' },
       ],
     },
   },
   'aha-ss-epreview': {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-image-2021.png',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#AHA21',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -161,25 +170,24 @@ const config = {
   },
   'aao-hnsf': {
     ...brands.aao,
-    name: 'AAO-HNSF',
-    headerImageSrc: '',
+    name: 'AAO-HNSF eNewsletter',
+    description: 'Preview',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#bf311a',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Posters', href: 'https://www.researchposters.com/display_posters.aspx?code=AAO2021', target: '_blank' },
+        { label: 'Virtual Platform', href: 'https://otomtg21.junolive.co/Welcome', target: '_blank' },
       ],
     },
   },
-  'asa ': {
+  'asa-today': {
     ...brands.asa,
-    name: 'ASA',
-    headerImageSrc: '',
+    name: 'Anesthesiology Today, Annual Meeting Edition',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#8a84d6',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
       ],
     },
   },
