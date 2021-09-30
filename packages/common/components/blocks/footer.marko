@@ -42,40 +42,36 @@ $ const taglineStyle = {
     <table role="presentation" width="100%" border="0" bgcolor=footerBgColor align="center"  cellpadding="0" cellspacing="0">
       <tr>
         <td align="center" valign="top">
-          <table role="presentation" width="610" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
+          <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
             <common-table-spacer-element height="16" />
             <tr>
-              <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td align="left" valign="top" style=standardStyle>
-                    <common-logo-element newsletter=newsletter alt=publicationName />
-                  </td>
+              <td align="left" valign="top" style=standardStyle>
+                <common-logo-element newsletter=newsletter alt=publicationName />
+              </td>
 
-                  $ const socialMedia = get(newsletterConfig, "socialMedia");
-                  $ const socialMediaLinks = getAsArray(socialMedia, "links");
+              $ const socialMedia = get(newsletterConfig, "socialMedia");
+              $ const socialMediaLinks = getAsArray(socialMedia, "links");
 
-                  <td align="right" valign="top" style=standardStyle>
-                    <if(socialMediaLinks.length)>
-                      <table role="presentation" border="0" align="right" cellpadding="0" cellspacing="0">
-                        <tr>
-                          <for|link| of=socialMediaLinks>
-                            <td align="center" valign="middle" style="padding-left: 24px;">
-                              <marko-newsletter-imgix
-                                src=`${socialMedia.imagePath}/${link.provider}.png`
-                                alt=link.provider
-                                options={ h: 24 }
-                                attrs={ border: 0, height: 24, align: "center" }
-                              >
-                                <@link href=link.href target="_blank" />
-                              </marko-newsletter-imgix>
-                            </td>
-                          </for>
-                        </tr>
-                      </table>
-                    </if>
-                  </td>
-                </tr>
-              </table>
+              <td align="right" valign="top" style=standardStyle>
+                <if(socialMediaLinks.length)>
+                  <table role="presentation" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <for|link| of=socialMediaLinks>
+                        <td align="center" valign="middle" style="padding-left: 24px;">
+                          <marko-newsletter-imgix
+                            src=`${socialMedia.imagePath}/${link.provider}.png`
+                            alt=link.provider
+                            options={ h: 24 }
+                            attrs={ border: 0, height: 24, align: "center" }
+                          >
+                            <@link href=link.href target="_blank" />
+                          </marko-newsletter-imgix>
+                        </td>
+                      </for>
+                    </tr>
+                  </table>
+                </if>
+              </td>
             </tr>
             <common-table-spacer-element height="16" />
 
