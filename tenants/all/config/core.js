@@ -136,7 +136,7 @@ const config = {
       bgColor: '#ED8800',
       links: [
         { label: 'Program', href: 'https://www.acep.org/sa/education/courses/', target: '_blank' },
-        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverag', target: '_blank' },
+        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverage', target: '_blank' },
       ],
     },
   },
