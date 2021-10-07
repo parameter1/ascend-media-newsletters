@@ -150,7 +150,7 @@ module.exports = {
     },
     footer: {
       bgColor: '#1226aa',
-      address: 'ASA Headquarters</br>1061 American Lane</br>Schaumburg, IL 6073-4973',
+      address: 'ASA Headquarters<br/>1061 American Lane<br/>Schaumburg, IL 60173-4973',
       copyright: 'American Society of Anesthesiologists',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the ANESTHESIOLOGY 2021 Annual Meeting, ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the ASA.',
