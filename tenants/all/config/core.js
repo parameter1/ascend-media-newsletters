@@ -182,6 +182,7 @@ const config = {
   'asa-today': {
     ...brands.asa,
     name: 'Anesthesiology Today, Annual Meeting Edition',
+    description: 'eDaily',
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
