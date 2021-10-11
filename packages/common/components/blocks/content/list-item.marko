@@ -31,12 +31,14 @@ $ const tagStyle = {
   "line-height": "19px",
   "color": "#257478",
   "text-transform": "uppercase",
-}
+};
 
 $ const sponsoredTagStyle = {
   ...tagStyle,
   "color": "#a91b20",
-}
+};
+
+$ const linkLabel = `story|${input.storyLocation}|${content.name}`;
 
 <tr>
   <td align="center" valign="top">
@@ -86,7 +88,7 @@ $ const sponsoredTagStyle = {
                   <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="pad" style="padding: 0 30px 0px 0;">
                     <tr>
                       <td align="left" valign="top">
-                        <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" href=content.siteContext.url>
+                        <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" href=content.siteContext.url linklabel=linkLabel>
                           ${content.name}
                         </a>
                       </td>
@@ -103,7 +105,7 @@ $ const sponsoredTagStyle = {
                           <if(content.type === 'promotion')>
                             <common-table-spacer-element height="9" />
                             $ const linkText = content.linkText || undefined;
-                            <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
+                            <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url link-label=linkLabel />
                           </if>
                         </table>
                       </td>
@@ -139,7 +141,7 @@ $ const sponsoredTagStyle = {
               <if(content.type === 'promotion')>
                 <common-table-spacer-element height="9" />
                 $ const linkText = content.linkText || undefined;
-                <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
+                <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url link-label=linkLabel />
               </if>
             </table>
           </td>
@@ -148,7 +150,7 @@ $ const sponsoredTagStyle = {
       <else>
         <tr>
           <td align="left" valign="top">
-            <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" href=content.siteContext.url>
+            <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" href=content.siteContext.url linklabel=linkLabel>
               ${content.name}
             </a>
           </td>
@@ -162,7 +164,7 @@ $ const sponsoredTagStyle = {
         <if(content.type === 'promotion')>
           <common-table-spacer-element height="9" />
           $ const linkText = content.linkText || undefined;
-          <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
+          <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url link-label=linkLabel />
         </if>
       </else>
       <common-table-spacer-element height="32" />

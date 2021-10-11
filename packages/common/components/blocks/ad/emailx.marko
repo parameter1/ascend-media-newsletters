@@ -17,7 +17,6 @@ $ const classNames = [`email-x-${alias}-${name}`, input.class];
   <if(response)>
     $ const { data, clickHref, imageSrc } = response;
     $ const { ad } = data;
-
     <!-- determine whether to use emailx click url or the native ad url -->
     $ const href = useEmailxHref ? clickHref : ad.url;
     $ const imageAttrs = {
@@ -38,7 +37,7 @@ $ const classNames = [`email-x-${alias}-${name}`, input.class];
             <tr>
               <td align="center" valign="top" class="mobile">
                 <marko-core-img ...input.image src=imageSrc attrs=imageAttrs class="img_resize1">
-                  <@link target="_blank" ...input.link href=href />
+                  <@link target="_blank" ...input.link href=href attrs={ linklabel: `ad|${input.adLocation}|d|${ad.advertiserName}|${ad.lineitemName}` } />
                 </marko-core-img>
                 <if(defaultValue(dpm.enabled, true))>
                   $ const position = dpm.position || 0;
