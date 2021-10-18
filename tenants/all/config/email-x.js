@@ -592,6 +592,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('aha-ss-international', [
+    {
+      name: 'ad-slot-1',
+      id: '616d869148546908ebe01f1a',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '616d86ad4854694167e01f2d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '616d86c4b5324aed0d7759f2',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '616d86d94854693cd9e01f49',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '616d86ee4854698d22e01f53',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '616d8702485469b981e01f66',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '616d87144854694cfde01f79',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
