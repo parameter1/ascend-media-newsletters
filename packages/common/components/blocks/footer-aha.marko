@@ -40,7 +40,7 @@ $ const standardUnderlineStyle = {
       <common-table-spacer-element height="16" />
       <tr>
         <td align="center" valign="top">
-          <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="mobile1">
+          <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
               <td align="left" valign="top" style=standardStyle>
                 <common-logo-element newsletter=newsletter alt=publicationName />
@@ -49,7 +49,7 @@ $ const standardUnderlineStyle = {
               $ const socialMedia = get(newsletterConfig, "socialMedia");
               $ const socialMediaLinks = getAsArray(socialMedia, "links");
 
-              <td align="center" valign="top" style=standardStyle>
+              <td align="center" valign="top" style=standardStyle class="stack">
                 <if(socialMediaLinks.length)>
                   <table role="presentation" border="0" align="center" cellpadding="0" cellspacing="0">
                     <tr>
@@ -69,7 +69,7 @@ $ const standardUnderlineStyle = {
                   </table>
                 </if>
               </td>
-              <td align="right" valign="top" style=brandStyle>
+              <td align="right" valign="top" style=brandStyle class="stack">
                 ${brand}
               </td>
             </tr>
