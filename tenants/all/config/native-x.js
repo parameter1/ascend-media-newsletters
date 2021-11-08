@@ -31,7 +31,7 @@ module.exports = {
     'acep-enewsletter': {
       'native-slot-1': '611eba8eef52af0001544853',
     },
-    'ashp ': {
+    'ashp-midyear-daily-news': {
       'native-slot-1': '612949a4b5983700013a93e9',
     },
     'aao-hnsf': {
@@ -39,6 +39,9 @@ module.exports = {
     },
     'asa-today': {
       'native-slot-1': '612e6df8fb61160001598bd5',
+    },
+    'ashp-midyear-daily-news-international': {
+      'native-slot-1': '61892868234d66000162997f',
     },
   },
 };
