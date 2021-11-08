@@ -461,7 +461,7 @@ config
       height: 100,
     },
   ])
-  .setAdUnits('ashp', [
+  .setAdUnits('ashp-midyear-daily-news', [
     {
       name: 'ad-slot-1',
       id: '61294af69006f6f0715cb16c',
@@ -635,6 +635,50 @@ config
       id: '616d87144854694cfde01f79',
       width: 600,
       height: 100,
+    },
+  ])
+  .setAdUnits('ashp-midyear-daily-news-international', [
+    {
+      name: 'ad-slot-1',
+      id: '6189276ab0c539469106d923',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '61892789b0c539f43006d93f',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '61892799b701da620a276733',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '618927adb701da38b1276746',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '618927c3b701da1be9276759',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '618927d8b0c539d67106d96d',
+      width: 300,
+      height: 250,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '618927ebb701da2061276775',
+      width: 300,
+      height: 250,
     },
   ]);
 

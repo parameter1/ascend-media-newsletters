@@ -155,15 +155,16 @@ const config = {
       ],
     },
   },
-  'ashp ': {
+  'ashp-midyear-daily-news': {
     ...brands.ashp,
-    name: 'ASHP',
-    headerImageSrc: '',
+    name: 'ASHP Midyear Daily News',
+    description: 'PREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#F47932',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
+        { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
       ],
     },
   },
@@ -203,6 +204,19 @@ const config = {
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
         { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
+      ],
+    },
+  },
+  'ashp-midyear-daily-news-international': {
+    ...brands.ashp,
+    name: 'ASHP Midyear Daily News-International',
+    description: 'INTERNATIONAL',
+    headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
+    channelButtons: {
+      bgColor: '#F47932',
+      links: [
+        { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
+        { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
       ],
     },
   },

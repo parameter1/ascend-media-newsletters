@@ -90,25 +90,22 @@ module.exports = {
     },
   },
   ashp: {
-    logoSrc: '',
-    headerImageSrc: '',
+    logoSrc: '/files/base/ascend/hh/image/static/ashp/ashp-footer.png',
     socialMedia: {
-      imagePath: '',
+      imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/ASHPofficial/', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/ashpofficial/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/ashpofficial', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
-      color: '',
+      color: '#F47932',
     },
     footer: {
-      bgColor: '',
-      address: '',
-      copyright: '',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
-      vendorTagline: '',
+      bgColor: '#006EB7',
+      address: '4500 East-West Highway, Suite 900, Bethesda, MD 20814 Copyright Privacy Policy & Policy on Cookies',
+      copyright: 'American Society of Health-System Pharmacists.',
     },
   },
   aao: {
