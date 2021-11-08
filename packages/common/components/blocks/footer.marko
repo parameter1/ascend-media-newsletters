@@ -88,23 +88,24 @@ $ const taglineStyle = {
               </tr>
               <common-table-spacer-element height="16" />
             </if>
-            <tr>
-              <td align="left" valign="top" style=standardStyle>
-                ${unsubscribe}
-                <a href="@{confirmunsubscribelink}@" style=standardUnderlineStyle>
-                click here.
-                </a>
-              </td>
-            </tr>
+            <if(unsubscribe)>
+              <tr>
+                <td align="left" valign="top" style=standardStyle>
+                  ${unsubscribe}
+                  <a href="@{confirmunsubscribelink}@" style=standardUnderlineStyle>
+                  click here.
+                  </a>
+                </td>
+              </tr>
+            </if>
             <if(vendorTagline)>
               <tr>
                 <td align="left" valign="top" style=standardStyle>
                   ${vendorTagline}
                 </td>
               </tr>
+              <common-table-spacer-element height="19" />
             </if>
-            <common-table-spacer-element height="19" />
-
             <if(copyright)>
             <tr>
               <td align="left" valign="top" style=standardStyle>
