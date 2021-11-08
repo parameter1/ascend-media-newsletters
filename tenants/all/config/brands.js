@@ -90,7 +90,7 @@ module.exports = {
     },
   },
   ashp: {
-    logoSrc: '',
+    logoSrc: '/files/base/ascend/hh/image/static/ashp/ashp-footer.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
@@ -100,14 +100,12 @@ module.exports = {
       ],
     },
     ctaLinkStyle: {
-      color: '',
+      color: '#F47932',
     },
     footer: {
-      bgColor: '',
-      address: '4500 East-West Highway, Suite 900, Bethesda, MD 20814',
-      copyright: 'American Society of Health-System Pharmacists. All Rights Reserved.',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the , ',
-      vendorTagline: '',
+      bgColor: '#006EB7',
+      address: '4500 East-West Highway, Suite 900, Bethesda, MD 20814 Copyright Privacy Policy & Policy on Cookies',
+      copyright: 'American Society of Health-System Pharmacists.',
     },
   },
   aao: {

@@ -155,13 +155,13 @@ const config = {
       ],
     },
   },
-  'ashp ': {
+  'ashp-midyear-daily-news': {
     ...brands.ashp,
-    name: 'ASHP',
+    name: 'ASHP Midyear Daily News',
     description: 'PREVIEW',
     headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#F47932',
       links: [
         { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
         { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
@@ -188,6 +188,19 @@ const config = {
       links: [
         { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
         { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
+      ],
+    },
+  },
+  'ashp-midyear-daily-news-international': {
+    ...brands.ashp,
+    name: 'ASHP Midyear Daily News-International',
+    description: 'INTERNATIONAL',
+    headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
+    channelButtons: {
+      bgColor: '#F47932',
+      links: [
+        { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
+        { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
       ],
     },
   },
