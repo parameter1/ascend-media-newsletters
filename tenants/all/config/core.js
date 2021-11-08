@@ -136,7 +136,7 @@ const config = {
       bgColor: '#ED8800',
       links: [
         { label: 'Program', href: 'https://www.acep.org/sa/education/courses/', target: '_blank' },
-        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverag', target: '_blank' },
+        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverage', target: '_blank' },
       ],
     },
   },
@@ -183,11 +183,27 @@ const config = {
   'asa-today': {
     ...brands.asa,
     name: 'Anesthesiology Today, Annual Meeting Edition',
+    description: 'eDaily',
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
         { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
         { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ss-international': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions ePreview',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
+    brand: '#AHA21',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
       ],
     },
   },

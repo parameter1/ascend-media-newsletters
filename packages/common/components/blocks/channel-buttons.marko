@@ -11,13 +11,14 @@ $ const links = getAsArray(newsletterConfig, "channelButtons.links");
 $ const linkRows = chunkArray(links, 2);
 
 $ const linkAttrs = {
-  style: "font-size: 14px;text-align: center;color: #fff;text-decoration: none;font-weight: 400;",
+  style: "font-family: 'Roboto', arial, sans-serif;font-size: 14px;text-align: center;color: #fff;text-decoration: none;font-weight: 400;",
 };
 
-<tr>
-  <td align="center" valign="top">
-    <table width="92.3%" cellpadding="0" cellspacing="0">
-      <for|row| of=linkRows>
+
+<for|row| of=linkRows>
+  <tr>
+    <td align="center" valign="top">
+      <table width="92.3%" cellpadding="0" cellspacing="0">
         <tr>
           $ const leftLink = row[0];
           <td align="left" valign="top" width="48%" class="split-left">
@@ -61,9 +62,9 @@ $ const linkAttrs = {
             </td>
           </if>
         </tr>
-        <common-table-spacer-element height="24" />
-      </for>
-    </table>
-  </td>
-</tr>
+      </table>
+    </td>
+  </tr>
+  <common-table-spacer-element height="24" />
+</for>
 <common-table-spacer-element height="8" />
