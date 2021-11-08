@@ -23,5 +23,8 @@
   },
   "<common-footer-aha-block>": {
     "template": "./footer-aha.marko"
+  },
+  "<common-large-body-wrapper-block>": {
+    "template": "./large-body-wrapper.marko"
   }
 }

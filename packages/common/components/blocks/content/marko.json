@@ -7,5 +7,11 @@
   },
   "<common-content-list-item-block>": {
     "template": "./list-item.marko"
+  },
+  "<common-content-large-list-block>": {
+    "template": "./large-list.marko"
+  },
+  "<common-content-large-list-item-block>": {
+    "template": "./large-list-item.marko"
   }
 }
