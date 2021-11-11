@@ -38,7 +38,7 @@ $ const sponsoredTagStyle = {
   "color": "#a91b20",
 };
 
-$ const linkLabel = `story|${input.storyLocation}|${content.name}`;
+$ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${content.name}` : input.linkLabel;
 
 <tr>
   <td align="center" valign="top">
