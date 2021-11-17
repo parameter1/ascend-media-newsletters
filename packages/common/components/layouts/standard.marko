@@ -170,6 +170,37 @@ $ const nativeX = config.getAsObject("nativeX");
         <!-- Channels -->
         <common-channel-buttons-block newsletter=newsletter />
 
+        <script>
+          const allAnchors = document.getElementsByTagName('a');
+          const storyLabels = [];
+          const adLabels = [];
+          Object.keys(allAnchors).forEach((anchor) => {
+            const currentLinkLabel = allAnchors[anchor].getAttribute('linklabel');
+            if (currentLinkLabel) {
+              if (currentLinkLabel.match(/^story/)) {
+                storyLabels.push(currentLinkLabel);
+              } else if (currentLinkLabel.match(/^ad/)) {
+                adLabels.push(currentLinkLabel);
+              }
+            }
+          })
+          const labelMap = [];
+          adLabels.forEach((label, index) => {
+            labelMap.push({ was: adLabels[index], is: adLabels[index].replace(/[0-9]+/, index + 1) })
+          });
+          storyLabels.forEach((label, index) => {
+             labelMap.push({ was: storyLabels[index], is: storyLabels[index].replace(/[0-9]+/, index + 1) })
+          });
+          Object.keys(allAnchors).forEach((anchor) => {
+            const currentLinkLabel = allAnchors[anchor].getAttribute('linklabel');
+            if (currentLinkLabel) {
+              const foundLabel = labelMap.find((pair) => pair.was === currentLinkLabel);
+              if (foundLabel) {
+                allAnchors[anchor].setAttribute('linklabel', foundLabel.is);
+              }
+            }
+          });
+        </script>
       </@body>
     </common-body-wrapper-block>
   </@body>
