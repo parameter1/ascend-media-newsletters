@@ -71,7 +71,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
                 class="img_resize1"
                 attrs={ border: 0, width: 610, align: "center", vspace: 5, style: imgStyles }
               >
-                <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles } />
+                <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles, linklabel: linkLabel } />
               </marko-newsletter-imgix>
             </marko-core-obj-value>
           </td>
@@ -121,7 +121,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
                       class="img_resize2"
                       attrs={ border: 0, width: 200, height: 133, style: imgStyles }
                     >
-                      <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles } />
+                      <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles, linklabel: linkLabel  } />
                     </marko-newsletter-imgix>
                   </marko-core-obj-value>
                 </td>
