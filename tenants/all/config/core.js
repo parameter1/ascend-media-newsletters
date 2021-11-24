@@ -158,7 +158,7 @@ const config = {
   'ashp-midyear-daily-news': {
     ...brands.ashp,
     name: 'ASHP Midyear Daily News',
-    description: 'PREVIEW',
+    description: 'Day 1',
     headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
     channelButtons: {
       bgColor: '#F47932',
@@ -210,7 +210,7 @@ const config = {
   'ashp-midyear-daily-news-international': {
     ...brands.ashp,
     name: 'ASHP Midyear Daily News-International',
-    description: 'INTERNATIONAL',
+    description: 'Day 1',
     headerImageSrc: '/files/base/ascend/hh/image/static/ashp/ashp-header-logo.png',
     channelButtons: {
       bgColor: '#F47932',
