@@ -104,8 +104,9 @@ module.exports = {
     },
     footer: {
       bgColor: '#006EB7',
-      address: '4500 East-West Highway, Suite 900, Bethesda, MD 20814 Copyright Privacy Policy & Policy on Cookies',
-      copyright: 'American Society of Health-System Pharmacists.',
+      address: '4500 East-West Highway, Suite 900 <br/> Bethesda, MD 20814',
+      unsubscribe: 'Unsubscribe ',
+      copyright: 'American Society of Health-System Pharmacists',
     },
   },
   aao: {
