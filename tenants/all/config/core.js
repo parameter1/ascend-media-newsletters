@@ -163,7 +163,7 @@ const config = {
     channelButtons: {
       bgColor: '#F47932',
       links: [
-        { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
+        { label: 'Meeting Tools', href: 'https://midyear.ashp.org/virtual-meeting-tools-and-tips?loginreturnUrl=SSOCheckOnly', target: '_blank' },
         { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
       ],
     },
@@ -215,7 +215,7 @@ const config = {
     channelButtons: {
       bgColor: '#F47932',
       links: [
-        { label: 'Registration', href: 'https://midyear.ashp.org/register', target: '_blank' },
+        { label: 'Meeting Tools', href: 'https://midyear.ashp.org/virtual-meeting-tools-and-tips?loginreturnUrl=SSOCheckOnly', target: '_blank' },
         { label: 'Program', href: 'https://midyear.ashp.org/session-schedule-and-itinerary-planner', target: '_blank' },
       ],
     },
