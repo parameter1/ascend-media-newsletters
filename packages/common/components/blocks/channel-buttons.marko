@@ -14,7 +14,6 @@ $ const linkAttrs = {
   style: "font-family: 'Roboto', arial, sans-serif;font-size: 14px;text-align: center;color: #fff;text-decoration: none;font-weight: 400;",
 };
 
-
 <for|row| of=linkRows>
   <tr>
     <td align="center" valign="top">
@@ -28,6 +27,7 @@ $ const linkAttrs = {
                   <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor=buttonBgColor>
                     <tr>
                       <td align="center" valign="middle" style="height: 48px;">
+                      $ linkAttrs.linkLabel = `misc|Button1-${leftLink.label}`;
                         <marko-core-link ...leftLink attrs=linkAttrs>
                           ${leftLink.label}
                         </marko-core-link>
@@ -50,6 +50,7 @@ $ const linkAttrs = {
                     <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor=buttonBgColor>
                       <tr>
                         <td align="center" valign="middle" style="height: 48px;">
+                          $ linkAttrs.linkLabel = `misc|Button2-${rightLink.label}`;
                           <marko-core-link ...rightLink attrs=linkAttrs>
                             ${rightLink.label}
                           </marko-core-link>

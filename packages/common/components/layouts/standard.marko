@@ -3,6 +3,7 @@ import { parseBooleanHeader } from "@parameter1/base-cms-utils";
 import queryFragment from "@ascend-media/package-common/graphql/fragments/content-list";
 
 $ const { website, config, req } = out.global;
+$ const platformDesignator = 'd';
 $ const { newsletter, date } = input.data;
 
 $ const emailX = config.get("emailX");
@@ -25,6 +26,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-1', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 1, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -34,6 +36,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=0
+          storyLocation=1
         />
 
         <!-- Advertisement / Promotion block -->
@@ -42,6 +45,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           promotion-component="advertisement-block"
           placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-1`)
+          link-label-props={ adLocation: 2, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -51,6 +55,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=1
+          storyLocation=2
         />
 
         <!-- Ad Slot 2 -->
@@ -58,6 +63,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-2', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 3, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -67,6 +73,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=2
+          storyLocation=3
         />
 
         <!-- Ad Slot 3 -->
@@ -74,6 +81,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 4, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -83,6 +91,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=3
+          storyLocation=4
         />
 
         <!-- Ad Slot 4 -->
@@ -90,6 +99,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-4', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 5, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -99,6 +109,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=4
+          storyLocation=5
         />
 
         <!-- Ad Slot 5 -->
@@ -106,6 +117,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-5', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 6, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -115,6 +127,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=5
+          storyLocation=6
         />
 
         <!-- Ad Slot 6 -->
@@ -122,6 +135,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-6', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 7, platformDesignator }
         />
 
         <!-- Content list block -->
@@ -131,6 +145,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=1
           skip=6
+          storyLocation=7
         />
 
         <!-- Ad Slot 7 -->
@@ -138,6 +153,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-7', alias: newsletter.alias })
           date=date
+          link-label-props={ adLocation: 8, platformDesignator }
         />
 
          <!-- Content list block -->
@@ -147,11 +163,11 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           limit=3
           skip=7
+          storyLocation=8
         />
 
         <!-- Channels -->
         <common-channel-buttons-block newsletter=newsletter />
-
       </@body>
     </common-body-wrapper-block>
   </@body>
