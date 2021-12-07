@@ -46,5 +46,11 @@ module.exports = {
     'ashp-midyear-daily-news-international': {
       'native-slot-1': '61892868234d66000162997f',
     },
+    'isc-enewsletter-1': {
+      'native-slot-1': '61af908cebe1150001361614',
+    },
+    'isc-enewsletter-2': {
+      'native-slot-1': '61af90b12371430001eb3f5d',
+    },
   },
 };
