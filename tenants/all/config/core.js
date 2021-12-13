@@ -220,6 +220,36 @@ const config = {
       ],
     },
   },
+  'isc-enewsletter-1': {
+    ...brands.aha,
+    name: 'ISC 2022 eNewsletter 1',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC22_eNewsletterHeader.png',
+    logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
+    brand: '#ISC22',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
+        { label: 'Online Program Planner', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'isc-enewsletter-2': {
+    ...brands.aha,
+    name: 'ISC 2022 eNewsletter 2',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC22_eNewsletterHeader.png',
+    logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
+    brand: '#ISC22',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
+        { label: 'Online Program Planner', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;

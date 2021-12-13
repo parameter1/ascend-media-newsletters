@@ -680,6 +680,94 @@ config
       width: 300,
       height: 250,
     },
+  ])
+  .setAdUnits('isc-enewsletter-1', [
+    {
+      name: 'ad-slot-1',
+      id: '61af8eb0b701da6d0f277d9a',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '61af8edfb701da3cad277db6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '61af8f08b0c539a9d206ed0d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '61af8f3fb0c539265106ed32',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '61af8f53b701da933c277df6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '61af8f66b0c539760606ed4e',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '61af8f78b0c5393c8c06ed61',
+      width: 600,
+      height: 100,
+    },
+  ])
+  .setAdUnits('isc-enewsletter-2', [
+    {
+      name: 'ad-slot-1',
+      id: '61af8fa2b0c53948e506ed74',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '61af8fb4b701dac52d277e2d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '61af8fcbb701dabc24277e49',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '61af8fdfb0c5393c9a06ed87',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '61af8ff7b701da4f27277e65',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '61af9007b0c539121206edb5',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '61af9017b0c539fe6906edc8',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
