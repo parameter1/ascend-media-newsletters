@@ -1,0 +1,73 @@
+import { get } from "@parameter1/base-cms-object-path";
+import moment from "moment";
+
+$ const { config } = out.global
+$ const { newsletter, date } = input;
+
+$ const newsletterConfig = config.get(newsletter.alias);
+$ const name = (newsletterConfig.name || newsletter.name);
+$ const newsletterDescription = get(newsletterConfig, "description");
+$ const displayDate = moment(date).format("LL");
+
+$ const descriptionStyle = {
+  "font-family": "'Roboto', arial, sans-serif",
+  "font-size": "13px",
+  "font-weight": "bold",
+  "line-height": "13px",
+  "padding": "4px 8px 4px 0",
+  "text-align": "left"
+}
+
+$ const dateStyle = {
+  ...descriptionStyle,
+  "padding": "4px 0 4px 8px",
+  "text-align": "right"
+}
+<tr>
+  <td align="center" valign="top">
+    <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="center" valign="top" class="mobile">
+            <marko-newsletter-imgix
+              src=newsletterConfig.headerImageSrc
+              options={ w: 650, h: 124 }
+              alt=name
+              attrs={ width: 650, height: 124 }
+              class="img_resize1"
+            />
+          </td>
+        </tr>
+    </table>
+  </td>
+</tr>
+<tr>
+  <td style="padding: 6px 12px">
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+      <tr>
+        <!-- content left -->
+        <td width="70%" align="left" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td align="left" class="mobile-tagline" style=descriptionStyle>
+                $!{newsletterDescription}
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- /content left -->
+        <!-- content right -->
+        <td width="25%" align="right" valign="top">
+          <table border="0" cellpadding="0" cellspacing="0" width="100%">
+            <tr>
+              <td align="right" class="mobile-tagline" style=dateStyle>
+                ${displayDate}
+              </td>
+            </tr>
+          </table>
+        </td>
+        <!-- /content right -->
+      </tr>
+    </table>
+  </td>
+</tr>
+<common-table-spacer-element height="18" />
