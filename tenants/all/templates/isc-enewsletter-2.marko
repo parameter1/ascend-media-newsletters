@@ -1,6 +1,9 @@
 $ const { newsletter, date } = data;
 
 <common-standard-layout data=data>
+  <@header>
+    <common-header-isc-block date=date newsletter=newsletter />
+  </@header>
   <@footer>
     <common-footer-aha-block date=date newsletter=newsletter />
   </@footer>
