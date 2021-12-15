@@ -23,5 +23,8 @@
   },
   "<common-footer-aha-block>": {
     "template": "./footer-aha.marko"
+  },
+  "<common-header-isc-block>": {
+    "template": "./header-isc.marko"
   }
 }
