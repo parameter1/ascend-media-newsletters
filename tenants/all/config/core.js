@@ -14,13 +14,13 @@ const config = {
   'aad-enewsletter-1': {
     ...brands.aad,
     name: 'AAD eNewsletter 1',
-    description: 'AAD SUMMER MEETING | ePREVIEW',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aad/aad-enewsletter-header.png',
+    description: 'ePREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_dermWorld.png',
     channelButtons: {
       bgColor: '#76bc43',
       links: [
-        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/sm21/registration', target: '_blank' },
-        { label: 'Summer Meeting Program', href: 'https://www.aad.org/member/meetings-education/sm21/education', target: '_blank' },
+        { label: 'Meeting Program', href: 'https://am2022.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am22/registration', target: '_blank' },
       ],
     },
   },
@@ -39,12 +39,12 @@ const config = {
   'aad-enewsletter-2': {
     ...brands.aad,
     name: 'AAD eNewsletter 2',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_S21Header_DocBagBlast.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_dermWorld.png',
     channelButtons: {
       bgColor: '#76bc43',
       links: [
-        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/sm21/registration', target: '_blank' },
-        { label: 'Summer Meeting Program', href: 'https://www.aad.org/member/meetings-education/sm21/education', target: '_blank' },
+        { label: 'Meeting Program', href: 'https://am2022.aad.org/sessions', target: '_blank' },
+        { label: 'Industry Highlights', href: 'https://www.aadmeetingnews.org/industry-highlights', target: '_blank' },
       ],
     },
   },
@@ -247,6 +247,19 @@ const config = {
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
         { label: 'Online Program Planner', href: '', target: '_blank' },
+      ],
+    },
+  },
+  'aad-enewsletter-3': {
+    ...brands.aad,
+    name: 'AAD eNewsletter 3',
+    description: 'ePREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_dermWorld.png',
+    channelButtons: {
+      bgColor: '#76bc43',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
       ],
     },
   },
