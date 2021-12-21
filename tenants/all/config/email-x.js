@@ -768,6 +768,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('aad-enewsletter-3', [
+    {
+      name: 'ad-slot-1',
+      id: '61bca904b0c539355006f0c3',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '61bca923b0c539345506f0f1',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '61bca93db701da0fe62781ae',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '61bca9dfb701da215f2781b8',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '61bca9f7b0c5394e4c06f116',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '61bcaa0db0c539e34406f129',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '61bcaa22b0c539db8c06f13c',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;

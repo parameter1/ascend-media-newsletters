@@ -52,5 +52,8 @@ module.exports = {
     'isc-enewsletter-2': {
       'native-slot-1': '61af90b12371430001eb3f5d',
     },
+    'aad-enewsletter-3': {
+      'native-slot-1': '61bcaa88661f850001199b9e',
+    },
   },
 };
