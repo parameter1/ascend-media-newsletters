@@ -7,6 +7,7 @@ $ const { newsletter, date } = input;
 $ const newsletterConfig = config.get(newsletter.alias);
 $ const name = (newsletterConfig.name || newsletter.name);
 $ const newsletterDescription = get(newsletterConfig, "description");
+$ const headerDisclaimer = get(newsletterConfig, "disclaimer");
 $ const displayDate = moment(date).format("LL");
 
 $ const descriptionStyle = {
@@ -23,6 +24,14 @@ $ const dateStyle = {
   "padding": "4px 0 4px 8px",
   "text-align": "right"
 }
+
+$ const disclaimerStyle = {
+  "font-family": "'Roboto', arial, sans-serif",
+  "font-size": "8px",
+  "padding": "0px 5px 0px 5px",
+  "text-align": "left"
+}
+
 <tr>
   <td align="center" valign="top">
     <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -70,4 +79,17 @@ $ const dateStyle = {
     </table>
   </td>
 </tr>
+<if(headerDisclaimer)>
+  <tr>
+    <td>
+      <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+          <td align="left" class="mobile-tagline" style=disclaimerStyle>
+            ${headerDisclaimer}
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+</if>
 <common-table-spacer-element height="18" />
