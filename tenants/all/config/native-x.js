@@ -55,5 +55,8 @@ module.exports = {
     'aad-enewsletter-3': {
       'native-slot-1': '61bcaa88661f850001199b9e',
     },
+    'shm-enewsletter': {
+      'native-slot-1': '61e9b1728c995a00018c7150',
+    },
   },
 };

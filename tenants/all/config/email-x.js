@@ -812,6 +812,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('shm-enewsletter', [
+    {
+      name: 'ad-slot-1',
+      id: '61e9b093b0c5391c8506f699',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '61e9b0a6b701da4aa627874a',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '61e9b0b9b701dac26b27875d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '61e9b0cab701dadc00278770',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '61e9b0e0b701da22fa278783',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '61e9b0f4b0c5395a0906f6eb',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '61e9b106b0c5391f8906f6fe',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
