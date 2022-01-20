@@ -265,6 +265,18 @@ const config = {
       ],
     },
   },
+  'shm-enewsletter': {
+    ...brands.shm,
+    name: 'SHM eNewsletter',
+    description: 'ePREVIEW',
+    channelButtons: {
+      bgColor: '',
+      links: [
+        { label: '', href: '', target: '_blank' },
+        { label: '', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
