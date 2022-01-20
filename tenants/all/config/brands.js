@@ -154,4 +154,25 @@ module.exports = {
       vendorTagline: 'Ascend Media is an official advertising vendor for the ASA.',
     },
   },
+  shm: {
+    logoSrc: '/files/base/ascend/hh/image/static/shm/SHMC22_logo_white.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/shm/SHM_newsletter.png',
+    socialMedia: {
+      imagePath: '/files/base/ascend/hh/image/static',
+      links: [
+        { provider: 'facebook', href: '', target: '_blank' },
+        { provider: 'instagram', href: '', target: '_blank' },
+        { provider: 'twitter', href: '', target: '_blank' },
+      ],
+    },
+    ctaLinkStyle: {
+      color: '',
+    },
+    footer: {
+      bgColor: '#ffa400',
+      address: 'Society of Hospital Medicine<br/>1500 Spring Garden, Suite 501<br/>Philadelphia, PA 19130',
+      copyright: 'Society of Hospital Medicine',
+      unsubscribe: '',
+    },
+  },
 };
