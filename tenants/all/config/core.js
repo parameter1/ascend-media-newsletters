@@ -29,10 +29,10 @@ const config = {
     name: 'AUA Daily',
     description: 'AUA Daily eNews',
     channelButtons: {
-      bgColor: '#22919c',
+      bgColor: '#63B1B1',
       links: [
-        { label: 'Registration', href: 'https://www.compusystems.com/servlet/ar?evt_uid=211', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net//2021/AUA2021/', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
       ],
     },
   },
