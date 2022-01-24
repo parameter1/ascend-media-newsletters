@@ -29,7 +29,7 @@ const config = {
     name: 'AUA Daily',
     description: 'AUA Daily eNews',
     channelButtons: {
-      bgColor: '#E87722',
+      bgColor: '#63B1B1',
       links: [
         { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
         { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
