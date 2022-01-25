@@ -270,10 +270,10 @@ const config = {
     name: 'SHM eNewsletter',
     description: 'ePREVIEW',
     channelButtons: {
-      bgColor: '',
+      bgColor: '#202945',
       links: [
-        { label: '', href: '', target: '_blank' },
-        { label: '', href: '', target: '_blank' },
+        { label: 'Register Now', href: '', target: '_blank' },
+        { label: 'Converge News', href: '', target: '_blank' },
       ],
     },
   },
