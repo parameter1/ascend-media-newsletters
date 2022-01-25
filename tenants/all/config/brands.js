@@ -160,17 +160,18 @@ module.exports = {
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
+        { provider: 'facebook', href: 'https://www.facebook.com/SocietyHospMed/', target: '_blank' },
+        { provider: 'twitter', href: 'https://twitter.com/SocietyHospMed', target: '_blank' },
+        { provider: 'instagram', href: 'https://www.instagram.com/societyhospmed/', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/societyhospmed/', target: '_blank' },
       ],
     },
     ctaLinkStyle: {
-      color: '',
+      color: '#ffa400',
     },
     footer: {
       bgColor: '#ffa400',
-      address: 'Society of Hospital Medicine<br/>1500 Spring Garden, Suite 501<br/>Philadelphia, PA 19130',
+      address: 'Society of Hospital Medicine<br/>1500 Spring Garden, Suite 501<br/>Philadelphia, PA 19130<br/>Phone: 800-843-3360<br/>Fax: 267-702-2690<br/>customerservice@hospitalmedicine',
       copyright: 'Society of Hospital Medicine',
       unsubscribe: '',
     },
