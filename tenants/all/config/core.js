@@ -232,7 +232,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: '', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://eventpilotadmin.com/web/planner.php?id=ISC22', target: '_blank' },
       ],
     },
   },
@@ -248,7 +248,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: '', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://eventpilotadmin.com/web/planner.php?id=ISC22', target: '_blank' },
       ],
     },
   },
