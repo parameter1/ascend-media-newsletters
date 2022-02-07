@@ -4,7 +4,7 @@ import { get } from "@parameter1/base-cms-object-path";
 $ const { config, website } = out.global;
 $ const { newsletter } = input;
 $ const newsletterConfig = config.get(newsletter.alias);
-$ const newsletterName = get(newsletterConfig, "newsletterName");
+$ const useCustomLinkText = get(newsletterConfig, "customLinkText");
 $ const showViewOnline = defaultValue(newsletterConfig.showViewOnline, true);
 $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteLink, true);
 
@@ -18,14 +18,14 @@ $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteL
             <if(showViewOnline)>
               <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a>
             </if>
-            <if(showViewOnline && showHeaderWebsiteLink || newsletterName)>
+            <if(showViewOnline && showHeaderWebsiteLink || useCustomLinkText)>
               &nbsp; | &nbsp;
             </if>
             <if(showHeaderWebsiteLink)>
               <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
             </if>
-            <if(newsletterName)>
-              <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${newsletterName}</a>
+            <if(useCustomLinkText)>
+              <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${useCustomLinkText}</a>
             </if>
           </td>
         </tr>
