@@ -1,8 +1,10 @@
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
+import { get } from "@parameter1/base-cms-object-path";
 
 $ const { config, website } = out.global;
 $ const { newsletter } = input;
 $ const newsletterConfig = config.get(newsletter.alias);
+$ const customWebsiteLinkText = get(newsletterConfig, "customWebsiteLinkText");
 $ const showViewOnline = defaultValue(newsletterConfig.showViewOnline, true);
 $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteLink, true);
 
@@ -18,9 +20,12 @@ $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteL
             </if>
             <if(showViewOnline && showHeaderWebsiteLink)>
               &nbsp; | &nbsp;
-            </if>
-            <if(showHeaderWebsiteLink)>
-              <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+              <if(customWebsiteLinkText)>
+                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${customWebsiteLinkText}</a>
+              </if>
+              <else>
+                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+              </else>
             </if>
           </td>
         </tr>

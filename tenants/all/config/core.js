@@ -28,6 +28,7 @@ const config = {
     ...brands.aua,
     name: 'AUA Daily',
     description: 'AUA Daily eNews',
+    customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
       bgColor: '#63B1B1',
       links: [
