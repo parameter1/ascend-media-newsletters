@@ -24,9 +24,9 @@ const config = {
       ],
     },
   },
-  'aua-daily': {
+  'aua-daily-domestic': {
     ...brands.aua,
-    name: 'AUA Daily',
+    name: 'AUA Daily Domestic',
     description: 'AUA Daily eNews',
     customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
@@ -263,6 +263,19 @@ const config = {
       links: [
         { label: 'Meeting Program', href: 'https://am2022.aad.org/sessions', target: '_blank' },
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am22/registration', target: '_blank' },
+      ],
+    },
+  },
+  'aua-daily-international': {
+    ...brands.aua,
+    name: 'AUA Daily International',
+    description: 'AUA Daily eNews',
+    customWebsiteLinkText: 'AUA Daily News Online',
+    channelButtons: {
+      bgColor: '#63B1B1',
+      links: [
+        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
       ],
     },
   },
