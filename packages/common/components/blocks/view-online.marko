@@ -4,7 +4,7 @@ import { get } from "@parameter1/base-cms-object-path";
 $ const { config, website } = out.global;
 $ const { newsletter } = input;
 $ const newsletterConfig = config.get(newsletter.alias);
-$ const useCustomLinkText = get(newsletterConfig, "customLinkText");
+$ const customWebsiteLinkText = get(newsletterConfig, "customWebsiteLinkText");
 $ const showViewOnline = defaultValue(newsletterConfig.showViewOnline, true);
 $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteLink, true);
 
@@ -18,14 +18,14 @@ $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteL
             <if(showViewOnline)>
               <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a>
             </if>
-            <if(showViewOnline && showHeaderWebsiteLink || useCustomLinkText)>
+            <if(showViewOnline && showHeaderWebsiteLink)>
               &nbsp; | &nbsp;
-            </if>
-            <if(showHeaderWebsiteLink)>
-              <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
-            </if>
-            <if(useCustomLinkText)>
-              <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${useCustomLinkText}</a>
+              <if(customWebsiteLinkText)>
+                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${customWebsiteLinkText}</a>
+              </if>
+              <else>
+                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+              </else>
             </if>
           </td>
         </tr>
