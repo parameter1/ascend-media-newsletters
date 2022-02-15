@@ -24,15 +24,16 @@ const config = {
       ],
     },
   },
-  'aua-daily': {
+  'aua-daily-domestic': {
     ...brands.aua,
-    name: 'AUA Daily',
+    name: 'AUA Daily Domestic',
     description: 'AUA Daily eNews',
+    customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
-      bgColor: '#22919c',
+      bgColor: '#63B1B1',
       links: [
-        { label: 'Registration', href: 'https://www.compusystems.com/servlet/ar?evt_uid=211', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net//2021/AUA2021/', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
       ],
     },
   },
@@ -232,7 +233,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: '', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://eventpilotadmin.com/web/planner.php?id=ISC22', target: '_blank' },
       ],
     },
   },
@@ -248,7 +249,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/international-stroke-conference/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: '', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://eventpilotadmin.com/web/planner.php?id=ISC22', target: '_blank' },
       ],
     },
   },
@@ -265,7 +266,20 @@ const config = {
       ],
     },
   },
-  'shm-enewsletter': {
+  'aua-daily-international': {
+    ...brands.aua,
+    name: 'AUA Daily International',
+    description: 'AUA Daily eNews',
+    customWebsiteLinkText: 'AUA Daily News Online',
+    channelButtons: {
+      bgColor: '#63B1B1',
+      links: [
+        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
+      ],
+    },
+  },
+    'shm-enewsletter': {
     ...brands.shm,
     name: 'SHM eNewsletter',
     description: 'ePREVIEW',

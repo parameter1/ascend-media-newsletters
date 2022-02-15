@@ -21,7 +21,7 @@ module.exports = {
     },
   },
   aua: {
-    headerImageSrc: '/files/base/ascend/hh/image/static/aua/aua-header.jpeg',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aua/AUA_newsletter.png',
     logoSrc: '/files/base/ascend/hh/image/static/aua/AUA_footer-logo.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
@@ -34,13 +34,13 @@ module.exports = {
       ],
     },
     ctaLinkStyle: {
-      color: '#22919c',
+      color: '#E87722',
     },
     footer: {
-      bgColor: '#22919c',
+      bgColor: '#63B1B1',
       address: 'AUA Corporate Offices<br/>1000 Corporate Boulevard<br/>Linthicum, MD 21090',
       copyright: 'American Urological Association',
-      unsubscribe: 'To unsubscribe from this list ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2022 AUA Annual Meeting, ',
     },
   },
   aha: {

@@ -4,7 +4,7 @@ module.exports = {
     'aad-enewsletter-1': {
       'native-slot-1': '60c9e3742134870001cf88fc',
     },
-    'aua-daily': {
+    'aua-daily-domestic': {
       'native-slot-1': '60fee97488b8050001f43230',
     },
     'aad-enewsletter-2': {
@@ -54,6 +54,9 @@ module.exports = {
     },
     'aad-enewsletter-3': {
       'native-slot-1': '61bcaa88661f850001199b9e',
+    },
+    'aua-daily-international': {
+      'native-slot-1': '62017f4d804a2f00012ae2e0',
     },
     'shm-enewsletter': {
       'native-slot-1': '61e9b1728c995a00018c7150',
