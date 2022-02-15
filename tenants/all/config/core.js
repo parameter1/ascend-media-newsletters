@@ -279,7 +279,7 @@ const config = {
       ],
     },
   },
-    'shm-enewsletter': {
+  'shm-enewsletter': {
     ...brands.shm,
     name: 'SHM eNewsletter',
     description: 'ePREVIEW',
