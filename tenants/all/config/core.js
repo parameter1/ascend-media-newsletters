@@ -279,6 +279,18 @@ const config = {
       ],
     },
   },
+  'shm-enewsletter': {
+    ...brands.shm,
+    name: 'SHM eNewsletter',
+    description: 'ePREVIEW',
+    channelButtons: {
+      bgColor: '#202945',
+      links: [
+        { label: 'Register Now', href: 'https://www.hospitalmedicine.org/event/annual-conference/shmc-2022/', target: '_blank' },
+        { label: 'Converge News', href: 'https://www.shmmeetingnewscentral.com/', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;

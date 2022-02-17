@@ -58,5 +58,8 @@ module.exports = {
     'aua-daily-international': {
       'native-slot-1': '62017f4d804a2f00012ae2e0',
     },
+    'shm-enewsletter': {
+      'native-slot-1': '61e9b1728c995a00018c7150',
+    },
   },
 };
