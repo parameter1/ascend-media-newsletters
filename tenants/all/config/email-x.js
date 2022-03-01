@@ -46,6 +46,24 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '621e7eb5b701da6fc727b028',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '621e7f21b0c539b9b7071d3d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '621e7f3db0c5393d62071d47',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('aua-daily-domestic', [
     {
@@ -149,6 +167,24 @@ config
     {
       name: 'ad-slot-7',
       id: '6102f28b6a853c6f95e6bac0',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '621e7f60b701da84ba27b071',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '621e7f76b701da052427b084',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '621e7f8bb701da12f527b0a0',
       width: 600,
       height: 100,
     },
