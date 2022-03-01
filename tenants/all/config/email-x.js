@@ -812,6 +812,24 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '621e373db701da4a1a27ae58',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '621e374fb0c5390325071af1',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '621e3760b701dae37d27ae6b',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('aua-daily-international', [
     {
