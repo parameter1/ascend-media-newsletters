@@ -40,6 +40,7 @@ const config = {
   'aad-enewsletter-2': {
     ...brands.aad,
     name: 'AAD eNewsletter 2',
+    description: 'ePREVIEW',
     headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_dermWorld.png',
     channelButtons: {
       bgColor: '#76bc43',
