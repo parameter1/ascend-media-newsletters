@@ -157,8 +157,10 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
         </tr>
         <common-table-spacer-element height="5" />
         <tr>
-          <td align="left" valign="middle" style="font-family: 'Roboto', arial, sans-serif;font-size: 17px;line-height: 23px;color: #202022;font-weight: 400;">
-            ${content.teaser}
+          <td align="left" valign="top">
+            <a style="font-family: 'Roboto', arial, sans-serif;font-size: 17px;line-height: 23px;color: #202022;font-weight: 400;text-decoration: none;" href=content.siteContext.url>
+              ${content.teaser}
+            </a>
           </td>
         </tr>
         <if(content.type === 'promotion')>
