@@ -6,8 +6,7 @@
       "type": "string",
       "required": true
     },
-    "@link-style": "object",
-    "@link-label": "string"
+    "@link-style": "object"
   },
   "<common-link-element>": {
     "template": "./link.marko",
@@ -19,8 +18,7 @@
       "type": "string",
       "required": true
     },
-    "@link-style": "object",
-    "@link-label": "string"
+    "@link-style": "object"
   },
   "<common-list-header-element>": {
     "template": "./list-header.marko"

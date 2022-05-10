@@ -1,6 +1,6 @@
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
 
-$ const { linkUrl, linkLabel } = input;
+$ const { linkUrl } = input;
 $ const linkText = defaultValue(input.linkText, 'Continue Reading');
 
 $ const linkStyle = {
@@ -16,5 +16,4 @@ $ const linkStyle = {
   link-text=linkText
   link-url=linkUrl
   link-style=linkStyle
-  link-label=linkLabel
 />
