@@ -38,8 +38,6 @@ $ const sponsoredTagStyle = {
   "color": "#a91b20",
 };
 
-$ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${content.name}` : input.linkLabel;
-
 <tr>
   <td align="center" valign="top">
     <table role="presentation" width="610" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
@@ -71,7 +69,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
                 class="img_resize1"
                 attrs={ border: 0, width: 610, align: "center", vspace: 5, style: imgStyles }
               >
-                <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles, linklabel: linkLabel } />
+                <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles } />
               </marko-newsletter-imgix>
             </marko-core-obj-value>
           </td>
@@ -88,7 +86,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
                   <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0" class="pad" style="padding: 0 30px 0px 0;">
                     <tr>
                       <td align="left" valign="top">
-                        <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" href=content.siteContext.url linklabel=linkLabel>
+                        <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" href=content.siteContext.url>
                           $!{content.name}
                         </a>
                       </td>
@@ -105,7 +103,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
                           <if(content.type === 'promotion')>
                             <common-table-spacer-element height="9" />
                             $ const linkText = content.linkText || undefined;
-                            <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url link-label=linkLabel />
+                            <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
                           </if>
                         </table>
                       </td>
@@ -121,7 +119,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
                       class="img_resize2"
                       attrs={ border: 0, width: 200, height: 133, style: imgStyles }
                     >
-                      <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles, linklabel: linkLabel  } />
+                      <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles } />
                     </marko-newsletter-imgix>
                   </marko-core-obj-value>
                 </td>
@@ -141,7 +139,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
               <if(content.type === 'promotion')>
                 <common-table-spacer-element height="9" />
                 $ const linkText = content.linkText || undefined;
-                <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url link-label=linkLabel />
+                <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
               </if>
             </table>
           </td>
@@ -150,7 +148,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
       <else>
         <tr>
           <td align="left" valign="top">
-            <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" href=content.siteContext.url linklabel=linkLabel>
+            <a style="font-family: 'Roboto', arial, sans-serif;font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" href=content.siteContext.url>
               $!{content.name}
             </a>
           </td>
@@ -164,7 +162,7 @@ $ const linkLabel = input.storyLocation ? `story|${input.storyLocation}|${conten
         <if(content.type === 'promotion')>
           <common-table-spacer-element height="9" />
           $ const linkText = content.linkText || undefined;
-          <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url link-label=linkLabel />
+          <common-cta-element link-style=ctaLinkStyle link-text=linkText link-url=content.siteContext.url />
         </if>
       </else>
       <common-table-spacer-element height="32" />
