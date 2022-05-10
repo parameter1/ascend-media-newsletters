@@ -1,13 +1,10 @@
 import { get, getAsObject } from "@parameter1/base-cms-object-path";
 
 $ const newsletter = getAsObject(input, "newsletter");
-$ const { sectionName, date, content, linkLabelProps } = input;
-$ const { adLocation, platformDesignator } = linkLabelProps;
+$ const { sectionName, date, content } = input;
 
 $ const url = get(content, "siteContext.path");
 $ const company = getAsObject(content, "company");
-
-$ const linkLabel = `ad|${adLocation}|${platformDesignator}|${company.name}|${content.name}`;
 
 $ const imgStyles = {
   "font-size": "14px",
@@ -79,7 +76,7 @@ $ const imgLinkStyles = {
               <common-table-spacer-element height="6" />
               <tr>
                 <td align="left" valign="top" style="font-size:16px;line-height:23px;color:#3475b6;font-weight:400;padding: 0 0 0 123px;" class="wdth">
-                  <a href=url target="_blank" style="text-decoration: none;color: #3475b6;" linklabel=linkLabel>${content.name}</a>
+                  <a href=url target="_blank" style="text-decoration: none;color: #3475b6;">${content.name}</a>
                 </td>
               </tr>
               <common-table-hr-element height="15" />
