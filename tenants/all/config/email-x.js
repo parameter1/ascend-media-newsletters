@@ -972,6 +972,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('asa-today-2022', [
+    {
+      name: 'ad-slot-1',
+      id: '627bed8db701da2aa527fb1d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '627bed9db0c5391c2c076656',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '627bedb0b701da3d0427fb30',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '627bedc7b0c539b6b7076672',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '627beddab0c5391a76076685',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '627bededb701da459a27fb5e',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '627bee03b701da6c9227fb71',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
