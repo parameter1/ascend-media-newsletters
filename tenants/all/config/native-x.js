@@ -61,5 +61,8 @@ module.exports = {
     'shm-enewsletter': {
       'native-slot-1': '61e9b1728c995a00018c7150',
     },
+    'asa-today-2022': {
+      'native-slot-1': '627bed15531a13000163e6be',
+    },
   },
 };

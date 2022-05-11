@@ -292,6 +292,18 @@ const config = {
       ],
     },
   },
+  'asa-today-2022': {
+    ...brands.asa,
+    name: 'Anesthesiology Today, Annual Meeting Edition',
+    description: 'eDaily',
+    channelButtons: {
+      bgColor: '#8a84d6',
+      links: [
+        { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
