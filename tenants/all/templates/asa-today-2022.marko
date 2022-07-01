@@ -1,1 +1,7 @@
-<common-standard-layout data=data />
+$ const { newsletter, date } = data;
+
+<common-standard-layout data=data>
+  <@footer>
+    <common-footer-asa-22-block date=date newsletter=newsletter />
+  </@footer>
+</common-standard-layout>
