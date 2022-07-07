@@ -293,15 +293,26 @@ const config = {
     },
   },
   'asa-today-2022': {
-    ...brands.asa,
-    name: 'Anesthesiology Today, Annual Meeting Edition',
+    logoSrc: '/files/base/ascend/hh/image/static/asa/asa-footer-logo.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/asa/amdn-22.jpeg',
+    name: 'Annual Meeting Daily News',
     description: 'eDaily',
+    ctaLinkStyle: {
+      color: '#8a84d6',
+    },
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
         { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
-        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/9323', target: '_blank' },
+        { label: 'Sessions', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
       ],
+    },
+    footer: {
+      bgColor: '#1226aa',
+      address: '1061 American Lane | Schaumburg, IL 60173',
+      copyright: 'American Society of Anesthesiologists (ASA)',
+      unsubscribe: 'You received this email because you are a member or customer of ASA or you are on a third-party prospect list. If you no longer wish to receive industry promotional emails for the ANESTHESIOLOGY 2022 Annual Meeting, ',
+      vendorTagline: 'Ascend Media is an official advertising vendor for the ASA.',
     },
   },
 };
