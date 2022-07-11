@@ -296,6 +296,7 @@ const config = {
     logoSrc: '/files/base/ascend/hh/image/static/asa/asa-footer-logo.png',
     headerImageSrc: '/files/base/ascend/hh/image/static/asa/amdn-22.jpeg',
     name: 'Annual Meeting Daily News',
+    customWebsiteLinkText: 'Annual Meeting Daily News',
     description: 'eDaily',
     ctaLinkStyle: {
       color: '#8a84d6',
