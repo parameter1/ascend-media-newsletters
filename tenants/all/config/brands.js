@@ -69,7 +69,7 @@ module.exports = {
   },
   acep: {
     logoSrc: '/files/base/ascend/hh/image/static/acep/acep-footer.png',
-    headerImageSrc: '/files/base/ascend/hh/image/static/acep/acep-header.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/acep/ACEP22_eNewsHeader.jpeg',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
@@ -86,7 +86,7 @@ module.exports = {
       bgColor: '#1C57A5',
       address: 'ACEP Corporate Offices<br/>4950 W. Royal Lane<br/>Irving, TX 75063-2524',
       copyright: 'American College of Emergency Physicians',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the ACEP21 Scientific Assembly, ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the ACEP22 Scientific Assembly, ',
     },
   },
   ashp: {
