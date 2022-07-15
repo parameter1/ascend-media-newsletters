@@ -1016,6 +1016,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('acep-enewsletter-2', [
+    {
+      name: 'ad-slot-1',
+      id: '62d1882a7ce34bfd296458b8',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '62d188434ce45791a68a28b9',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '62d1885d4ce45790818a28cc',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '62d188797ce34b5e0a6458ef',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '62d188954ce45715148a28df',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '62d188ac7ce34b047664590b',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '62d188c14ce45703568a2904',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;

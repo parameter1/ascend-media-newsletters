@@ -64,5 +64,8 @@ module.exports = {
     'asa-today-2022': {
       'native-slot-1': '627bed15531a13000163e6be',
     },
+    'acep-enewsletter-2': {
+      'native-slot-1': '62d18918b070600001afef2a',
+    },
   },
 };

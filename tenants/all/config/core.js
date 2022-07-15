@@ -316,6 +316,18 @@ const config = {
       vendorTagline: 'Ascend Media is an official advertising vendor for the ASA.',
     },
   },
+  'acep-enewsletter-2': {
+    ...brands.acep,
+    name: 'ACEP eNewsletter',
+    description: 'Preview',
+    channelButtons: {
+      bgColor: '#ED8800',
+      links: [
+        { label: 'Program', href: 'https://www.acep.org/sa/education/courses/', target: '_blank' },
+        { label: 'Meeting Coverage', href: 'https://acepmeetingnewscentral.com/meeting-coverage', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
