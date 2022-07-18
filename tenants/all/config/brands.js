@@ -111,7 +111,7 @@ module.exports = {
   },
   aao: {
     logoSrc: '/files/base/ascend/hh/image/static/aao-hns/aao-hnsf-footer.png',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/aao-hnsf-header-logo.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/AAOHNSF22_eNewsHeader.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
@@ -128,7 +128,7 @@ module.exports = {
       bgColor: '#bf311a',
       address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
       copyright: 'American Academy of Otolaryngology - Head and Neck Surgery',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for AAO-NHSF 2021 Annual Meeting & OTO Experience, ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for AAO-NHSF 2022 Annual Meeting & OTO Experience, ',
     },
   },
   asa: {
