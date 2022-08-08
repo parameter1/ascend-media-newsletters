@@ -1,5 +1,8 @@
 {
   "<common-standard-layout>": {
     "template": "./standard.marko"
+  },
+  "<common-ascend-standard-layout>": {
+    "template": "./ascend-standard.marko"
   }
 }
