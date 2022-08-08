@@ -328,6 +328,11 @@ const config = {
       ],
     },
   },
+  'thoracic-enewsletter': {
+    ...brands.ascend,
+    name: 'Thoracic eNewsletter',
+    description: '',
+  },
 };
 
 module.exports = config;
