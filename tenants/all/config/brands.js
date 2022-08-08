@@ -176,4 +176,20 @@ module.exports = {
       unsubscribe: 'To unsubscribe from this list ',
     },
   },
+  ascend: {
+    logoSrc: '',
+    headerImageSrc: '',
+    socialMedai: {
+      imagePath: '',
+      links: [
+        {},
+      ],
+    },
+    footer: {
+      bgColor: '',
+      address: '',
+      copyright: '',
+      unsubscribe: '',
+    },
+  },
 };
