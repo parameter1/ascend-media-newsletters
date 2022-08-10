@@ -177,10 +177,10 @@ module.exports = {
     },
   },
   ascend: {
-    logoSrc: '',
-    headerImageSrc: '',
+    logoSrc: '/files/base/ascend/ascendmedia/image/static/thoracic-logo.png',
+    headerImageSrc: '/files/base/ascend/ascendmedia/image/static/thoracic-logo.png',
     socialMedia: {
-      imagePath: '',
+      imagePath: '/files/base/ascend/hh/image/static',
       links: [
         { provider: 'facebook', href: '', target: '_blank' },
         { provider: 'twitter', href: '', target: '_blank' },
