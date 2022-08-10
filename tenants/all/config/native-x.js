@@ -68,7 +68,7 @@ module.exports = {
       'native-slot-1': '62d18918b070600001afef2a',
     },
     'thoracic-enewsletter': {
-      'native-slot-1': '62f1056421ed000001cbfcc2',
+      'native-slot-1': '62f105767657660001c42e5c',
     },
   },
 };
