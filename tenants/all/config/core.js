@@ -177,8 +177,8 @@ const config = {
     channelButtons: {
       bgColor: '#bf311a',
       links: [
-        { label: 'Posters', href: 'https://www.researchposters.com/display_posters.aspx?code=AAO2021', target: '_blank' },
-        { label: 'Virtual Platform', href: 'https://otomtg21.junolive.co/Welcome', target: '_blank' },
+        { label: 'Conference Agenda', href: '', target: '_blank' },
+        { label: 'Posters', href: '', target: '_blank' },
       ],
     },
   },
