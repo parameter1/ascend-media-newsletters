@@ -306,6 +306,8 @@ const config = {
       links: [
         { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
         { label: 'Sessions', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
+        { label: 'Exhibit Hall Hours', href: '#', target: '_blank' },
+        { label: 'My Meeting App', href: '#', target: '_blank' },
       ],
     },
     footer: {
