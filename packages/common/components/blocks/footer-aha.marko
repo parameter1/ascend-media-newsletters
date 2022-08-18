@@ -1,3 +1,4 @@
+import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
 import { get, getAsArray } from "@parameter1/base-cms-object-path";
 import moment from "moment";
 
@@ -14,6 +15,8 @@ $ const address = get(newsletterConfig, "footer.address");
 $ const copyright = get(newsletterConfig, "footer.copyright");
 $ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
 $ const brand = get(newsletterConfig, "brand");
+$ const logoSrc = newsletterConfig.logoSrc;
+$ const alt = defaultValue(input.alt, newsletter.name);
 
 $ const standardStyle = {
   "font-size": "12px",
@@ -26,12 +29,24 @@ $ const standardStyle = {
 $ const brandStyle = {
   ...standardStyle,
   "font-size": "16px",
-}
+};
 
 $ const standardUnderlineStyle = {
   ...standardStyle,
   "text-decoration": "underline",
   "padding": "0",
+};
+
+$ const logoStyles = {
+  "border": "0",
+  "font-size": "0",
+  "line-height": "0",
+};
+
+$ const linkStyles = {
+  "display": "block",
+  "font-size": "0",
+  "line-height": "0",
 };
 
 <tr>
@@ -43,7 +58,13 @@ $ const standardUnderlineStyle = {
           <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
             <tr>
               <td align="left" valign="top" style=standardStyle class="stack">
-                <common-logo-element newsletter=newsletter alt=publicationName />
+                <marko-newsletter-imgix
+                  src=logoSrc
+                  alt=alt
+                  options={ w: 240 }
+                  attrs={ border: "0", width: "240", style: logoStyles }>
+                    <@link href=website.get("origin") attrs={ style: linkStyles } target="_blank" />
+                </marko-newsletter-imgix>
               </td>
 
               $ const socialMedia = get(newsletterConfig, "socialMedia");
