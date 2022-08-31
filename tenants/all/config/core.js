@@ -173,7 +173,7 @@ const config = {
   'aao-hnsf': {
     ...brands.aao,
     name: 'AAO-HNSF eNewsletter',
-    description: 'Preview',
+    description: 'eDaily',
     channelButtons: {
       bgColor: '#bf311a',
       links: [
