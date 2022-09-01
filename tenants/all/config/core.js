@@ -304,10 +304,10 @@ const config = {
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
-        { label: 'Governance Resources', href: 'https://www.asahq.org/annualmeeting/governance', target: '_blank' },
-        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
-        { label: 'Exhibit Hall Hours', href: '#', target: '_blank' },
         { label: 'My Meeting App', href: '#', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
+        { label: 'Exhibit Hall', href: '#', target: '_blank' },
+        { label: 'Governance Resources', href: 'https://www.asahq.org/annualmeeting/governance', target: '_blank' },
       ],
     },
     footer: {
