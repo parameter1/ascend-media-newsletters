@@ -1016,6 +1016,24 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '631b655083dec362983f185d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '631b65902b5f671c773604e5',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '631b65b82b5f67e8283604f8',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('acep-enewsletter-2', [
     {
