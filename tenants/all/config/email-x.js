@@ -496,6 +496,36 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '6320d7c383dec3b2aa3f2931',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '6320d7ed2b5f674d4d36157b',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '6320d7ff83dec3621b3f2956',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '6320d81083dec334ff3f2969',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '6320d82683dec3e2bf3f2973',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('ashp-midyear-daily-news', [
     {
@@ -1075,6 +1105,36 @@ config
     {
       name: 'ad-slot-7',
       id: '62d188c14ce45703568a2904',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '6320d8402b5f673a693615a9',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '6320d8532b5f676e8a3615bc',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '6320d8682b5f67f0d13615cf',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '6320d88483dec38eac3f29a1',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '6320d8962b5f67fc013615eb',
       width: 600,
       height: 100,
     },
