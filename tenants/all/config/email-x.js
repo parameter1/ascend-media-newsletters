@@ -452,6 +452,24 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '6346c4fa83dec36b243f3b4e',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '6346c5212b5f67ae3b36263a',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '6346c5362b5f672ec5362644',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('acep-enewsletter', [
     {
@@ -699,6 +717,24 @@ config
     {
       name: 'ad-slot-7',
       id: '616d87144854694cfde01f79',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '6346c55d83dec379be3f3b85',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '6346c57083dec336753f3b98',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '6346c5852b5f67730336268d',
       width: 600,
       height: 100,
     },
