@@ -94,7 +94,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/resuscitation-science-symposium', target: '_blank' },
-        { label: 'SAAG', href: '#', target: '_blank' },
+        { label: 'View Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.138131376.1293946439.1666113340-74158399.1585661384#!/10691', target: '_blank' },
       ],
     },
   },
