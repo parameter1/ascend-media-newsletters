@@ -87,14 +87,14 @@ const config = {
     name: 'AHA ReSS eBlast',
     description: 'ePreview',
     website: 'https://sessions.hub.heart.org/',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
-    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
-    brand: '#ReSS',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHAReSS22_eNews_Header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHAReSS22_eNews_LogoFooter.png',
+    brand: '#ReSS22',
     channelButtons: {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/resuscitation-science-symposium', target: '_blank' },
-        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
+        { label: 'View Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.138131376.1293946439.1666113340-74158399.1585661384#!/10691', target: '_blank' },
       ],
     },
   },
