@@ -176,23 +176,13 @@ module.exports = {
       unsubscribe: 'To unsubscribe from this list ',
     },
   },
-  ascend: {
-    logoSrc: '/files/base/ascend/ascendmedia/image/static/thoracic-logo.png',
-    headerImageSrc: '/files/base/ascend/ascendmedia/image/static/thoracic-logo.png',
-    socialMedia: {
-      imagePath: '/files/base/ascend/hh/image/static',
-      links: [
-        { provider: 'facebook', href: '', target: '_blank' },
-        { provider: 'twitter', href: '', target: '_blank' },
-        { provider: 'linkedin', href: '', target: '_blank' },
-        { provider: 'instagram', href: '', target: '_blank' },
-      ],
+  am: {
+    logo: {
+      src: '/files/base/ascend/ascendmedia/image/static/Am_Pulmonary_Insights.png',
+      footerWidth: 200,
     },
-    footer: {
-      bgColor: '',
-      address: '',
-      copyright: '',
-      unsubscribe: '',
-    },
+    unsubscribe: '',
+    privacyPolicyLink: '',
+    subscribeLink: '',
   },
 };
