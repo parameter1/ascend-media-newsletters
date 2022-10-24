@@ -67,8 +67,8 @@ module.exports = {
     'acep-enewsletter-2': {
       'native-slot-1': '62d18918b070600001afef2a',
     },
-    'thoracic-enewsletter': {
-      'native-slot-1': '62f105767657660001c42e5c',
+    'pulmonary-insights': {
+      'native-slot-1': '634d94abe058a900017a6535',
     },
   },
 };

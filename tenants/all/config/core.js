@@ -328,9 +328,9 @@ const config = {
       ],
     },
   },
-  'thoracic-enewsletter': {
-    ...brands.ascend,
-    name: 'Thoracic eNewsletter',
+  'pulmonary-insights': {
+    ...brands.am,
+    name: 'Pulmonary Insights',
     description: '',
   },
 };
