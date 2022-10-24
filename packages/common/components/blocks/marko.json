@@ -26,5 +26,11 @@
   },
   "<common-footer-asa-22-block>": {
     "template": "./footer-asa-22.marko"
+  },
+  "<common-am-header-block>": {
+    "template": "./am-header.marko"
+  },
+  "<common-am-footer-block>": {
+    "template": "./am-footer.marko"
   }
 }
