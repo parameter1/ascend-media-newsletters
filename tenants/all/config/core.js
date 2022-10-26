@@ -90,6 +90,7 @@ const config = {
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHAReSS22_eNews_Header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/AHAReSS22_eNews_LogoFooter.png',
     brand: '#ReSS22',
+    customWebsiteLinkText: 'ReSS22',
     channelButtons: {
       bgColor: '#C12126',
       links: [
