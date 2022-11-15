@@ -225,12 +225,12 @@ const config = {
   },
   'isc-enewsletter-1': {
     ...brands.aha,
-    name: 'ISC 2022 eNewsletter 1',
+    name: 'ISC 2023 eNewsletter 1',
     description: 'ePreview',
     disclaimer: 'The American Stroke Association (ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. ASA makes no warranties of any kind, express or implied, with regard to its third-party vendor websites.',
-    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC22_eNewsletterHeader.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC23_eNewsHeader.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
-    brand: '#ISC22',
+    brand: '#ISC23',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -241,12 +241,12 @@ const config = {
   },
   'isc-enewsletter-2': {
     ...brands.aha,
-    name: 'ISC 2022 eNewsletter 2',
+    name: 'ISC 2023 eNewsletter 2',
     description: 'ePreview',
     disclaimer: 'The American Stroke Association (ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. ASA makes no warranties of any kind, express or implied, with regard to its third-party vendor websites.',
-    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC22_eNewsletterHeader.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC23_eNewsHeader.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
-    brand: '#ISC22',
+    brand: '#ISC23',
     channelButtons: {
       bgColor: '#C12126',
       links: [
