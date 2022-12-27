@@ -67,5 +67,8 @@ module.exports = {
     'acep-enewsletter-2': {
       'native-slot-1': '62d18918b070600001afef2a',
     },
+    'aao-hnsf-extra': {
+      'native-slot-1': '63a4ced012609b00011f9363',
+    },
   },
 };
