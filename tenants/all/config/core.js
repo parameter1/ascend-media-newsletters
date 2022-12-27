@@ -331,6 +331,25 @@ const config = {
       ],
     },
   },
+  'aao-hnsf-extra': {
+    name: 'AAO-HNSF Extra eNewsletter',
+    description: 'eDaily',
+    logoSrc: '/files/base/ascend/hh/image/static/aao-hns/AAO-HNS_White_Footer.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/Bulletin_Extra_650x240.jpeg',
+    channelButtons: {
+      bgColor: '#694d6b',
+      links: [
+        { label: 'Bulletin', href: 'https://bulletin.entnet.org/', target: '_blank' },
+        { label: 'AAO-HNSF', href: 'https://www.entnet.org/', target: '_blank' },
+      ],
+    },
+    footer: {
+      bgColor: '#694d6b',
+      address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
+      copyright: 'American Academy of Otolaryngology - Head and Neck Surgery',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for AAO-NHSF 2023 Annual Meeting & OTO Experience, ',
+    },
+  },
 };
 
 module.exports = config;
