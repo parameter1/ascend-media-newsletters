@@ -48,9 +48,11 @@ module.exports = {
     },
     'isc-enewsletter-1': {
       'native-slot-1': '61af908cebe1150001361614',
+      'native-slot-2': '63b47be147d30f00012becd9',
     },
     'isc-enewsletter-2': {
       'native-slot-1': '61af90b12371430001eb3f5d',
+      'native-slot-2': '63b47bf76a12c60001c6a55a',
     },
     'aad-enewsletter-3': {
       'native-slot-1': '61bcaa88661f850001199b9e',
