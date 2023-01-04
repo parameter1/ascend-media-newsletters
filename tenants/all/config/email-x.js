@@ -1199,7 +1199,7 @@ config
       height: 100,
     },
   ])
-  .setAdUnits('aao-hnsf-extra', [
+  .setAdUnits('aao-hns-extra', [
     {
       name: 'ad-slot-1',
       id: '63a4cde91609c82eedf916f3',
