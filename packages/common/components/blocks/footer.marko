@@ -16,6 +16,9 @@ $ const address = get(newsletterConfig, "footer.address") || "";
 $ const copyright = get(newsletterConfig, "footer.copyright") || "";
 $ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
 $ const vendorTagline = get(newsletterConfig, "footer.vendorTagline");
+$ const advertise = get(newsletterConfig, "footer.advertise");
+$ const advertiseCont = get(newsletterConfig, "footer.advertiseCont");
+
 
 $ const standardStyle = {
   "font-size": "12px",
@@ -104,6 +107,7 @@ $ const taglineStyle = {
                   </a>
                 </td>
               </tr>
+              <common-table-spacer-element height="10" />
             </if>
             <if(vendorTagline)>
               <tr>
@@ -112,6 +116,14 @@ $ const taglineStyle = {
                 </td>
               </tr>
               <common-table-spacer-element height="19" />
+            </if>
+            <if(advertise)>
+              <tr>
+                <td align="left" valign="top" style=standardStyle>
+                  ${advertise}<i>Bulletin</i> ${advertiseCont}
+                </td>
+              </tr>
+              <common-table-spacer-element height="10" />
             </if>
             <if(copyright)>
             <tr>
