@@ -347,6 +347,8 @@ const config = {
       address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
       copyright: 'American Academy of Otolaryngology - Head and Neck Surgery',
       unsubscribe: 'If you no longer wish to receive these emails, ',
+      advertise: 'Acceptance of advertising in the ',
+      advertiseCont: 'in no way constitutes approval or endorsement by AAO-HNS of products or services advertised unless indicated as such.',
     },
   },
 };
