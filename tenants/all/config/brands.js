@@ -155,8 +155,8 @@ module.exports = {
     },
   },
   shm: {
-    logoSrc: '/files/base/ascend/hh/image/static/shm/SHMC22_logo_white.png',
-    headerImageSrc: '/files/base/ascend/hh/image/static/shm/SHM_newsletter.png',
+    logoSrc: '/files/base/ascend/hh/image/static/shm/SHM_650_1300_newsletter.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/shm/SHM_650_1300_newsletter_header.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
