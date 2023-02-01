@@ -288,7 +288,7 @@ const config = {
     channelButtons: {
       bgColor: '#202945',
       links: [
-        { label: 'Register Now', href: 'https://web.cvent.com/event/fe3d1bd7-7df8-4503-b878-b0f345f01248/regProcessStep1', target: '_blank' },
+        { label: 'Register Now', href: 'https://shmconverge.hospitalmedicine.org/register/', target: '_blank' },
         { label: 'Converge News', href: 'https://www.shmmeetingnewscentral.com/', target: '_blank' },
       ],
     },
