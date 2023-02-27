@@ -365,6 +365,19 @@ const config = {
       unsubscribe: 'If you no longer wish to receive these emails, ',
     },
   },
+  'aad-enewsletter-4-expanded': {
+    ...brands.aad,
+    name: 'AAD eNewsletter 4',
+    description: 'ePREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_dermWorld.png',
+    channelButtons: {
+      bgColor: '#76bc43',
+      links: [
+        { label: 'Meeting Program', href: 'https://am2023.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am23/registration', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
