@@ -72,5 +72,10 @@ module.exports = {
     'aao-hns-extra': {
       'native-slot-1': '63a4ced012609b00011f9363',
     },
+    'aad-enewsletter-4-expanded': {
+      'native-slot-1': '63fcc180f3efa700015a212f',
+      'native-slot-2': '63fcc18ec776740001f1d177',
+      'native-slot-3': '63fcc19cf3efa700015a21c3',
+    },
   },
 };
