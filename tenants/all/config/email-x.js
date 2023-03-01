@@ -64,6 +64,30 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-11',
+      id: '63fcba2f39aeb06f4f76c231',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '63fcba4539aeb0374476c244',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-13',
+      id: '63fcba5639aeb06b1b76c257',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-14',
+      id: '63fcba6a39aeb0429076c26a',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('aua-daily-domestic', [
     {
@@ -185,6 +209,30 @@ config
     {
       name: 'ad-slot-10',
       id: '621e7f8bb701da12f527b0a0',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '63fcba853277ad4b8ceb4621',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '63fcba9939aeb0e9ac76c2aa',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-13',
+      id: '63fcbaa939aeb0040f76c2b4',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-14',
+      id: '63fcbaba3277ada90eeb4646',
       width: 600,
       height: 100,
     },
@@ -956,6 +1004,30 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-11',
+      id: '63fcbad13277ad5f2beb466b',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '63fcbae339aeb0105776c2f4',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-13',
+      id: '63fcbaf33277adbe4eeb4690',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-14',
+      id: '63fcbb073277ad1270eb46a3',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('aua-daily-international', [
     {
@@ -1239,6 +1311,86 @@ config
     {
       name: 'ad-slot-7',
       id: '63a4ce5d6d09482fbffc2cf8',
+      width: 600,
+      height: 100,
+    },
+  ])
+  .setAdUnits('aad-enewsletter-4-expanded', [
+    {
+      name: 'ad-slot-1',
+      id: '63fcbc5b39aeb03b8176c608',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '63fcbc9a3277ade9deeb48c5',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '63fcbcac3277adfaedeb48e1',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '63fcbcc039aeb0258276c624',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '63fcbcd139aeb0864a76c637',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '63fcbce439aeb0071b76c641',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '63fcbcf339aeb0a6fd76c65d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '63fcbd033277ad60beeb4918',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '63fcbd1a3277ad4175eb493d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '63fcbd2839aeb0d9db76c679',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '63fcbd3939aeb036bb76c68c',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '63fcbd4939aeb0892976c69f',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-13',
+      id: '63fcbd583277ad7a30eb496b',
       width: 600,
       height: 100,
     },
