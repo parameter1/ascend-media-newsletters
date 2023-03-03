@@ -32,8 +32,8 @@ const config = {
     channelButtons: {
       bgColor: '#63B1B1',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
       ],
     },
   },
@@ -292,8 +292,8 @@ const config = {
     channelButtons: {
       bgColor: '#63B1B1',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
       ],
     },
   },
