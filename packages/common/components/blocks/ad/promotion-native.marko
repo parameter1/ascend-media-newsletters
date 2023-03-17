@@ -3,7 +3,7 @@ import { get, getAsObject } from "@parameter1/base-cms-object-path";
 $ const newsletter = getAsObject(input, "newsletter");
 $ const { sectionName, date, content, linkLabelProps } = input;
 $ const { adLocation, platformDesignator } = linkLabelProps;
-$ const linkLabel = `ad|${adLocation}|${platformDesignator}|${content.company.name}|${content.name}`;
+$ const linkLabel = `ad|${adLocation}|${platformDesignator}|%prjname%|${company.name}|%blastname%|Traffic Driving Ad|${content.name}`;
 
 $ content.labels = ["Sponsored"];
 
