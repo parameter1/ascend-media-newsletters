@@ -10,7 +10,7 @@ $ const url = get(content, "siteContext.path");
 $ const company = getAsObject(content, "company");
 $ const label = input.label || "Paid Advertisement";
 
-$ const linkLabel = `ad|${adLocation}|${platformDesignator}|${company.name}|${content.name}`;
+$ const linkLabel = `ad|${adLocation}|${platformDesignator}|%prjname%|${company.name}|%blastname%|Traffic Driving Ad|${content.name}`;
 
 $ const imgStyles = {
   "font-size": "14px",
