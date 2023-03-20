@@ -77,5 +77,10 @@ module.exports = {
       'native-slot-2': '63fcc18ec776740001f1d177',
       'native-slot-3': '63fcc19cf3efa700015a21c3',
     },
+    'shm-enewsletter-2': {
+      'native-slot-1': '64185410f3efa70001ac4f7a',
+      'native-slot-2': '6418559af3efa70001ac5b81',
+      'native-slot-3': '641855a6b8089d0001970629',
+    },
   },
 };
