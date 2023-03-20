@@ -378,6 +378,18 @@ const config = {
       ],
     },
   },
+  'shm-enewsletter-2': {
+    ...brands.shm,
+    name: 'SHM eNewsletter',
+    description: 'ePREVIEW',
+    channelButtons: {
+      bgColor: '#202945',
+      links: [
+        { label: 'Register Now', href: 'https://shmconverge.hospitalmedicine.org/register/', target: '_blank' },
+        { label: 'Converge News', href: 'https://www.shmmeetingnewscentral.com/', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
