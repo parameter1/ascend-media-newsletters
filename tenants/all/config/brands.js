@@ -182,7 +182,7 @@ module.exports = {
       footerWidth: 200,
     },
     unsubscribe: '',
-    privacyPolicyLink: '',
+    privacyPolicyLink: '/page/privacy-policy',
     subscribeLink: '',
   },
 };
