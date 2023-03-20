@@ -19,8 +19,8 @@ const config = {
     channelButtons: {
       bgColor: '#76bc43',
       links: [
-        { label: 'Meeting Program', href: 'https://am2022.aad.org/sessions', target: '_blank' },
-        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am22/registration', target: '_blank' },
+        { label: 'Meeting Program', href: 'https://am2023.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am23/registration', target: '_blank' },
       ],
     },
   },
@@ -30,10 +30,10 @@ const config = {
     description: 'AUA Daily eNews',
     customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
-      bgColor: '#63B1B1',
+      bgColor: '#00567A',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
       ],
     },
   },
@@ -45,8 +45,8 @@ const config = {
     channelButtons: {
       bgColor: '#76bc43',
       links: [
-        { label: 'Meeting Program', href: 'https://am2022.aad.org/sessions', target: '_blank' },
-        { label: 'Industry Highlights', href: 'https://www.aadmeetingnews.org/industry-highlights', target: '_blank' },
+        { label: 'Meeting Program', href: 'https://am2023.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am23/registration', target: '_blank' },
       ],
     },
   },
@@ -87,14 +87,15 @@ const config = {
     name: 'AHA ReSS eBlast',
     description: 'ePreview',
     website: 'https://sessions.hub.heart.org/',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ress-header-2021.png',
-    logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
-    brand: '#ReSS',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHAReSS22_eNews_Header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHAReSS22_eNews_LogoFooter.png',
+    brand: '#ReSS22',
+    customWebsiteLinkText: 'ReSS22',
     channelButtons: {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/resuscitation-science-symposium', target: '_blank' },
-        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
+        { label: 'View Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.138131376.1293946439.1666113340-74158399.1585661384#!/10691', target: '_blank' },
       ],
     },
   },
@@ -146,14 +147,14 @@ const config = {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS22_eNews_header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
-    brand: '#AHA21',
+    brand: '#AHA22',
     channelButtons: {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.20399802.36245607.1660839477-74158399.1585661384#!/10611', target: '_blank' },
       ],
     },
   },
@@ -173,12 +174,12 @@ const config = {
   'aao-hnsf': {
     ...brands.aao,
     name: 'AAO-HNSF eNewsletter',
-    description: 'Preview',
+    description: 'eDaily',
     channelButtons: {
       bgColor: '#bf311a',
       links: [
-        { label: 'Posters', href: 'https://www.researchposters.com/display_posters.aspx?code=AAO2021', target: '_blank' },
-        { label: 'Virtual Platform', href: 'https://otomtg21.junolive.co/Welcome', target: '_blank' },
+        { label: 'Conference Agenda', href: 'https://www.entnet.org/events/annual-meeting/program/schedule/', target: '_blank' },
+        { label: 'Posters', href: 'https://www.eventscribe.net/2022/aaohnsf22amposters/index.asp?launcher=1', target: '_blank' },
       ],
     },
   },
@@ -198,14 +199,14 @@ const config = {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/aha-ss-header-2021.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS22_eNews_header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
-    brand: '#AHA21',
+    brand: '#AHA22',
     channelButtons: {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.52016033.903420193.1631127443-74158399.1585661384#!/9349', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.20399802.36245607.1660839477-74158399.1585661384#!/10611', target: '_blank' },
       ],
     },
   },
@@ -224,12 +225,20 @@ const config = {
   },
   'isc-enewsletter-1': {
     ...brands.aha,
-    name: 'ISC 2022 eNewsletter 1',
+    name: 'ISC 2023 eNewsletter 1',
     description: 'ePreview',
-    disclaimer: 'The American Stroke Association (ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. ASA makes no warranties of any kind, express or implied, with regard to its third-party vendor websites.',
-    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC22_eNewsletterHeader.png',
+    socialMedia: {
+      imagePath: '/files/base/ascend/hh/image/static',
+      links: [
+        { provider: 'twitter', href: 'https://twitter.com/AHAScience', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-heart-association/', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/ahasciencenews', target: '_blank' },
+      ],
+    },
+    disclaimer: 'The American Heart Association/American Stroke Association (AHA/ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. AHA/ASA makes no warranties of any kind, express, or implied, with regard to its third-party vendor websites. Paid advertisements are not reviewed by the AHA/ASA for scientific accuracy.',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC23_eNewsHeader.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
-    brand: '#ISC22',
+    brand: '#ISC23',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -240,12 +249,20 @@ const config = {
   },
   'isc-enewsletter-2': {
     ...brands.aha,
-    name: 'ISC 2022 eNewsletter 2',
+    name: 'ISC 2023 eNewsletter 2',
     description: 'ePreview',
-    disclaimer: 'The American Stroke Association (ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. ASA makes no warranties of any kind, express or implied, with regard to its third-party vendor websites.',
-    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC22_eNewsletterHeader.png',
+    socialMedia: {
+      imagePath: '/files/base/ascend/hh/image/static',
+      links: [
+        { provider: 'twitter', href: 'https://twitter.com/AHAScience', target: '_blank' },
+        { provider: 'linkedin', href: 'https://www.linkedin.com/company/american-heart-association/', target: '_blank' },
+        { provider: 'youtube', href: 'https://www.youtube.com/ahasciencenews', target: '_blank' },
+      ],
+    },
+    disclaimer: 'The American Heart Association/American Stroke Association (AHA/ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. AHA/ASA makes no warranties of any kind, express, or implied, with regard to its third-party vendor websites. Paid advertisements are not reviewed by the AHA/ASA for scientific accuracy.',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC23_eNewsHeader.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
-    brand: '#ISC22',
+    brand: '#ISC23',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -262,8 +279,8 @@ const config = {
     channelButtons: {
       bgColor: '#76bc43',
       links: [
-        { label: 'Meeting Program', href: 'https://am2022.aad.org/sessions', target: '_blank' },
-        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am22/registration', target: '_blank' },
+        { label: 'Meeting Program', href: 'https://am2023.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am23/registration', target: '_blank' },
       ],
     },
   },
@@ -273,10 +290,10 @@ const config = {
     description: 'AUA Daily eNews',
     customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
-      bgColor: '#63B1B1',
+      bgColor: '#00567A',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/annualmeeting/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2022/AUA2022/', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
       ],
     },
   },
@@ -287,7 +304,7 @@ const config = {
     channelButtons: {
       bgColor: '#202945',
       links: [
-        { label: 'Register Now', href: 'https://web.cvent.com/event/fe3d1bd7-7df8-4503-b878-b0f345f01248/regProcessStep1', target: '_blank' },
+        { label: 'Register Now', href: 'https://shmconverge.hospitalmedicine.org/register/', target: '_blank' },
         { label: 'Converge News', href: 'https://www.shmmeetingnewscentral.com/', target: '_blank' },
       ],
     },
@@ -304,8 +321,10 @@ const config = {
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
-        { label: 'Registration', href: 'https://www.asahq.org/annualmeeting/attend/registration', target: '_blank' },
-        { label: 'Sessions', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
+        { label: 'My Meeting App', href: 'https://plan.core-apps.com/anes22/customScreen/aboutShow', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
+        { label: 'Exhibit Hall', href: 'https://www.asahq.org/annualmeeting/network/exhibit-hall', target: '_blank' },
+        { label: 'Governance Resources', href: 'https://www.asahq.org/annualmeeting/governance', target: '_blank' },
       ],
     },
     footer: {
@@ -332,6 +351,37 @@ const config = {
     ...brands.am,
     name: 'Pulmonary Insights',
     description: '',
+  },
+  'aao-hns-extra': {
+    name: 'AAO-HNS Extra eNewsletter',
+    logoSrc: '/files/base/ascend/hh/image/static/aao-hns/AAO-HNS_White_Footer.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/Bulletin_Extra_650x240.jpeg',
+    channelButtons: {
+      bgColor: '#694d6b',
+      links: [
+        { label: 'Bulletin', href: 'https://bulletin.entnet.org/', target: '_blank' },
+        { label: 'AAO-HNS', href: 'https://www.entnet.org/', target: '_blank' },
+      ],
+    },
+    footer: {
+      bgColor: '#694d6b',
+      address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
+      copyright: 'American Academy of Otolaryngology-Head and Neck Surgery',
+      unsubscribe: 'If you no longer wish to receive these emails, ',
+    },
+  },
+  'aad-enewsletter-4-expanded': {
+    ...brands.aad,
+    name: 'AAD eNewsletter 4',
+    description: 'ePREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_dermWorld.png',
+    channelButtons: {
+      bgColor: '#76bc43',
+      links: [
+        { label: 'Meeting Program', href: 'https://am2023.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am23/registration', target: '_blank' },
+      ],
+    },
   },
 };
 

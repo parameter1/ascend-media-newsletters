@@ -32,6 +32,11 @@ $ const disclaimerStyle = {
   "text-align": "left"
 }
 
+$ const imgOptions = {
+  "bg": "#ffffff",
+  "fill": "solid",
+}
+
 <tr>
   <td align="center" valign="top">
     <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
@@ -39,7 +44,7 @@ $ const disclaimerStyle = {
           <td align="center" valign="top" class="mobile">
             <marko-newsletter-imgix
               src=newsletterConfig.headerImageSrc
-              options={ w: 650 }
+              options=imgOptions
               alt=name
               attrs={ width: 650 }
               class="img_resize1"

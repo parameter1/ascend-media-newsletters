@@ -16,7 +16,7 @@ module.exports = {
       bgColor: '#1c7cd5',
       address: 'AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
       copyright: 'American Academy of Dermatology | Association',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2022 AAD Innovation Academy, ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2023 AAD Annual Meeting, ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the AAD.',
     },
   },
@@ -34,13 +34,13 @@ module.exports = {
       ],
     },
     ctaLinkStyle: {
-      color: '#E87722',
+      color: '#00567A',
     },
     footer: {
-      bgColor: '#63B1B1',
+      bgColor: '#00567A',
       address: 'AUA Corporate Offices<br/>1000 Corporate Boulevard<br/>Linthicum, MD 21090',
       copyright: 'American Urological Association',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2022 AUA Annual Meeting, ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2023 AUA Annual Meeting, ',
     },
   },
   aha: {
@@ -111,7 +111,7 @@ module.exports = {
   },
   aao: {
     logoSrc: '/files/base/ascend/hh/image/static/aao-hns/aao-hnsf-footer.png',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/aao-hnsf-header-logo.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aao-hns/AAOHNSF22_eNewsHeader.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
@@ -128,7 +128,7 @@ module.exports = {
       bgColor: '#bf311a',
       address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
       copyright: 'American Academy of Otolaryngology - Head and Neck Surgery',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for AAO-NHSF 2021 Annual Meeting & OTO Experience, ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for AAO-NHSF 2022 Annual Meeting & OTO Experience, ',
     },
   },
   asa: {
@@ -156,7 +156,7 @@ module.exports = {
   },
   shm: {
     logoSrc: '/files/base/ascend/hh/image/static/shm/SHMC22_logo_white.png',
-    headerImageSrc: '/files/base/ascend/hh/image/static/shm/SHM_newsletter.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/shm/SHM_650_1300_newsletter_header.png',
     socialMedia: {
       imagePath: '/files/base/ascend/hh/image/static',
       links: [
