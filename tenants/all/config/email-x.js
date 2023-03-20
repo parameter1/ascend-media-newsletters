@@ -1394,6 +1394,50 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('shm-enewsletter-2', [
+    {
+      name: 'ad-slot-1',
+      id: '6418532a39aeb04ae176eccb',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '641853433277ad6ce8eb6f30',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '6418535a39aeb03b4376ecf0',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '6418536b39aeb0e2fc76ed03',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '6418537e3277ada7f7eb6f55',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '6418539139aeb0044776ed28',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '641853a139aeb093b476ed3b',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
