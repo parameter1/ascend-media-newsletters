@@ -347,6 +347,11 @@ const config = {
       ],
     },
   },
+  'pulmonary-insights': {
+    ...brands.am,
+    name: 'Pulmonary Insights',
+    description: '',
+  },
   'aao-hns-extra': {
     name: 'AAO-HNS Extra eNewsletter',
     logoSrc: '/files/base/ascend/hh/image/static/aao-hns/AAO-HNS_White_Footer.png',

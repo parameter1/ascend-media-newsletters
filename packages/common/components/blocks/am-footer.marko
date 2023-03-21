@@ -1,0 +1,137 @@
+import { get, getAsObject, getAsArray } from "@parameter1/base-cms-object-path";
+import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
+
+$ const { website, config } = out.global;
+$ const { newsletter } = input;
+
+$ const newsletterConfig = config.get(newsletter.alias);
+$ const tagline = get(newsletterConfig, "tagline");
+$ const subscribeLink = get(newsletterConfig, "subscribeLink");
+$ const privacyPolicyLink = get(newsletterConfig, "privacyPolicyLink");
+$ const footerWidth = defaultValue(get(newsletterConfig, "logo.footerWidth"), 130);
+$ const logoSrc = newsletterConfig.logo.src;
+$ const alt = defaultValue(input.alt, newsletter.name);
+
+$ const standardStyle = {
+  "font-size": "17px",
+  "line-height": "22px",
+  "color": "#000000",
+  "font-family": "'Roboto', Arial, sans-serif",
+  "padding": "0 15px",
+};
+
+$ const standardUnderlineStyle = {
+  ...standardStyle,
+  "text-decoration": "underline",
+  "padding": "0",
+};
+
+$ const smallerStyle = {
+  ...standardStyle,
+  "font-size": "15px",
+  "line-height": "20px",
+};
+
+$ const smallerUnderlineStyle = {
+  ...smallerStyle,
+  "line-height": "18px",
+  "text-decoration": "underline",
+  "padding": "0",
+};
+
+$ const taglineStyle = {
+  ...smallerStyle,
+  "font-style": "italic",
+  "padding-top": "5px",
+}
+
+
+<tr>
+  <td align="center" valign="top">
+    <table role="presentation" width="610" border="0" align="center"  cellpadding="0" cellspacing="0" class="wrap003">
+      <tr>
+        <td align="center" valign="top">
+          <table role="presentation" width="100%" border="0" bgcolor="#ededed" align="center"  cellpadding="0" cellspacing="0">
+            <common-table-spacer-element height="20" />
+              <tr>
+                <td align="center" valign="top">
+                  <marko-newsletter-imgix
+                    src=logoSrc
+                    options={ w: footerWidth }
+                    alt=alt
+                    attrs={ fit: "fill", fillColor: "#ededed" }
+                  >
+                      <@link href=website.get("origin") target="_blank" />
+                  </marko-newsletter-imgix>
+                  <!-- <common-logo-element newsletter=newsletter alt=publicationName width=footerWidth options={ fit: "fill", fillColor: "#ededed" } /> -->
+                </td>
+              </tr>
+              <if(tagline)>
+                <tr>
+                  <td align="center" valign="top" style=taglineStyle>${tagline}</td>
+                </tr>
+              </if>
+              <common-table-spacer-element height="20" />
+
+              <!-- $ const socialMedia = get(newsletterConfig, "socialMedia");
+              $ const socialMediaLinks = getAsArray(socialMedia, "links");
+              <if(socialMediaLinks.length)>
+                <tr>
+                  <td align="center" valign="top" >
+                    <table role="presentation" width="200" border="0" align="center" cellpadding="0" cellspacing="0">
+                      <tr>
+                        <for|link| of=socialMediaLinks>
+                          <td align="center" valign="middle" style="padding: 0 10px;">
+                            <marko-newsletter-imgix
+                              src=`${socialMedia.imagePath}/${link.provider}.png`
+                              alt=link.provider
+                              options={ w: 32, h: 32, fit: "crop" }
+                              attrs={ border: 0, width: 32, align: "center" }
+                            >
+                              <@link href=link.href target="_blank" />
+                            </marko-newsletter-imgix>
+                          </td>
+                        </for>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+                <common-table-spacer-element height="20" />
+              </if> -->
+
+              <tr>
+                <td align="left" valign="top" style=standardStyle>
+                  Did someone forward this email to you?
+                  <a href=subscribeLink style=standardUnderlineStyle>
+                    Subscribe to this Newsletter
+                  </a>
+                </td>
+              </tr>
+              <common-table-spacer-element height="20" />
+
+              <!-- <tr>
+                <td align="left" valign="top" style=smallerStyle>
+                  You are receiving this email.... NEED DESCRIPTION HERE
+                </td>
+              </tr>
+              <common-table-spacer-element height="20" /> -->
+              <tr>
+                <td align="left" valign="top" style=smallerStyle>
+                  <a href="#" style=smallerUnderlineStyle>Unsubscribe</a>
+                </td>
+              </tr>
+              <common-table-spacer-element height="20" />
+              <tr>
+                <td align="left" valign="top" style=smallerStyle>
+                  <strong>Ascend Media LLC</strong><br/>
+                  401 SW Ward Rd, Suite 210, Lee's Summit, MO 64083<br/>
+                  &copy; ${(new Date()).getFullYear()} | <a href=get(newsletterConfig, "privacyPolicyLink") style=smallerUnderlineStyle>Privacy Policy</a>
+                </td>
+              </tr>
+            <common-table-spacer-element height="20" />
+          </table>
+        </td>
+      </tr>
+    </table>
+  </td>
+</tr>

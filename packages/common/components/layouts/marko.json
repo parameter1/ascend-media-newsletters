@@ -1,5 +1,8 @@
 {
   "<common-standard-layout>": {
     "template": "./standard.marko"
+  },
+  "<common-am-standard-layout>": {
+    "template": "./am-standard.marko"
   }
 }

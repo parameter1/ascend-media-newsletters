@@ -176,4 +176,13 @@ module.exports = {
       unsubscribe: 'To unsubscribe from this list ',
     },
   },
+  am: {
+    logo: {
+      src: '/files/base/ascend/ascendmedia/image/static/Am_Pulmonary_Insights.png',
+      footerWidth: 200,
+    },
+    unsubscribe: '',
+    privacyPolicyLink: '/page/privacy-policy',
+    subscribeLink: '',
+  },
 };
