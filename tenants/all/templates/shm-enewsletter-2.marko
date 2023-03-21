@@ -58,12 +58,11 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=2
         />
 
-        <!-- Native-X ad -->
-        <common-ad-wrapper-block
-          date=date
+        <!-- Email-X ad -->
+        <common-ad-emailx-block
           newsletter=newsletter
-          promotion-component="advertisement-block"
-          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-2', alias: newsletter.alias })
+          date=date
           link-label-props={ adLocation: 3, platformDesignator }
         />
 
@@ -82,7 +81,7 @@ $ const nativeX = config.getAsObject("nativeX");
           date=date
           newsletter=newsletter
           promotion-component="advertisement-block"
-          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
           link-label-props={ adLocation: 4, platformDesignator }
         />
 
@@ -99,7 +98,7 @@ $ const nativeX = config.getAsObject("nativeX");
         <!-- Email-X ad -->
         <common-ad-emailx-block
           newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-2', alias: newsletter.alias })
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
           date=date
           link-label-props={ adLocation: 5, platformDesignator }
         />
@@ -114,11 +113,12 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=5
         />
 
-        <!-- Email-X ad -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
+        <!-- Native-X ad -->
+        <common-ad-wrapper-block
           date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
           link-label-props={ adLocation: 6, platformDesignator }
         />
 
