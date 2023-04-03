@@ -25,7 +25,6 @@ $ const nativeX = config.getAsObject("nativeX");
           section-name="Main"
           newsletter=newsletter
           limit=1
-          skip=0
           storyLocation=1
         />
 
@@ -34,9 +33,9 @@ $ const nativeX = config.getAsObject("nativeX");
           section-name="Main"
           newsletter=newsletter
           with-image=false
-          limit=2
+          limit=1
           skip=1
-          storyLocation=1
+          storyLocation=2
         />
 
         <common-ad-wrapper-block
@@ -52,9 +51,81 @@ $ const nativeX = config.getAsObject("nativeX");
           section-name="Main"
           newsletter=newsletter
           with-image=false
-          limit=7
+          limit=1
+          skip=2
+          storyLocation=3
+        />
+
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
+          link-label-props={ adLocation: 2, platformDesignator }
+        />
+
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=false
+          limit=1
           skip=3
-          storyLocation=2
+          storyLocation=4
+        />
+
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
+          link-label-props={ adLocation: 3, platformDesignator }
+        />
+
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=false
+          limit=1
+          skip=4
+          storyLocation=5
+        />
+
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-4`)
+          link-label-props={ adLocation: 4, platformDesignator }
+        />
+
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=false
+          limit=1
+          skip=5
+          storyLocation=6
+        />
+
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-5`)
+          link-label-props={ adLocation: 5, platformDesignator }
+        />
+
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          with-image=false
+          limit=7
+          skip=6
+          storyLocation=7
         />
 
       </@body>

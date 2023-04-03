@@ -71,6 +71,10 @@ module.exports = {
     },
     'pulmonary-insights': {
       'native-slot-1': '634d94abe058a900017a6535',
+      'native-slot-2': '642b1511ff54a3000185a319',
+      'native-slot-3': '642b1529ff54a3000185a3b8',
+      'native-slot-4': '642b1538daaefe0001bbfed6',
+      'native-slot-5': '642b1546daaefe0001bbff33',
     },
     'aao-hns-extra': {
       'native-slot-1': '63a4ced012609b00011f9363',
