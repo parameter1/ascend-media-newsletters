@@ -89,5 +89,10 @@ module.exports = {
       'native-slot-2': '6418559af3efa70001ac5b81',
       'native-slot-3': '641855a6b8089d0001970629',
     },
+    'aua-daily-expanded': {
+      'native-slot-1': '642c86fcff54a3000189e95f',
+      'native-slot-2': '642c8730daaefe0001c0361b',
+      'native-slot-3': '642c873bff54a3000189ea0a',
+    },
   },
 };

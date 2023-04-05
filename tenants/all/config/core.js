@@ -395,6 +395,19 @@ const config = {
       ],
     },
   },
+  'aua-daily-expanded': {
+    ...brands.aua,
+    name: 'AUA Daily Expanded',
+    description: 'AUA Daily eNews',
+    customWebsiteLinkText: 'AUA Daily News Online',
+    channelButtons: {
+      bgColor: '#00567A',
+      links: [
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
