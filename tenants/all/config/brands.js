@@ -178,7 +178,7 @@ module.exports = {
   },
   am: {
     logo: {
-      src: '/files/base/ascend/ascendmedia/image/static/Am_Pulmonary_Insights.png',
+      src: '/files/base/ascend/hh/image/static/pulmonary/AMPulmonary_logo.png',
       footerWidth: 200,
     },
     unsubscribe: '',
