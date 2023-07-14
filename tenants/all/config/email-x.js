@@ -1314,6 +1314,36 @@ config
       width: 600,
       height: 100,
     },
+    {
+      name: 'ad-slot-8',
+      id: '64b1807f3277ad8138eba9d6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '64b180963277ad79e2eba9e9',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '64b180a939aeb0ebc7772b9d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '64b180bb39aeb01017772bb0',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '64b180d239aeb096bc772bcc',
+      width: 600,
+      height: 100,
+    },
   ])
   .setAdUnits('aad-enewsletter-4-expanded', [
     {
