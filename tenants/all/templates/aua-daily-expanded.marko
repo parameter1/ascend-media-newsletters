@@ -44,7 +44,7 @@ $ const nativeX = config.getAsObject("nativeX");
           date=date
           newsletter=newsletter
           promotion-component="advertisement-block"
-          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-1`)
+          placement-id=nativeX.getPlacement({ name: 'native-slot-1', aliases: [newsletter.alias] }).id
           link-label-props={ adLocation: 2, platformDesignator }
         />
 
@@ -81,7 +81,7 @@ $ const nativeX = config.getAsObject("nativeX");
           date=date
           newsletter=newsletter
           promotion-component="advertisement-block"
-          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
+          placement-id=nativeX.getPlacement({ name: 'native-slot-2', aliases: [newsletter.alias] }).id
           link-label-props={ adLocation: 4, platformDesignator }
         />
 
@@ -118,7 +118,7 @@ $ const nativeX = config.getAsObject("nativeX");
           date=date
           newsletter=newsletter
           promotion-component="advertisement-block"
-          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
+          placement-id=nativeX.getPlacement({ name: 'native-slot-3', aliases: [newsletter.alias] }).id
           link-label-props={ adLocation: 6, platformDesignator }
         />
 
