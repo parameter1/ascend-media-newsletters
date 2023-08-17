@@ -147,7 +147,7 @@ const config = {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS22_eNews_header.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS23_Blast_Header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     brand: '#AHA22',
     channelButtons: {
@@ -199,7 +199,7 @@ const config = {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS22_eNews_header.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS23_Blast_Header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
     brand: '#AHA22',
     channelButtons: {
