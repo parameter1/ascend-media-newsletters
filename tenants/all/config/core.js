@@ -178,8 +178,8 @@ const config = {
     channelButtons: {
       bgColor: '#bf311a',
       links: [
-        { label: 'Conference Agenda', href: 'https://www.entnet.org/events/annual-meeting/program/schedule/', target: '_blank' },
-        { label: 'Posters', href: 'https://www.eventscribe.net/2022/aaohnsf22amposters/index.asp?launcher=1', target: '_blank' },
+        { label: 'Annual Meeting Program', href: 'https://www.entnet.org/events/annual-meeting/program/schedule/', target: '_blank' },
+        { label: 'Posters', href: '/', target: '_blank' },
       ],
     },
   },
