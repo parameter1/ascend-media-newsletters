@@ -147,9 +147,9 @@ const config = {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS22_eNews_header.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS23_Blast_Header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
-    brand: '#AHA22',
+    brand: '#AHA23',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -178,8 +178,8 @@ const config = {
     channelButtons: {
       bgColor: '#bf311a',
       links: [
-        { label: 'Conference Agenda', href: 'https://www.entnet.org/events/annual-meeting/program/schedule/', target: '_blank' },
-        { label: 'Posters', href: 'https://www.eventscribe.net/2022/aaohnsf22amposters/index.asp?launcher=1', target: '_blank' },
+        { label: 'Annual Meeting Program', href: 'https://www.entnet.org/events/annual-meeting/program/schedule/', target: '_blank' },
+        { label: 'Posters', href: '/', target: '_blank' },
       ],
     },
   },
@@ -199,9 +199,9 @@ const config = {
     ...brands.aha,
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
-    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS22_eNews_header.png',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS23_Blast_Header.png',
     logoSrc: '/files/base/ascend/hh/image/static/aha/aha-sessions-logo-white.png',
-    brand: '#AHA22',
+    brand: '#AHA23',
     channelButtons: {
       bgColor: '#C12126',
       links: [
