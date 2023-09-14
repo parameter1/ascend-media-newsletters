@@ -37,9 +37,6 @@ module.exports = {
     'aao-hnsf': {
       'native-slot-1': '611ebab3b4c21e0001a3c13a',
     },
-    'asa-today': {
-      'native-slot-1': '612e6df8fb61160001598bd5',
-    },
     'aha-ss-international': {
       'native-slot-1': '616d87f41ff6d3000117db14',
     },
