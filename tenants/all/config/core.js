@@ -154,7 +154,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.20399802.36245607.1660839477-74158399.1585661384#!/10611', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.117725897.197470905.1692625537-1814998058.1681330243#!/10871', target: '_blank' },
       ],
     },
   },
@@ -206,7 +206,7 @@ const config = {
       bgColor: '#C12126',
       links: [
         { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
-        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.20399802.36245607.1660839477-74158399.1585661384#!/10611', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://www.abstractsonline.com/pp8/?_ga=2.117725897.197470905.1692625537-1814998058.1681330243#!/10871', target: '_blank' },
       ],
     },
   },
