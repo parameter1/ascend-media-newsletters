@@ -179,7 +179,7 @@ const config = {
       bgColor: '#bf311a',
       links: [
         { label: 'Annual Meeting Program', href: 'https://www.entnet.org/events/annual-meeting/program/schedule/', target: '_blank' },
-        { label: 'Posters', href: '/', target: '_blank' },
+        { label: 'Posters', href: 'https://otomtg23.eventscribe.net/PosterTitles.asp?pfp=Browse%20by%20Title', target: '_blank' },
       ],
     },
   },
