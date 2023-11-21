@@ -1534,6 +1534,32 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('aad-sales', [
+    {
+      name: 'ad-slot-1',
+      id: '655bbec8987eb67677f1cedf',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '655bbed8987eb66023f1cefb',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '655bbee6d0fd8c48ba467c50',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '655bbef5987eb6f0ddf1cf0e',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;

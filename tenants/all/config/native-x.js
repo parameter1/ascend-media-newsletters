@@ -91,5 +91,11 @@ module.exports = {
       'native-slot-2': '642c8730daaefe0001c0361b',
       'native-slot-3': '642c873bff54a3000189ea0a',
     },
+    'aad-sales': {
+      'native-slot-1': '655bbf257741e700012010bf',
+      'native-slot-2': '655bbf2d37196f0001db05cb',
+      'native-slot-3': '655bbf3637196f0001db05de',
+      'native-slot-4': '655bbf3f37196f0001db05f1',
+    },
   },
 };

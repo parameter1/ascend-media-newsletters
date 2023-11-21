@@ -4,5 +4,8 @@
   },
   "<common-am-standard-layout>": {
     "template": "./am-standard.marko"
+  },
+  "<common-sales-layout>": {
+    "template": "./sales.marko"
   }
 }

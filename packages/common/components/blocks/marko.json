@@ -32,5 +32,8 @@
   },
   "<common-am-footer-block>": {
     "template": "./am-footer.marko"
+  },
+  "<common-footer-aad-sales-block>": {
+    "template": "./footer-aad-sales.marko"
   }
 }
