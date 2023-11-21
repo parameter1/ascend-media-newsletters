@@ -1,0 +1,149 @@
+import { get, getAsObject, getAsArray } from "@parameter1/base-cms-object-path";
+import moment from "moment";
+
+$ const { website, config } = out.global;
+$ const { newsletter, date } = input;
+
+$ const newsletterConfig = config.get(newsletter.alias);
+$ const publicationName = website.get("name");
+
+$ const footerBgColor = get(newsletterConfig, "footer.bgColor") || "#cccccc";
+$ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
+
+$ const standardStyle = {
+  "font-size": "12px",
+  "line-height": "15px",
+  "color": "#ffffff",
+  "font-family": "'Roboto', Arial, sans-serif",
+  "padding": "0 12px",
+};
+
+$ const standardUnderlineStyle = {
+  ...standardStyle,
+  "text-decoration": "underline",
+  "padding": "0",
+};
+
+<tr>
+  <td align="center" valign="top">
+    <table role="presentation" width="100%" border="0" bgcolor=footerBgColor align="center"  cellpadding="0" cellspacing="0">
+      <common-table-spacer-element height="16" />
+      <tr>
+        <td align="center" valign="top">
+          <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
+            <tr>
+              <td align="left" valign="top" style=standardStyle>
+                <common-logo-element newsletter=newsletter alt=publicationName />
+              </td>
+
+              $ const socialMedia = get(newsletterConfig, "socialMedia");
+              $ const socialMediaLinks = getAsArray(socialMedia, "links");
+
+              <td align="right" valign="top" style=standardStyle>
+                <if(socialMediaLinks.length)>
+                  <table role="presentation" border="0" align="right" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <for|link| of=socialMediaLinks>
+                        <td align="center" valign="middle" style="padding-left: 14px;">
+                          <marko-newsletter-imgix
+                            src=`${socialMedia.imagePath}/${link.provider}.png`
+                            alt=link.provider
+                            options={ h: 24 }
+                            attrs={ border: 0, height: 24, align: "center" }
+                          >
+                            <@link href=link.href target="_blank" attrs={ linklabel: `social|${link.provider}`} />
+                          </marko-newsletter-imgix>
+                        </td>
+                      </for>
+                    </tr>
+                  </table>
+                </if>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <common-table-spacer-element height="16" />
+    </table>
+  </td>
+</tr>
+<tr>
+  <td align="center" valign="top">
+    <table role="presentation" width="100%" border="0" bgcolor=footerBgColor align="center"  cellpadding="0" cellspacing="0">
+      <tr>
+        <td align="center" valign="top">
+          <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
+            <tr>
+              <td>
+                <table role="presentation" border="0" align="center" cellpadding="0" cellspacing="0">
+                  <tr>
+                    <td bgcolor="#ffffff" align="center" valign="middle" style="padding: 5px;">
+                      <marko-newsletter-imgix
+                        src='/files/base/ascend/hh/image/static/aad/bridget.jpeg'
+                        alt="sales"
+                        options={ w: 180, h: 200 }
+                        attrs={ border: 0, align: "center" }
+                      >
+                      </marko-newsletter-imgix>
+                      <p><strong>Bridget Blaney</strong></p>
+                      <p style="font-size: 11px;line-height:17px;"><em>Company Name: A-D</em><br/>
+                        773-259-2825<br/>
+                        <a href="mailto:bblaney@ascendmedia.com" style="text-decoration:none">
+                          bblaney@ascendmedia.com
+                        </a>
+                      </p>
+                    </td>
+                    <td style="padding-right: 30px;" />
+                    <td bgcolor="#ffffff" align="center" valign="middle" style="padding: 5px;">
+                      <marko-newsletter-imgix
+                        src='/files/base/ascend/hh/image/static/aad/cathleen.jpeg'
+                        alt="sales"
+                        options={ w: 180, h: 200 }
+                        attrs={ border: 0, align: "center" }
+                      >
+                      </marko-newsletter-imgix>
+                      <p><strong>Cathleen Gorby</strong></p>
+                      <p style="font-size: 11px;line-height:17px;"><em>Company Name: E-L</em><br/>
+                        913-344-1305<br/>
+                        <a href="mailto:cgorby@ascendmedia.com" style="text-decoration:none">
+                          cgorby@ascendmedia.com
+                        </a>
+                      </p>
+                    </td>
+                    <td style="padding-right: 30px;" />
+                    <td bgcolor="#ffffff" align="center" valign="middle" style="padding: 5px;">
+                      <marko-newsletter-imgix
+                        src='/files/base/ascend/hh/image/static/aad/maureen.jpeg'
+                        alt="sales"
+                        options={ w: 180, h: 200 }
+                        attrs={ border: 0, align: "center" }
+                      >
+                      </marko-newsletter-imgix>
+                      <p><strong>Maureen Mauer</strong></p>
+                      <p style="font-size: 11px;line-height:17px;"><em>Company Name: M-Z</em><br/>
+                        913-344-1321<br/>
+                        <a href="mailto:mmauer@ascendmedia.com" style="text-decoration:none">
+                          mmauer@ascendmedia.com
+                        </a>
+                      </p>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+            <common-table-spacer-element height="8" />
+            <tr>
+              <td align="center" valign="top" style=standardStyle>
+                ${unsubscribe}
+                <a href="@{confirmunsubscribelink}@" style=standardUnderlineStyle>
+                click here.
+                </a>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <common-table-spacer-element height="16" />
+    </table>
+  </td>
+</tr>
