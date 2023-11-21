@@ -396,6 +396,18 @@ const config = {
       ],
     },
   },
+  'aad-sales': {
+    ...brands.aad,
+    name: 'AAD Sales',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_2024_SalesHeader.png',
+    channelButtons: {
+      bgColor: '#0075c9',
+      links: [
+        { label: 'View Rate Card', href: '', target: '_blank' },
+        { label: 'About the Meeting', href: '', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
