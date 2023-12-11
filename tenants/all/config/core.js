@@ -224,9 +224,9 @@ const config = {
       ],
     },
     disclaimer: 'The American Heart Association/American Stroke Association (AHA/ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. AHA/ASA makes no warranties of any kind, express, or implied, with regard to its third-party vendor websites. Paid advertisements are not reviewed by the AHA/ASA for scientific accuracy.',
-    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC23_eNewsHeader.jpeg',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC24_eNewsHeader.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
-    brand: '#ISC23',
+    brand: '#ISC24',
     channelButtons: {
       bgColor: '#C12126',
       links: [
@@ -248,9 +248,9 @@ const config = {
       ],
     },
     disclaimer: 'The American Heart Association/American Stroke Association (AHA/ASA) does not endorse any commercial products or programs. The links provided within this site are for convenience only, and are not an endorsement of either the linked-to entity, product or service. AHA/ASA makes no warranties of any kind, express, or implied, with regard to its third-party vendor websites. Paid advertisements are not reviewed by the AHA/ASA for scientific accuracy.',
-    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC23_eNewsHeader.jpeg',
+    headerImageSrc: '/files/base/ascend/hh/image/static/isc/ISC24_eNewsHeader.jpeg',
     logoSrc: '/files/base/ascend/hh/image/static/isc/ISC22_AHA_ASA_HeartTorchLogo_Footer.png',
-    brand: '#ISC23',
+    brand: '#ISC24',
     channelButtons: {
       bgColor: '#C12126',
       links: [
