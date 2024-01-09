@@ -16,7 +16,7 @@ module.exports = {
       bgColor: '#1c7cd5',
       address: 'AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
       copyright: 'American Academy of Dermatology | Association',
-      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2023 AAD Innovation Academy, ',
+      unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2024 AAD Innovation Academy, ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the AAD.',
     },
   },
