@@ -10,7 +10,7 @@ $ const nativeX = config.getAsObject("nativeX");
 
 $ const adUnit = (input.adUnit) ? getAsObject(input, "adUnit") : false;
 $ const newsletter = getAsObject(input, "newsletter");
-$ const { sectionName, date, placementId } = input;
+$ const { sectionName, date, placementId, label } = input;
 
 $ const promotionComponents = {
   "advertisement-block": PromotionAdvertisementBlock,
@@ -25,6 +25,7 @@ $ const PromotionComponent = promotionComponents[defaultValue(input.promotionCom
       <${PromotionComponent}
         date=date
         newsletter=newsletter
+        label=label
         section-name=sectionName
         content=convertAdToContent(data, { sectionName })
         link-label-props=input.linkLabelProps
