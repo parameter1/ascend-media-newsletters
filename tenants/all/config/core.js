@@ -403,8 +403,8 @@ const config = {
     channelButtons: {
       bgColor: '#0075c9',
       links: [
-        { label: 'View Rate Card', href: '', target: '_blank' },
-        { label: 'About the Meeting', href: '', target: '_blank' },
+        { label: 'Rate Card', href: 'https://ratecards.ascendeventmedia.com/aad24/', target: '_blank' },
+        { label: 'About the Meeting', href: 'https://www.aad.org/member/meetings-education/am24', target: '_blank' },
       ],
     },
   },

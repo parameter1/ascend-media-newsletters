@@ -23,6 +23,7 @@ $ const nativeX = config.getAsObject("nativeX");
         <common-ad-emailx-block
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-1', alias: newsletter.alias })
+          with-label="Advertisement"
           date=date
           link-label-props={ adLocation: 1, platformDesignator }
         />
@@ -43,6 +44,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           promotion-component="advertisement-block"
           placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-1`)
+          label="Advertisement"
           link-label-props={ adLocation: 2, platformDesignator }
         />
 
@@ -60,6 +62,7 @@ $ const nativeX = config.getAsObject("nativeX");
         <common-ad-emailx-block
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-2', alias: newsletter.alias })
+          with-label="Advertisement"
           date=date
           link-label-props={ adLocation: 3, platformDesignator }
         />
@@ -80,6 +83,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           promotion-component="advertisement-block"
           placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
+          label="Advertisement"
           link-label-props={ adLocation: 4, platformDesignator }
         />
 
@@ -97,6 +101,7 @@ $ const nativeX = config.getAsObject("nativeX");
         <common-ad-emailx-block
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
+          with-label="Advertisement"
           date=date
           link-label-props={ adLocation: 5, platformDesignator }
         />
@@ -117,6 +122,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           promotion-component="advertisement-block"
           placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
+          label="Advertisement"
           link-label-props={ adLocation: 6, platformDesignator }
         />
 
@@ -134,6 +140,7 @@ $ const nativeX = config.getAsObject("nativeX");
         <common-ad-emailx-block
           newsletter=newsletter
           ad-unit=emailX.getAdUnit({ name: 'ad-slot-4', alias: newsletter.alias })
+          with-label="Advertisement"
           date=date
           link-label-props={ adLocation: 7, platformDesignator }
         />
@@ -154,6 +161,7 @@ $ const nativeX = config.getAsObject("nativeX");
           newsletter=newsletter
           promotion-component="advertisement-block"
           placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-4`)
+          label="Advertisement"
           link-label-props={ adLocation: 8, platformDesignator }
         />
 
