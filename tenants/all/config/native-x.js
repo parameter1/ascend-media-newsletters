@@ -97,5 +97,15 @@ module.exports = {
       'native-slot-3': '655bbf3637196f0001db05de',
       'native-slot-4': '655bbf3f37196f0001db05f1',
     },
+    'aad-exhibitor-spotlight': {
+      'native-slot-1': '65b10e677741e70001222a23',
+      'native-slot-2': '65b10e767741e70001222a2d',
+      'native-slot-3': '65b10e8637196f0001dd1d1b',
+      'native-slot-4': '65b10e997741e70001222a49',
+      'native-slot-5': '65b10ea837196f0001dd1d40',
+      'native-slot-6': '65b10eb537196f0001dd1d53',
+      'native-slot-7': '65b10ec17741e70001222a5c',
+      'native-slot-8': '65b10ece7741e70001222a78',
+    },
   },
 };

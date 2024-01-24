@@ -16,6 +16,7 @@ $ const address = get(newsletterConfig, "footer.address") || "";
 $ const copyright = get(newsletterConfig, "footer.copyright") || "";
 $ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
 $ const vendorTagline = get(newsletterConfig, "footer.vendorTagline");
+$ const ascendAddress = get(newsletterConfig, "footer.ascendAddress") || "";
 
 $ const standardStyle = {
   "font-size": "12px",
@@ -35,7 +36,12 @@ $ const taglineStyle = {
   ...standardStyle,
   "font-style": "italic",
   "padding-top": "5px",
-}
+};
+
+$ const addressStyle = {
+  ...standardStyle,
+  "color": "#000000",
+};
 
 <tr>
   <td align="center" valign="top">
@@ -127,3 +133,24 @@ $ const taglineStyle = {
     </table>
   </td>
 </tr>
+<if(ascendAddress)>
+  <common-table-spacer-element height="10" />
+  <tr>
+    <td align="center" valign="top">
+      <table role="presentation" width="100%" border="0" align="center"  cellpadding="0" cellspacing="0">
+        <tr>
+          <td align="center" valign="top">
+            <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" class="wrap003">
+              <tr>
+                <td align="left" valign="top" style=addressStyle>
+                  $!{ascendAddress}
+                </td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+  <common-table-spacer-element height="10" />
+</if>

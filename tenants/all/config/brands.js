@@ -18,6 +18,7 @@ module.exports = {
       copyright: 'American Academy of Dermatology | Association',
       unsubscribe: 'If you no longer wish to receive industry promotional emails for the 2024 AAD Annual Meeting, ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the AAD.',
+      ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
     },
   },
   aua: {

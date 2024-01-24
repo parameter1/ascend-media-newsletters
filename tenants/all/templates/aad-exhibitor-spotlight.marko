@@ -1,0 +1,100 @@
+import { get } from "@parameter1/base-cms-object-path";
+import { parseBooleanHeader } from "@parameter1/base-cms-utils";
+import queryFragment from "@ascend-media/package-common/graphql/fragments/content-list";
+
+$ const { website, config, req } = out.global;
+$ const platformDesignator = 'd';
+$ const { newsletter, date } = data;
+
+$ const nativeX = config.getAsObject("nativeX");
+
+<marko-newsletter-root
+  title=newsletter.name
+  description=newsletter.description
+  date=date
+>
+  <@head>
+    <common-head-block />
+  </@head>
+  <@body style="padding:0; margin:0;font-family: 'Roboto', Arial, sans-serif; -webkit-text-size-adjust:100%;">
+    <common-body-wrapper-block newsletter=newsletter date=date footer=input.footer>
+      <@body>
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-1`)
+          link-label-props={ adLocation: 1, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
+          link-label-props={ adLocation: 2, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
+          link-label-props={ adLocation: 3, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-4`)
+          link-label-props={ adLocation: 4, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-5`)
+          link-label-props={ adLocation: 5, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-6`)
+          link-label-props={ adLocation: 6, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-7`)
+          link-label-props={ adLocation: 7, platformDesignator }
+        />
+
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
+          date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-8`)
+          link-label-props={ adLocation: 8, platformDesignator }
+        />
+
+        <!-- Channels -->
+        <common-channel-buttons-block newsletter=newsletter />
+      </@body>
+    </common-body-wrapper-block>
+  </@body>
+</marko-newsletter-root>

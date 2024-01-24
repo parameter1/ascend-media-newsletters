@@ -408,6 +408,18 @@ const config = {
       ],
     },
   },
+  'aad-exhibitor-spotlight': {
+    ...brands.aad,
+    name: 'Exhibitor Spotlight',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AAD_ExhSpotlight_header.png',
+    channelButtons: {
+      bgColor: '#76bc43',
+      links: [
+        { label: 'Meeting Program', href: 'https://am2024.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
