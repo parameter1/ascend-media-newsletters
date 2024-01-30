@@ -20,6 +20,16 @@ $ const nativeX = config.getAsObject("nativeX");
     <common-body-wrapper-block newsletter=newsletter date=date footer=input.footer>
       <@body>
 
+        <!-- Content list block -->
+        <common-content-list-block
+          date=date
+          section-name="Main"
+          newsletter=newsletter
+          limit=1
+          skip=0
+          storyLocation=1
+        />
+
         <!-- Advertisement / Promotion block -->
         <common-ad-wrapper-block
           date=date
