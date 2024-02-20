@@ -17,6 +17,7 @@ $ const copyright = get(newsletterConfig, "footer.copyright") || "";
 $ const unsubscribe = get(newsletterConfig, "footer.unsubscribe");
 $ const vendorTagline = get(newsletterConfig, "footer.vendorTagline");
 $ const ascendAddress = get(newsletterConfig, "footer.ascendAddress") || "";
+$ const twitterTag = get(newsletterConfig, "footer.twitterTag");
 
 $ const standardStyle = {
   "font-size": "12px",
@@ -80,6 +81,21 @@ $ const addressStyle = {
               </td>
             </tr>
           </table>
+          <if(twitterTag)>
+            <table role="presentation" width="100%" border="0" align="right" cellpadding="0" cellspacing="0" class="wrap003">
+              <tr>
+                <td>
+                  <table align="right">
+                    <tr>
+                      <td style=standardStyle>
+                        ${twitterTag}
+                      </td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+          </if>
         </td>
       </tr>
       <common-table-spacer-element height="16" />
