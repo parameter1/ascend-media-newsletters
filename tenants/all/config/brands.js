@@ -182,7 +182,7 @@ module.exports = {
       footerWidth: 200,
     },
     unsubscribe: '',
-    privacyPolicyLink: '/page/privacy-policy',
+    privacyPolicyLink: 'https://www.ampulmonary.com/page/privacy-policy',
     subscribeLink: '',
   },
 };
