@@ -1,6 +1,6 @@
 const EmailXConfiguration = require('@parameter1/base-cms-marko-newsletters-email-x/config');
 
-const config = new EmailXConfiguration(process.env.EMAILX_SERVE_URI || 'https://ascend.serve.email-x.parameter1.com');
+const config = new EmailXConfiguration(process.env.EMAILX_SERVE_URI || 'https://delivery.mindfulcms.com/ascend/default/compat/email-banner');
 
 config
   .setAdUnits('aad-enewsletter-1', [
