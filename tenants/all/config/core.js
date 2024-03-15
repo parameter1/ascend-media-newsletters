@@ -30,10 +30,10 @@ const config = {
     description: 'AUA Daily eNews',
     customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
-      bgColor: '#00567A',
+      bgColor: '#6DC7B9',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2024/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.auanet.org/AUA2024/program', target: '_blank' },
       ],
     },
   },
@@ -278,10 +278,10 @@ const config = {
     description: 'AUA Daily eNews',
     customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
-      bgColor: '#00567A',
+      bgColor: '#6DC7B9',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2024/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.auanet.org/AUA2024/program', target: '_blank' },
       ],
     },
   },
@@ -389,10 +389,10 @@ const config = {
     description: 'AUA Daily eNews',
     customWebsiteLinkText: 'AUA Daily News Online',
     channelButtons: {
-      bgColor: '#00567A',
+      bgColor: '#6DC7B9',
       links: [
-        { label: 'Registration', href: 'https://www.auanet.org/AUA2023/register', target: '_blank' },
-        { label: 'Program', href: 'https://www.eventscribe.net/2023/AUA2023/index.asp', target: '_blank' },
+        { label: 'Registration', href: 'https://www.auanet.org/AUA2024/register', target: '_blank' },
+        { label: 'Program', href: 'https://www.auanet.org/AUA2024/program', target: '_blank' },
       ],
     },
   },
