@@ -353,7 +353,7 @@ const config = {
     },
     footer: {
       bgColor: '#694d6b',
-      address: '1650 Diagonal Rd<br/>Alexandria, VA 22314',
+      address: '1650 Diagonal Rd<br/>Alexandria, VA 64081',
       copyright: 'American Academy of Otolaryngology-Head and Neck Surgery',
       unsubscribe: 'If you no longer wish to receive these emails, ',
     },
