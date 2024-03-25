@@ -170,10 +170,10 @@ module.exports = {
     },
     footer: {
       bgColor: '#202944',
-      address: 'Society of Hospital Medicine<br/>1500 Spring Garden, Suite 501<br/>Philadelphia, PA 19130<br/>Phone: 800-843-3360<br/>Fax: 267-702-2690<br/>customerservice@hospitalmedicine.org',
+      SHMaddress: true,
       copyright: 'Society of Hospital Medicine',
       unsubscribe: 'To unsubscribe from this list ',
-      twitterTag: '#SHMConverge24',
+      twitterTag: '#SHMConverge24<br/> ',
     },
   },
   am: {
