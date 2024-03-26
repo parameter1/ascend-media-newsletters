@@ -173,7 +173,7 @@ module.exports = {
       SHMaddress: true,
       copyright: 'Society of Hospital Medicine',
       unsubscribe: 'To unsubscribe from this list ',
-      twitterTag: '#SHMConverge24<br/> ',
+      twitterTag: '#SHMConverge24<br>&nbsp;',
     },
   },
   am: {
