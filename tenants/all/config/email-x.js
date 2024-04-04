@@ -1561,7 +1561,7 @@ config
       height: 100,
     },
   ])
-  .setAdUnits('aad-aestetics', [
+  .setAdUnits('aad-aesthetics', [
     {
       name: 'ad-slot-1',
       id: '660ebb6cd0fd8c1753471659',

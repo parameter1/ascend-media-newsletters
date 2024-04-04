@@ -420,7 +420,7 @@ const config = {
       ],
     },
   },
-  'aad-aestetics': {
+  'aad-aesthetics': {
     ...brands.aad,
     name: 'AAD Aestetics',
     description: 'ePREVIEW',
