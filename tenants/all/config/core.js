@@ -420,6 +420,19 @@ const config = {
       ],
     },
   },
+  'aad-aesthetics': {
+    ...brands.aad,
+    name: 'AAD Aestetics',
+    description: 'ePREVIEW',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aad/AestheticsNews_DW_header.jpeg',
+    channelButtons: {
+      bgColor: '#76bc43',
+      links: [
+        { label: 'Meeting Program', href: 'https://am2024.aad.org/sessions', target: '_blank' },
+        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
