@@ -107,7 +107,7 @@ module.exports = {
       'native-slot-7': '65b10ec17741e70001222a5c',
       'native-slot-8': '65b10ece7741e70001222a78',
     },
-    'aad-aestethics': {
+    'aad-aesthetics': {
       'native-slot-1': '660ebd1e37196f0001e3ea0b',
     },
   },
