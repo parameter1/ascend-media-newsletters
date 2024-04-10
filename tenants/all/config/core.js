@@ -422,7 +422,7 @@ const config = {
   },
   'aad-aesthetics': {
     ...brands.aad,
-    name: 'AAD Aestetics',
+    name: 'AAD Aesthetics',
     description: 'ePREVIEW',
     headerImageSrc: '/files/base/ascend/hh/image/static/aad/AestheticsNews_DW_header.jpeg',
     channelButtons: {
