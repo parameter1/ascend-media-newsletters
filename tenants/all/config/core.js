@@ -23,6 +23,7 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
+    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aua-daily-domestic': {
     ...brands.aua,
@@ -49,6 +50,7 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
+    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
@@ -271,6 +273,7 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
+    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aua-daily-international': {
     ...brands.aua,
@@ -370,6 +373,7 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
+    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'shm-enewsletter-2': {
     ...brands.shm,
@@ -407,6 +411,7 @@ const config = {
         { label: 'About the Meeting', href: 'https://www.aad.org/member/meetings-education/am24', target: '_blank' },
       ],
     },
+    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aad-exhibitor-spotlight': {
     ...brands.aad,
@@ -419,6 +424,7 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
+    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aad-aesthetics': {
     ...brands.aad,
