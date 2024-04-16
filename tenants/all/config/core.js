@@ -23,7 +23,6 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
-    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aua-daily-domestic': {
     ...brands.aua,
@@ -50,7 +49,6 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
-    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aha-vascular-discovery-registered-attendees': {
     ...brands.aha,
@@ -273,7 +271,6 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
-    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aua-daily-international': {
     ...brands.aua,
@@ -373,7 +370,6 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
-    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'shm-enewsletter-2': {
     ...brands.shm,
@@ -411,7 +407,6 @@ const config = {
         { label: 'About the Meeting', href: 'https://www.aad.org/member/meetings-education/am24', target: '_blank' },
       ],
     },
-    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aad-exhibitor-spotlight': {
     ...brands.aad,
@@ -424,7 +419,6 @@ const config = {
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
     },
-    ascendAddress: 'Ascend Media | 401 SW Ward Rd, Suite 210, Lee\'s Summit, MO 64083, United States',
   },
   'aad-aesthetics': {
     ...brands.aad,
@@ -437,6 +431,13 @@ const config = {
         { label: 'Meeting Program', href: 'https://am2024.aad.org/sessions', target: '_blank' },
         { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
       ],
+    },
+    footer: {
+      bgColor: '#1c7cd5',
+      address: 'AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
+      copyright: 'American Academy of Dermatology | Association',
+      unsubscribe: 'If you no longer wish to receive this Aesthetics newsletter, ',
+      vendorTagline: 'Ascend Media is the official publishing partner of the American Academy of Dermatology.',
     },
   },
 };
