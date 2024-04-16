@@ -71,7 +71,7 @@ jobs:
           tags: ${{ env.ECR_REGISTRY }}/base-cms-newsletters:${{ env.IMG_PREFIX }}-${{ matrix.tenant }}-${{ needs.version.outputs.version }}
 
   deploy-newsletters:
-    needs: [version, build-newsletters, deploy-services]
+    needs: [version, build-newsletters]
     runs-on: ubuntu-latest
     strategy:
       matrix:
