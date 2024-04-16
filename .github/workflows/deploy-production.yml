@@ -2,8 +2,7 @@ name: Deploy newsletters (production)
 
 on:
   push:
-    tags:
-      - 'v[0-9]+.[0-9]+.[0-9]+'
+    tags: [ 'v[0-9]+.[0-9]+.[0-9]+' ]
 
 env:
   ECR_REGISTRY: 598984531759.dkr.ecr.us-east-2.amazonaws.com
@@ -69,10 +68,10 @@ jobs:
           push: true
           build-args: |
             TENANT=${{ matrix.tenant }}
-          tags: ${{ env.ECR_REGISTRY }}/${{ env.IMG_PREFIX }}-${{ matrix.tenant }}:${{ needs.version.outputs.version }}
+          tags: ${{ env.ECR_REGISTRY }}/base-cms-newsletters:${{ env.IMG_PREFIX }}-${{ matrix.tenant }}-${{ needs.version.outputs.version }}
 
   deploy-newsletters:
-    needs: [version, build-newsletters]
+    needs: [version, build-newsletters, deploy-services]
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -86,7 +85,7 @@ jobs:
           npx @parameter1/rancher2cli dl \
             --wait --namespace ${{ matrix.namespace }} \
             basecms-newsletter ${{ env.IMG_PREFIX }}-${{ matrix.tenant }} \
-            ${{ env.ECR_REGISTRY }}/${{ env.IMG_PREFIX }}-${{ matrix.tenant }}:${{ needs.version.outputs.version }}
+            ${{ env.ECR_REGISTRY }}/base-cms-newsletters:${{ env.IMG_PREFIX }}-${{ matrix.tenant }}-${{ needs.version.outputs.version }}
         env:
           RANCHER_CLUSTERID: ${{ secrets.RANCHER_CLUSTERID_BASECMS }}
           RANCHER_TOKEN: ${{ secrets.RANCHER_TOKEN }}
