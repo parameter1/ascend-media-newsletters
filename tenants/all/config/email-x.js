@@ -1592,60 +1592,6 @@ config
       width: 600,
       height: 100,
     },
-    {
-      name: 'ad-slot-6',
-      id: '660ebc22987eb69b83f267eb',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-7',
-      id: '660ebc3c987eb631eff267fe',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-8',
-      id: '660ebc4dd0fd8c0ecf4716a4',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-9',
-      id: '660ebc5d987eb618fef26811',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-10',
-      id: '660ebc70987eb64121f2681b',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-11',
-      id: '660ebc81d0fd8cc1704716d2',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-12',
-      id: '660ebc92d0fd8c4e2e4716e5',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-13',
-      id: '660ebca5987eb68048f26852',
-      width: 600,
-      height: 100,
-    },
-    {
-      name: 'ad-slot-14',
-      id: '660ebcb4987eb67055f26865',
-      width: 600,
-      height: 100,
-    },
   ]);
 
 module.exports = config;
