@@ -76,11 +76,12 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=3
         />
 
-        <!-- Ad Slot 3 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
           date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-2`)
           link-label-props={ adLocation: 4, platformDesignator }
         />
 
@@ -94,10 +95,10 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=4
         />
 
-        <!-- Ad Slot 4 -->
+        <!-- Ad Slot 3 -->
         <common-ad-emailx-block
           newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-4', alias: newsletter.alias })
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-3', alias: newsletter.alias })
           date=date
           link-label-props={ adLocation: 5, platformDesignator }
         />
@@ -112,11 +113,12 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=5
         />
 
-        <!-- Ad Slot 5 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-5', alias: newsletter.alias })
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
           date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-3`)
           link-label-props={ adLocation: 6, platformDesignator }
         />
 
@@ -130,10 +132,10 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=6
         />
 
-        <!-- Ad Slot 6 -->
+        <!-- Ad Slot 4 -->
         <common-ad-emailx-block
           newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-6', alias: newsletter.alias })
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-4', alias: newsletter.alias })
           date=date
           link-label-props={ adLocation: 7, platformDesignator }
         />
@@ -148,11 +150,12 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=7
         />
 
-        <!-- Ad Slot 7 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-7', alias: newsletter.alias })
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
           date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-4`)
           link-label-props={ adLocation: 8, platformDesignator }
         />
 
@@ -166,10 +169,10 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=8
         />
 
-        <!-- Ad Slot 8 -->
+        <!-- Ad Slot 5 -->
         <common-ad-emailx-block
           newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-8', alias: newsletter.alias })
+          ad-unit=emailX.getAdUnit({ name: 'ad-slot-5', alias: newsletter.alias })
           date=date
           link-label-props={ adLocation: 9, platformDesignator }
         />
@@ -184,112 +187,13 @@ $ const nativeX = config.getAsObject("nativeX");
           storyLocation=9
         />
 
-        <!-- Ad Slot 9 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-9', alias: newsletter.alias })
+        <!-- Advertisement / Promotion block -->
+        <common-ad-wrapper-block
           date=date
+          newsletter=newsletter
+          promotion-component="advertisement-block"
+          placement-id=get(nativeX, `placements.${newsletter.alias}.native-slot-5`)
           link-label-props={ adLocation: 10, platformDesignator }
-        />
-
-        <!-- Content list block -->
-        <common-content-list-block
-          date=date
-          section-name="Main"
-          newsletter=newsletter
-          limit=1
-          skip=9
-          storyLocation=10
-        />
-
-        <!--Ad Slot 10 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-10', alias: newsletter.alias })
-          date=date
-          link-label-props={ adLocation: 11, platformDesignator }
-        />
-
-        <!-- Content list block -->
-        <common-content-list-block
-          date=date
-          section-name="Main"
-          newsletter=newsletter
-          limit=1
-          skip=10
-          storyLocation=11
-        />
-
-        <!--Ad Slot 11 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-11', alias: newsletter.alias })
-          date=date
-          link-label-props={ adLocation: 12, platformDesignator }
-        />
-
-        <!-- Content list block -->
-        <common-content-list-block
-          date=date
-          section-name="Main"
-          newsletter=newsletter
-          limit=1
-          skip=11
-          storyLocation=12
-        />
-
-        <!--Ad Slot 12 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-12', alias: newsletter.alias })
-          date=date
-          link-label-props={ adLocation: 12, platformDesignator }
-        />
-
-        <!-- Content list block -->
-        <common-content-list-block
-          date=date
-          section-name="Main"
-          newsletter=newsletter
-          limit=1
-          skip=12
-          storyLocation=13
-        />
-
-        <!--Ad Slot 13 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-13', alias: newsletter.alias })
-          date=date
-          link-label-props={ adLocation: 13, platformDesignator }
-        />
-
-        <!-- Content list block -->
-        <common-content-list-block
-          date=date
-          section-name="Main"
-          newsletter=newsletter
-          limit=1
-          skip=13
-          storyLocation=14
-        />
-
-        <!--Ad Slot 14 -->
-        <common-ad-emailx-block
-          newsletter=newsletter
-          ad-unit=emailX.getAdUnit({ name: 'ad-slot-14', alias: newsletter.alias })
-          date=date
-          link-label-props={ adLocation: 14, platformDesignator }
-        />
-
-        <!-- Content list block -->
-        <common-content-list-block
-          date=date
-          section-name="Main"
-          newsletter=newsletter
-          limit=1
-          skip=14
-          storyLocation=15
         />
 
         <!-- Channels -->
