@@ -109,6 +109,10 @@ module.exports = {
     },
     'aad-aesthetics': {
       'native-slot-1': '6616ed9e37196f0001e43ee5',
+      'native-slot-2': '6622a63237196f0001e53910',
+      'native-slot-3': '6622a64137196f0001e5391d',
+      'native-slot-4': '6622a65037196f0001e53930',
+      'native-slot-5': '6622a65d7741e700012a4ce1',
     },
   },
 };
