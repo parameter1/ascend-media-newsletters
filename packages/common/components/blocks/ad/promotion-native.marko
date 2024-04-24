@@ -1,5 +1,7 @@
 import { get, getAsObject } from "@parameter1/base-cms-object-path";
 
+$ const creativeId = get(input, "creativeId");
+$ const tenant = get(input, "tenant");
 $ const newsletter = getAsObject(input, "newsletter");
 $ const { sectionName, date, content, linkLabelProps } = input;
 $ const { adLocation, platformDesignator } = linkLabelProps;
@@ -7,4 +9,9 @@ $ const linkLabel = `ad|${adLocation}|${platformDesignator}|%prjname%|${company.
 
 $ content.labels = ["Sponsored"];
 
-<common-content-list-item-block content=content withImage=false link-label=linkLabel />
+<common-content-list-item-block
+  content=content withImage=false
+  link-label=linkLabel
+  mindful-creative-id=creativeId
+  mindful-tenant=tenant
+/>

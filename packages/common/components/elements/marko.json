@@ -7,7 +7,8 @@
       "required": true
     },
     "@link-style": "object",
-    "@link-label": "string"
+    "@link-label": "string",
+    "@link-attrs": "object"
   },
   "<common-link-element>": {
     "template": "./link.marko",

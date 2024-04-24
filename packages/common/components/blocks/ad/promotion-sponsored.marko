@@ -1,5 +1,7 @@
 import { get, getAsObject } from "@parameter1/base-cms-object-path";
 
+$ const creativeId = get(input, "creativeId");
+$ const tenant = get(input, "tenant");
 $ const newsletter = getAsObject(input, "newsletter");
 $ const { sectionName, date, content, linkLabelProps } = input;
 $ const { adLocation, platformDesignator } = linkLabelProps;
@@ -20,6 +22,15 @@ $ const imgLinkStyles = {
   "font-size": "14px",
   "line-height": 0,
 }
+
+$ const linkAttrs = {
+  ...(getAsObject(input, "link.attrs")),
+  ...(creativeId && { 'data-mindful-creative-id': creativeId }),
+  ...(tenant && { 'data-mindful-tenant': tenant }),
+};
+
+$ const imgLinkAttrs = { style: imgLinkStyles, ...linkAttrs };
+$ const nameLinkAttrs = { style: nameLinkStyles, ...linkAttrs };
 
 <tr>
   <td align="center" valign="top">
@@ -52,7 +63,7 @@ $ const imgLinkStyles = {
                                         options={ w: 180, h: 80, fit: "fill", auto: "format,compress" }
                                         attrs={ border: 0, width: 90, style: imgStyles }
                                       >
-                                        <@link href=content.siteContext.url target="_blank" attrs={ style: imgLinkStyles } />
+                                        <@link href=content.siteContext.url target="_blank" attrs=imgLinkAttrs />
                                       </marko-newsletter-imgix>
                                     </marko-core-obj-value>
                                   </td>
@@ -79,7 +90,7 @@ $ const imgLinkStyles = {
               <common-table-spacer-element height="6" />
               <tr>
                 <td align="left" valign="top" style="font-size:16px;line-height:23px;color:#3475b6;font-weight:400;padding: 0 0 0 123px;" class="wdth">
-                  <a href=url target="_blank" style="text-decoration: none;color: #3475b6;" linklabel=linkLabel>${content.name}</a>
+                  <a href=url target="_blank" style="text-decoration: none;color: #3475b6;" linklabel=linkLabel ...nameLinkAttrs>${content.name}</a>
                 </td>
               </tr>
               <common-table-hr-element height="15" />
