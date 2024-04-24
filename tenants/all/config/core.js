@@ -425,13 +425,6 @@ const config = {
     name: 'AAD Aesthetics',
     description: 'ePREVIEW',
     headerImageSrc: '/files/base/ascend/hh/image/static/aad/AestheticsNews_DW_header.jpeg',
-    channelButtons: {
-      bgColor: '#8e1b61',
-      links: [
-        { label: 'Meeting Program', href: 'https://am2024.aad.org/sessions', target: '_blank' },
-        { label: 'Registration', href: 'https://www.aad.org/member/meetings-education/am24/registration', target: '_blank' },
-      ],
-    },
     footer: {
       bgColor: '#1c7cd5',
       address: 'AAD Corporate Offices<br/>9500 W. Bryn Mawr<br/>Rosemont, IL 60018',
