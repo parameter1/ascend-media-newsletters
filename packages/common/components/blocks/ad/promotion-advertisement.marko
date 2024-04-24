@@ -2,6 +2,8 @@ import { get, getAsObject } from "@parameter1/base-cms-object-path";
 
 $ const { req } = out.global;
 $ const nativeAdLayout = get(req, "query.native-ad-layout");
+$ const creativeId = get(input, "creativeId");
+$ const tenant = get(input, "tenant");
 $ const newsletter = getAsObject(input, "newsletter");
 $ const { sectionName, date, content, linkLabelProps } = input;
 $ const { adLocation, platformDesignator } = linkLabelProps;
@@ -23,6 +25,14 @@ $ const imgLinkStyles = {
   "font-size": "14px",
   "line-height": 0,
 }
+
+$ const linkAttrs = {
+  ...(getAsObject(input, "link.attrs")),
+  ...(creativeId && { 'data-mindful-creative-id': creativeId }),
+  ...(tenant && { 'data-mindful-tenant': tenant }),
+};
+
+$ const imgLinkAttrs = { style: imgLinkStyles, ...linkAttrs };
 
 <if(nativeAdLayout === 'a')>
   <tr>
@@ -46,7 +56,7 @@ $ const imgLinkStyles = {
                         options={ w: 540, h: 360, fit: "crop", auto: "format,compress" }
                         attrs={ border: 0, width: 270, style: imgStyles }
                       >
-                        <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                        <@link href=url target="_blank" attrs=imgLinkAttrs />
                       </marko-newsletter-imgix>
                     </marko-core-obj-value>
                   </td>
@@ -54,7 +64,7 @@ $ const imgLinkStyles = {
                     <table role="presentation" width="100%" border="0" cellpadding="0" cellspacing="0">
                       <tr>
                         <td align="left" valign="top" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;padding:0 24px 0 0;" class="font1">
-                          <a href=url target="_blank" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" linklabel=linkLabel>${content.name}</a>
+                          <a href=url target="_blank" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" linklabel=linkLabel ...nameLinkAttrs>${content.name}</a>
                         </td>
                       </tr>
                       <common-table-spacer-element height="12" />
@@ -66,7 +76,7 @@ $ const imgLinkStyles = {
                             <table>
                               <tr>
                                 <td style="padding-right:24px">
-                                  <a href=url target="_blank" style="line-height: 90px;color: #257478;text-decoration: none;" linklabel=linkLabel>
+                                  <a href=url target="_blank" style="line-height: 90px;color: #257478;text-decoration: none;" linklabel=linkLabel ...linkAttrs>
                                     Presented by
                                   </a>
                                 </td>
@@ -81,12 +91,7 @@ $ const imgLinkStyles = {
                                       <@link
                                         href=url
                                         target="_blank"
-                                        attrs={
-                                          style: {
-                                            "font-size": "14px",
-                                            "line-height": 0,
-                                          }
-                                        }
+                                        attrs=imgLinkAttrs
                                       />
                                     </marko-newsletter-imgix>
                                   </marko-core-obj-value>
@@ -129,7 +134,7 @@ $ const imgLinkStyles = {
                         options={ w: 540, h: 360, fit: "crop", auto: "format,compress" }
                         attrs={ border: 0, width: 270, style: imgStyles }
                       >
-                        <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                        <@link href=url target="_blank" attrs=imgLinkAttrs />
                       </marko-newsletter-imgix>
                     </marko-core-obj-value>
                   </td>
@@ -144,7 +149,7 @@ $ const imgLinkStyles = {
                               options={ w: 180, h: 80, fit: "fill", auto: "format,compress" }
                               attrs={ border: 0, width: 90, style: imgStyles }
                             >
-                              <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                              <@link href=url target="_blank" attrs=imgLinkAttrs />
                             </marko-newsletter-imgix>
                           </marko-core-obj-value>
                         </td>
@@ -156,7 +161,7 @@ $ const imgLinkStyles = {
                       <common-table-spacer-element height="9" />
                       <tr>
                         <td align="left" valign="top" style="font-size: 17px;line-height: 22px;color: #3475b6;font-weight: 400;">
-                          <a href=url target="_blank" style="color: #68686a;text-decoration: none;" linklabel=linkLabel>
+                          <a href=url target="_blank" style="color: #68686a;text-decoration: none;" linklabel=linkLabel ...linkAttrs>
                             <table>
                               <tr>
                                 <td style="-moz-border-radius:5px;-webkit-border-radius:5px;border-radius:5px; border: solid 2px #68686a;padding: 6px 12px;">
@@ -201,7 +206,7 @@ $ const imgLinkStyles = {
                         options={ w: 540, h: 360, fit: "crop", auto: "format,compress" }
                         attrs={ border: 0, width: 270, style: imgStyles }
                       >
-                        <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                        <@link href=url target="_blank" attrs=imgLinkAttrs />
                       </marko-newsletter-imgix>
                     </marko-core-obj-value>
                   </td>
@@ -216,7 +221,7 @@ $ const imgLinkStyles = {
                               options={ w: 180, h: 80, fit: "fill", auto: "format,compress" }
                               attrs={ border: 0, width: 90, style: imgStyles }
                             >
-                              <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                              <@link href=url target="_blank" attrs=imgLinkAttrs />
                             </marko-newsletter-imgix>
                           </marko-core-obj-value>
                         </td>
@@ -228,7 +233,7 @@ $ const imgLinkStyles = {
                       <common-table-spacer-element height="9" />
                       <tr>
                         <td align="left" valign="top" style="font-size: 17px;line-height: 22px;color: #3475b6;font-weight: 400;">
-                          <a href=url target="_blank" style="text-decoration: none;color: #3475b6;padding:0 24px 0 0;" linklabel=linkLabel>${content.name}</a>
+                          <a href=url target="_blank" style="text-decoration: none;color: #3475b6;padding:0 24px 0 0;" linklabel=linkLabel ...linkAttrs>${content.name}</a>
                         </td>
                       </tr>
                     </table>
@@ -265,7 +270,7 @@ $ const imgLinkStyles = {
                         options={ w: 540, h: 360, fit: "crop", auto: "format,compress" }
                         attrs={ border: 0, width: 270, style: imgStyles }
                       >
-                        <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                        <@link href=url target="_blank" attrs=imgLinkAttrs />
                       </marko-newsletter-imgix>
                     </marko-core-obj-value>
                   </td>
@@ -280,7 +285,7 @@ $ const imgLinkStyles = {
                               options={ w: 180, h: 80, fit: "fill", auto: "format,compress" }
                               attrs={ border: 0, width: 90, style: imgStyles }
                             >
-                              <@link href=url target="_blank" attrs={ style: imgLinkStyles } />
+                              <@link href=url target="_blank" attrs=imgLinkAttrs />
                             </marko-newsletter-imgix>
                           </marko-core-obj-value>
                         </td>
@@ -288,7 +293,7 @@ $ const imgLinkStyles = {
                       <common-table-spacer-element height="12" />
                       <tr>
                         <td align="left" valign="top" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;padding:0 24px 0 0;" class="font1">
-                          <a href=url target="_blank" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" linklabel=linkLabel>${content.name}</a>
+                          <a href=url target="_blank" style="font-size: 24px;line-height: 28px;color: #202022;font-weight: 700;text-decoration: none;" class="font1" linklabel=linkLabel ...linkAttrs>${content.name}</a>
                         </td>
                       </tr>
                       <common-table-spacer-element height="12" />
