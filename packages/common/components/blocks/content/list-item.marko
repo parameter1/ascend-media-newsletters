@@ -1,4 +1,4 @@
-import { get, getAsArray } from "@parameter1/base-cms-object-path";
+import { get, getAsArray, getAsObject } from "@parameter1/base-cms-object-path";
 import defaultValue from "@parameter1/base-cms-marko-core/utils/default-value";
 import { URLSearchParams } from "url";
 
@@ -49,7 +49,7 @@ $ const linkAttrs = {
 };
 
 $ const imgLinkAttrs = { style: imgLinkStyles, linklabel: linkLabel, ...linkAttrs };
-$ const nameLinkAttrs = { style: nameLinkStyles, ...linkAttrs };
+$ const nameLinkAttrs = { style: {}, ...linkAttrs };
 
 <tr>
   <td align="center" valign="top">
