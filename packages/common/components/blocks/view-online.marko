@@ -7,8 +7,6 @@ $ const newsletterConfig = config.get(newsletter.alias);
 $ const customWebsiteLinkText = get(newsletterConfig, "customWebsiteLinkText");
 $ const showViewOnline = defaultValue(newsletterConfig.showViewOnline, true);
 $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteLink, true);
-$ const customWebsite = get(newsletterConfig, "customWebsite");
-$ const useCustomWebsite = defaultValue(newsletterConfig.useCustomWebsite, false);
 
 <tr>
   <td align="center" valign="top" >
@@ -20,23 +18,15 @@ $ const useCustomWebsite = defaultValue(newsletterConfig.useCustomWebsite, false
             <if(showViewOnline)>
               <a href="@{mv_online_version}@" style="text-decoration: none;color: #62626c;">View in browser</a>
             </if>
-            <if(showViewOnline && useCustomWebsite)>
+            <if(showViewOnline && showHeaderWebsiteLink)>
               &nbsp; | &nbsp;
-              <if(customWebsite)>
-                <a href=`${customWebsite}` style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+              <if(customWebsiteLinkText)>
+                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${customWebsiteLinkText}</a>
               </if>
+              <else>
+                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+              </else>
             </if>
-            <else>
-              <if(showViewOnline && showHeaderWebsiteLink)>
-                &nbsp; | &nbsp;
-                <if(customWebsiteLinkText)>
-                  <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${customWebsiteLinkText}</a>
-                </if>
-                <else>
-                  <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
-                </else>
-              </if>
-            </else>
           </td>
         </tr>
         <common-table-spacer-element height="10" />
