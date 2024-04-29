@@ -423,8 +423,6 @@ const config = {
   'aad-aesthetics': {
     ...brands.aad,
     name: 'AAD Aesthetics',
-    customWebsite: 'https://www.aadmeetingnews.org/aesthetics',
-    useCustomWebsite: true,
     description: 'ePREVIEW',
     headerImageSrc: '/files/base/ascend/hh/image/static/aad/AestheticsNews_DW_header.jpeg',
     footer: {
