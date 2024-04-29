@@ -7,6 +7,10 @@ $ const newsletterConfig = config.get(newsletter.alias);
 $ const customWebsiteLinkText = get(newsletterConfig, "customWebsiteLinkText");
 $ const showViewOnline = defaultValue(newsletterConfig.showViewOnline, true);
 $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteLink, true);
+$ const newsletterNameToSiteOriginMap = {
+  "aad-aesthetics": "https://www.aadmeetingnews.org/aesthetics"
+};
+$ const origin = newsletterNameToSiteOriginMap[newsletter.alias] || website.get("origin");
 
 <tr>
   <td align="center" valign="top" >
@@ -21,10 +25,10 @@ $ const showHeaderWebsiteLink = defaultValue(newsletterConfig.showHeaderWebsiteL
             <if(showViewOnline && showHeaderWebsiteLink)>
               &nbsp; | &nbsp;
               <if(customWebsiteLinkText)>
-                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${customWebsiteLinkText}</a>
+                <a href=origin style="text-decoration: none;color: #62626c;">${customWebsiteLinkText}</a>
               </if>
               <else>
-                <a href=website.get("origin") style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
+                <a href=origin style="text-decoration: none;color: #62626c;">${website.get("name")}</a>
               </else>
             </if>
           </td>
