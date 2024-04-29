@@ -9,6 +9,11 @@ $ const logoSrc = newsletterConfig.logoSrc;
 
 $ const alt = defaultValue(input.alt, newsletter.name);
 
+$ const newsletterNameToSiteOriginMap = {
+  "aad-aesthetics": "https://www.aadmeetingnews.org/aesthetics"
+};
+$ const origin = newsletterNameToSiteOriginMap[newsletter.alias] || website.get("origin");
+
 $ const logoStyles = {
   "border": "0",
   "font-size": "0",
@@ -22,5 +27,5 @@ $ const linkStyles = {
 }
 
 <marko-newsletter-imgix src=logoSrc options={ w: 200 } alt=alt attrs={ border: "0", width: "200", style: logoStyles }>
-  <@link href=website.get("origin") attrs={ style: linkStyles } target="_blank" />
+  <@link href=origin attrs={ style: linkStyles } target="_blank" />
 </marko-newsletter-imgix>
