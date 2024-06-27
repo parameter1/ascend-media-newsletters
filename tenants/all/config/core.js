@@ -309,9 +309,9 @@ const config = {
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
-        { label: 'ASA My Meeting App', href: 'https://plan.core-apps.com/anes22/customScreen/aboutShow', target: '_blank' },
-        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/10552', target: '_blank' },
-        { label: 'Exhibit Hall', href: 'https://www.asahq.org/annualmeeting/network/exhibit-hall', target: '_blank' },
+        { label: 'ASA My Meeting App', href: 'www.asahq.org/app', target: '_blank' },
+        { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/20183', target: '_blank' },
+        { label: 'Exhibit Hall', href: 'https://www.asahq.org/annualmeeting/connect/exhibithall', target: '_blank' },
         { label: 'Governance Resources', href: 'https://www.asahq.org/annualmeeting/governance', target: '_blank' },
       ],
     },
@@ -319,7 +319,7 @@ const config = {
       bgColor: '#1226aa',
       address: '1061 American Lane | Schaumburg, IL 60173',
       copyright: 'American Society of Anesthesiologists (ASA)',
-      unsubscribe: 'You received this email because you are a member or customer of ASA or you are on a third-party prospect list. If you no longer wish to receive industry promotional emails for the ANESTHESIOLOGY 2022 Annual Meeting, ',
+      unsubscribe: 'You received this email because you are a member or customer of ASA or you are on a third-party prospect list. If you no longer wish to receive industry promotional emails for the ANESTHESIOLOGY 2024 Annual Meeting, ',
       vendorTagline: 'Ascend Media is an official advertising vendor for the ASA.',
     },
   },
