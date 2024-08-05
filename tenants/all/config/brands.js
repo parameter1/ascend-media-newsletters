@@ -183,6 +183,6 @@ module.exports = {
     },
     unsubscribe: '',
     privacyPolicyLink: 'https://www.ampulmonary.com/page/privacy-policy',
-    subscribeLink: '',
+    subscribeLink: 'https://www.ampulmonary.com/user/login',
   },
 };
