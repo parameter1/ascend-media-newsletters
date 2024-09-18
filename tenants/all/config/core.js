@@ -309,7 +309,7 @@ const config = {
     channelButtons: {
       bgColor: '#8a84d6',
       links: [
-        { label: 'ASA My Meeting App', href: 'www.asahq.org/app', target: '_blank' },
+        { label: 'ASA My Meeting App', href: 'https://m.core-apps.com/dl/anes24', target: '_blank' },
         { label: 'Program', href: 'https://www.abstractsonline.com/pp8/#!/20183', target: '_blank' },
         { label: 'Exhibit Hall', href: 'https://www.asahq.org/annualmeeting/connect/exhibithall', target: '_blank' },
         { label: 'Governance Resources', href: 'https://www.asahq.org/annualmeeting/governance', target: '_blank' },
