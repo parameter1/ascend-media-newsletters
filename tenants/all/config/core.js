@@ -433,6 +433,36 @@ const config = {
       vendorTagline: 'Ascend Media is the official publishing partner of the American Academy of Dermatology.',
     },
   },
+  'aha-ss-epreview-expanded': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions ePreview',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_Header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.svg',
+    brand: '#AHA24',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://ativ.me/xgt', target: '_blank' },
+      ],
+    },
+  },
+  'aha-ss-international-expanded': {
+    ...brands.aha,
+    name: 'AHA Scientific Sessions ePreview',
+    description: 'ePreview',
+    headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_Header.png',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.svg',
+    brand: '#AHA24',
+    channelButtons: {
+      bgColor: '#C12126',
+      links: [
+        { label: 'Register Now', href: 'https://professional.heart.org/en/meetings/scientific-sessions/registration', target: '_blank' },
+        { label: 'Online Program Planner', href: 'https://ativ.me/xgt', target: '_blank' },
+      ],
+    },
+  },
 };
 
 module.exports = config;
