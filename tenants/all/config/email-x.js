@@ -1592,6 +1592,166 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('aha-ss-epreview-expanded', [
+    {
+      name: 'ad-slot-1',
+      id: '67055af0764948e5940573d2',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '67055afa5f05d34bc644911d',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '67055b005543c5b4b0ca08c1',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '67055b055543c5b4b0ca08c3',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '67055b0b5543c5b4b0ca08c5',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '67055b11764948e5940573d4',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '67055b175543c5b4b0ca08c7',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '67055b1b764948e5940573d6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '67055b215f05d34bc644911f',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '67055b265543c5b4b0ca08c9',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '67055b2a5543c5b4b0ca08cb',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '67055b2e5543c5b4b0ca08cd',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-13',
+      id: '67055b35764948e5940573d8',
+      width: 600,
+      height: 100,
+    },
+  ])
+  .setAdUnits('aha-ss-international-expanded', [
+    {
+      name: 'ad-slot-1',
+      id: '67055bb5764948e5940573da',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '67055bbc5f05d34bc6449121',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '67055bc55543c5b4b0ca08cf',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '67055be75543c5b4b0ca08d1',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '67055bed5f05d34bc6449123',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '67055bf2764948e5940573dc',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '67055bf7764948e5940573de',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '67055bfb764948e5940573e0',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '67055c005f05d34bc6449125',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '67055c055f05d34bc6449127',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '67055c085543c5b4b0ca08d3',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '67055c0d5f05d34bc6449129',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-13',
+      id: '67055c12764948e5940573e2',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
