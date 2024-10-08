@@ -114,5 +114,15 @@ module.exports = {
       'native-slot-4': '6622a65037196f0001e53930',
       'native-slot-5': '6622a65d7741e700012a4ce1',
     },
+    'aha-ss-epreview-expanded': {
+      'native-slot-1': '67055a0a5543c5b4b0ca08bb',
+      'native-slot-2': '67055a0e764948e5940573cc',
+      'native-slot-3': '67055a115543c5b4b0ca08bd',
+    },
+    'aha-ss-international-expanded': {
+      'native-slot-1': '67055a5f764948e5940573d0',
+      'native-slot-2': '67055a635f05d34bc644911b',
+      'native-slot-3': '67055a675543c5b4b0ca08bf',
+    },
   },
 };
