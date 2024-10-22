@@ -148,7 +148,7 @@ const config = {
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_Header.png',
-    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.svg',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.png',
     brand: '#AHA24',
     channelButtons: {
       bgColor: '#C12126',
@@ -188,7 +188,7 @@ const config = {
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_Header.png',
-    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.svg',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.png',
     brand: '#AHA24',
     channelButtons: {
       bgColor: '#C12126',
@@ -438,7 +438,7 @@ const config = {
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_Header.png',
-    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.svg',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.png',
     brand: '#AHA24',
     channelButtons: {
       bgColor: '#C12126',
@@ -453,7 +453,7 @@ const config = {
     name: 'AHA Scientific Sessions ePreview',
     description: 'ePreview',
     headerImageSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_Header.png',
-    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.svg',
+    logoSrc: '/files/base/ascend/hh/image/static/aha/AHASS24_eNews_FooterLogo.png',
     brand: '#AHA24',
     channelButtons: {
       bgColor: '#C12126',
