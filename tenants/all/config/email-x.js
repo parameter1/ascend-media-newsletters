@@ -1752,6 +1752,80 @@ config
       width: 600,
       height: 100,
     },
+  ])
+  .setAdUnits('aao-hns-extra-international', [
+    {
+      name: 'ad-slot-1',
+      id: '6753409f1365494cd56cefb4',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-2',
+      id: '675340a91365494cd56cefb6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-3',
+      id: '675340b08ea1b73b12411ff4',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-4',
+      id: '675340b51c87da038c507bd4',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-5',
+      id: '675340ba1c87da038c507bd6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-6',
+      id: '675340bf8ea1b73b12411ff6',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-7',
+      id: '675340c31365494cd56cefb8',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-8',
+      id: '675340c91365494cd56cefba',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-9',
+      id: '675340ce8ea1b73b12411ff8',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-10',
+      id: '675340d71c87da038c507bd8',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-11',
+      id: '675340dc1c87da038c507bda',
+      width: 600,
+      height: 100,
+    },
+    {
+      name: 'ad-slot-12',
+      id: '675340e18ea1b73b12411ffa',
+      width: 600,
+      height: 100,
+    },
   ]);
 
 module.exports = config;
