@@ -5,6 +5,12 @@
   "repository": "https://github.com/parameter1/ascend-media-newsletters/tree/master/tenants/all",
   "license": "MIT",
   "private": true,
+  "newsletter": {
+    "account": "ascend-media",
+    "tenant": "all",
+    "stack": "tauron",
+    "deploy": true
+  },
   "scripts": {
     "build": "yarn compile",
     "dev": "basecms-newsletters dev --compile-dir ../../packages --watch-dir ../../packages",
